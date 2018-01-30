@@ -2,6 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {HashRouter, Route, Switch} from 'react-router-dom';
 
+//redux dependencies
+import {Provider} from 'react-redux'
+import {createStorem, applyMiddleware, createStore} from 'redux'
+import thunk from 'react-redux'
+import reducers from './reducers'
+
+//redux middleware
+const createStoreWithMiddleware = applyMiddleware(thunk)(createStore)
+const store = createStoreWithMiddleware(reducers)
+
+
 // Styles
 // Import Flag Icons Set
 import 'flag-icon-css/css/flag-icon.min.css';
@@ -24,6 +35,7 @@ import Page404 from './views/Pages/Page404/'
 import Page500 from './views/Pages/Page500/'
 
 ReactDOM.render((
+  <Provider store={store}>
   <HashRouter>
     <Switch>
       <Route exact path="/login" name="Login Page" component={Login}/>
@@ -33,4 +45,5 @@ ReactDOM.render((
       <Route path="/" name="Home" component={Full}/>
     </Switch>
   </HashRouter>
+  </Provider>
 ), document.getElementById('root'));
