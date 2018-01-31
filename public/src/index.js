@@ -12,6 +12,8 @@ import reducers from './reducers'
 const createStoreWithMiddleware = applyMiddleware(thunk)(createStore)
 const store = createStoreWithMiddleware(reducers)
 
+//api website https://jsonplaceholder.typicode.com
+
 
 // Styles
 // Import Flag Icons Set

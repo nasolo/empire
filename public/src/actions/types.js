@@ -1,0 +1,3 @@
+export const FETCH_POSTS = 'FETCH_POSTS'
+export const FETH_COMMENTS = 'FETCH_COMMENTS'
+export const FETCH_ALBUMS = 'FETCH_ALBUMS'
