@@ -1,5 +1,5 @@
 // dependencies
-import {FETCH_POSTS} from './types'
+import {FETCH_POSTS,  RECEIVED_POSTS} from './types'
 import axios from 'axios'
 
 // static api route
@@ -8,21 +8,15 @@ apiUrl = 'https://jsonplaceholder.typicode.com/posts'
 export default function getPosts(){
     return dispatch => {
         axios.get(apiUrl)
-            .then(res =>{
-                console.log(res)
-                const posts = res
-                return posts
-            }).catch(err =>{
-                console.log(err)
-                return err
-            })
-dispatch(getPostAsync(posts))
+            .then(response =>response.json())
+                .then(json => dispatch(getPostAsync(json)))
+                    .catch(err => getPostAsync(err))
     }
 }
 
 function getPostAsync(posts){
     return {
-        type: FETCH_POSTS,
+        type: RECEIVED_POSTS,
         payload: posts
     } 
 }
