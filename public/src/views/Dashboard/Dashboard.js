@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Postlist from '../reduxTest/reduxTest'
 import {Bar, Line} from 'react-chartjs-2';
 import {
   Badge,
@@ -440,6 +441,7 @@ class Dashboard extends Component {
 
     return (
       <div className="animated fadeIn">
+      <Postlist/>
         <Row>
           <Col xs="12" sm="6" lg="3">
             <Card className="text-white bg-primary">

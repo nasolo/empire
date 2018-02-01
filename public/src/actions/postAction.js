@@ -3,14 +3,13 @@ import {FETCH_POSTS,  RECEIVED_POSTS} from './types'
 import axios from 'axios'
 
 // static api route
-apiUrl = 'https://jsonplaceholder.typicode.com/posts'
+const apiUrl = 'https://jsonplaceholder.typicode.com/posts'
 
-export default function getPosts(){
+export function getPosts(){
     return dispatch => {
         axios.get(apiUrl)
-            .then(response =>response.json())
-                .then(json => dispatch(getPostAsync(json)))
-                    .catch(err => getPostAsync(err))
+            .then(response => dispatch(getPostAsync(response.data[0].body)))
+                    .catch(err => console.log(err))
     }
 }
 
