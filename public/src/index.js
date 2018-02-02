@@ -8,6 +8,11 @@ import { Provider } from 'react-redux';
 import configureStore from './store/configureStore';
 
 const store = configureStore()
+store.subscribe(()=>{
+
+  console.log("store changed", store.getState())
+
+})
 
 //api website https://jsonplaceholder.typicode.com
 

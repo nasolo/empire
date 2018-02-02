@@ -8,7 +8,7 @@ const apiUrl = 'https://jsonplaceholder.typicode.com/posts'
 export function getPosts(){
     return dispatch => {
         axios.get(apiUrl)
-            .then(response => dispatch(getPostAsync(response.data[0].body)))
+            .then(response => dispatch(getPostAsync(response.data)))
                     .catch(err => console.log(err))
     }
 }

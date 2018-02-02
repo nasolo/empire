@@ -8,7 +8,7 @@ export default function(state=initialState.posts, action){
             return action
         case RECEIVED_POSTS:
             console.log(RECEIVED_POSTS, action, ...state)
-            return [...state, action.payload]
+            return {...state, posts: action.payload}
     default:
         return state
     }

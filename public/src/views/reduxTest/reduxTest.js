@@ -5,15 +5,7 @@ import {bindActionCreators} from 'redux';
 import * as postAction from '../../actions/postAction';
 import PropTypes from 'prop-types'
 
-
-class Postlist extends Component {
-    componentWillMount() { // HERE WE ARE TRIGGERING THE ACTION
-       this.props.postAction.getPosts()
-    }
-
-    getData(){
-        return <div> {this.props.posts}</div>
-    }
+class Carddisplay extends Component {
 
   render() {
     return (
@@ -22,31 +14,62 @@ class Postlist extends Component {
           <Col xs="12" sm="6" md="4">
             <Card>
               <CardHeader>
-                Test Data
+                {this.props.title}
               </CardHeader>
               <CardBody>
                 
-               {this.getData()}
+              {this.props.body}
 
               </CardBody>
             </Card>
           </Col>
         </Row>
       </div>
+    )
+  }
+}
 
+
+class Postlist extends Component {
+    componentWillMount() { // HERE WE ARE TRIGGERING THE ACTION
+      
+       this.props.postAction.getPosts()
+    }
+
+    getData(){
+      const posts = this.props.posts
+      var carData = []
+      var obj
+      
+      for(obj in posts){
+
+        carData.push(<Carddisplay key={obj} title={posts[obj].title} body={posts[obj].body}/>)
+
+
+      }
+
+      return carData
+
+
+    }
+
+  render() {
+    return (
+      
+        <div>{this.getData()}</div>
+    
     )
   }
 }
 
 Postlist.propTypes = {
-    postAction: PropTypes.object,
-    posts: PropTypes.array
+    postAction: PropTypes.object
 }
 
 function mapStateToProps(state) {
-    console.log(state)
+   
     return {
-      posts: state.postList
+      posts: state.postList.posts
     };
   }
 
