@@ -10,7 +10,8 @@ import {
   Pagination,
   PaginationItem,
   PaginationLink,
-  Button
+  Button,
+  Label, Input
 } from 'reactstrap';
 
 class Installers extends Component {
@@ -22,14 +23,17 @@ class Installers extends Component {
             <Card>
               <CardHeader>
                 
+              <Label className="float-right">
+              
               <Row>
-                <Col xs="12" lg="12" className="float-right">
-
-                <Button color="primary"><i className="fa fa-align-justify"></i> Installer</Button>{' '}
-                <Button color="primary">Primary</Button>{' '}
-
-              </Col>
-              </Row>
+              <Col xs="6" lg="6">
+              <Button color="primary">Primary</Button>{' '}
+            </Col>
+            <Col xs="6" lg="6">
+              <Button color="primary">Primary</Button>{' '}
+            </Col>
+            </Row>
+            </Label>
                 
               </CardHeader>
               <CardBody>
