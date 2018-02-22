@@ -18,6 +18,25 @@ export default {
       },
       class: ''             // optional class names space delimited list for title item ex: "text-center"
     },
+
+    {
+      name: 'Directory',
+      url: '/directory',
+      icon: 'icon-cursor',
+      children: [
+        {
+          name: 'Installers',
+          url: '/installers',
+          icon: 'icon-cursor'
+        },
+        {
+          name: 'Sales Agents',
+          url: '/salesagents',
+          icon: 'icon-cursor'
+        }
+      ]
+    },
+
     {
       name: 'Colors',
       url: '/theme/colors',

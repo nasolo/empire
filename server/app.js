@@ -4,15 +4,8 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
-var mongoose = require('mongoose')
 
-var dbUrl = 'mongodb://localhost/empiredb'
 
-mongoose.connect(dbUrl, function(err, res){
-  if(err){
-    console.log("db connection failed", + err)
-  }else(console.log("db connection failed", +dbUrl))
-})
 
 var index = require('./routes/index');
 var api = require('./routes/api');
