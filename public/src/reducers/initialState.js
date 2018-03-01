@@ -1,3 +1,8 @@
 export default {
-    posts: []
+    installers: {
+      isFetching: false,
+      didInvalidate: false,
+      lastUpdated: Date.now(),
+      payload: []
+    }
   };
