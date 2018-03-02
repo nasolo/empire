@@ -35,14 +35,24 @@ class Installers extends Component {
 
     constructor(props) {
       super(props);
-  
+     
       this.toggle = this.toggle.bind(this);
+      this.addInstaller = this.addInstaller.bind(this);
+      this.handleInputChange = this.handleInputChange.bind(this);
+      this.togglePrimary = this.togglePrimary.bind(this);
+     
       this.state = { 
         collapse: true,
-        primary: false
+        primary: false,
+          id: "",
+          type:"",
+          fname: "",
+          lname: "",
+          status: "",
+          phone: ""
        };
 
-       this.togglePrimary = this.togglePrimary.bind(this);
+       
     }
   
     toggle() {
@@ -52,6 +62,21 @@ class Installers extends Component {
       this.setState({
         primary: !this.state.primary
       });
+    }
+    addInstaller(event){
+      event.preventDefault();
+      console.log(this.state)
+
+    }
+    handleInputChange(event) {
+      const target = event.target
+      const name = target.name
+      
+        this.setState( {[name]: target.value})
+
+      event.preventDefault();
+      
+        console.log(this.state)
     }
   
   render() {
@@ -95,13 +120,13 @@ class Installers extends Component {
           <Col xs="12" md="12" lg="12">
             <Card>
               <CardBody>
-                <Form action="" method="post" encType="multipart/form-data" className="form-horizontal">
+                <form onSubmit={this.addInstaller} className="form-horizontal">
                   <FormGroup row>
                     <Col md="3">
                       <Label htmlFor="id">ID</Label>
                     </Col>
                     <Col xs="12" md="9">
-                      <Input type="text" id="id" name="id" placeholder="Installer id required"/>
+                      <Input type="text" id="id" name="id" value={this.state.id} onChange={this.handleInputChange} placeholder="Installer id required"/>
                       <FormText color="muted">Please enter installer id</FormText>
                     </Col>
                   </FormGroup>
@@ -110,11 +135,12 @@ class Installers extends Component {
                       <Label htmlFor="type">Select Installer Type</Label>
                     </Col>
                     <Col xs="12" md="9" size="lg">
-                      <Input type="select" name="type" id="type">
+                      <Input type="select" name="type" id="type" value={this.state.type} onChange={this.handleInputChange}>
                         <option value="0">Please select</option>
                         <option value="1">Carpet</option>
                         <option value="2">Hard Surface</option>
                         <option value="3">Windoes Treatment</option>
+                        
                       </Input>
                     </Col>
                   </FormGroup>
@@ -123,7 +149,7 @@ class Installers extends Component {
                       <Label htmlFor="fname">Firstname</Label>
                     </Col>
                     <Col xs="12" md="9">
-                      <Input type="email" id="fname" name="fname" placeholder="lastname"/>
+                      <Input type="input" id="fname" name="fname" placeholder="Firstname" value={this.state.fname} onChange={this.handleInputChange}/>
                       <FormText className="help-block">Please enter installer firstname</FormText>
                     </Col>
                   </FormGroup>
@@ -132,16 +158,16 @@ class Installers extends Component {
                       <Label htmlFor="lname">Lastname</Label>
                     </Col>
                     <Col xs="12" md="9">
-                      <Input type="password" id="lname" name="lname" placeholder="lastname"/>
+                      <Input type="input" id="lname" name="lname" placeholder="lastname" value={this.state.lname} onChange={this.handleInputChange}/>
                       <FormText className="help-block">Please enter installer lastname</FormText>
                     </Col>
                   </FormGroup>
                   <FormGroup row>
                     <Col md="3">
-                      <Label htmlFor="select">Status</Label>
+                      <Label htmlFor="status">Status</Label>
                     </Col>
                     <Col xs="12" md="9">
-                      <Input type="select" name="select" id="select">
+                      <Input type="select" name="status" id="status" value={this.state.lname} onChange={this.handleInputChange}>
                         <option value="0">Please select</option>
                         <option value="1">Active</option>
                         <option value="2">Inactive</option>
@@ -155,14 +181,14 @@ class Installers extends Component {
                       <Label htmlFor="Phone">Phone #</Label>
                     </Col>
                     <Col xs="12" md="9">
-                      <Input type="email" id="Phone" name="Phone" placeholder="Phone"/>
+                      <Input type="email" id="phone" name="phone" placeholder="Phone Number" value={this.state.phone} onChange={this.handleInputChange}/>
                       <FormText className="help-block">Please enter installer Phone number</FormText>
                     </Col>
                   </FormGroup>                
-                </Form>
+                </form>
               </CardBody>
               <CardFooter>
-                <Button type="submit" size="sm" color="primary"><i className="fa fa-dot-circle-o"></i> Submit</Button>
+                <Button type="submit" size="sm" color="primary" onClick={this.addInstaller}><i className="fa fa-dot-circle-o"></i> Submit</Button>
                 <Button type="reset" size="sm" color="danger"><i className="fa fa-ban"></i> Reset</Button>
               </CardFooter>
             </Card>

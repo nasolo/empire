@@ -16,15 +16,11 @@ class AddInstallerModal extends React.Component {
       modal: !this.state.modal
     });
   }
-  modalToggle() {
-    this.setState({
-      modal: !this.state.modal
-    });
-  }
+
   render() {
     return (
       <div>
-        
+        <Button color="danger" onClick={this.toggle}>{this.props.buttonLabel}</Button>
         <Modal isOpen={this.state.modal} modalTransition={{ timeout: 20 }} backdropTransition={{ timeout: 10 }}
           toggle={this.toggle} className={this.props.className}>
           <ModalHeader toggle={this.toggle}>Modal title</ModalHeader>

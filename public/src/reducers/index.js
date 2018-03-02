@@ -6,8 +6,7 @@ import postsReducer from './postsReducer'
 import installerReducer from './installerReducer'
 
 const rootReducer = combineReducers({
-    postList: postsReducer,
-    installers: installerReducer
+   installers: installerReducer
 })
 
 
