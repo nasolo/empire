@@ -1,5 +1,8 @@
 import React, {Component} from 'react';
-
+import PropTypes from 'prop-types'
+import {connect} from 'react-redux'
+import {bindActionCreators} from 'redux';
+import * as installerAction from '../../actions/installerAction'
 import {
   Badge,
   Row,
@@ -52,8 +55,15 @@ class Installers extends Component {
           phone: ""
        };
 
+     
+
        
     }
+
+    componentWillMount() { // HERE WE ARE TRIGGERING THE ACTION
+      console.log(this.props)
+      
+   }
   
     toggle() {
       this.setState({ collapse: !this.state.collapse });
@@ -64,8 +74,20 @@ class Installers extends Component {
       });
     }
     addInstaller(event){
+
+       const installerData = {
+        id: this.state.id,
+        type: this.state.type,
+        fname: this.state.fname,
+        lname: this.state.lname,
+        status: this.state.status,
+        phone: this.state.phone
+       }
+
       event.preventDefault();
-      console.log(this.state)
+      console.log(installerData)
+      return this.props.installerAction.createInstaller(installerData)
+     
 
     }
     handleInputChange(event) {
@@ -295,4 +317,27 @@ class Installers extends Component {
   }
 }
 
-export default Installers;
+Installers.propTypes = {
+
+  installerAction: PropTypes.object
+
+}
+
+function mapStateToProps(state) {
+   
+  return {
+    installersList: state.installersList.data
+  };
+}
+
+function mapDispatchToProps(dispatch) {
+  return {
+    installerAction: bindActionCreators(installerAction, dispatch)
+  };
+}
+
+
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(Installers);

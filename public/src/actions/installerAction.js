@@ -1,9 +1,10 @@
 // dependencies
-import {FETCH_INSTALLERS,  FETCH_INSTALLERS_FAILURE, FETCH_INSTALLERS_SUCCESS} from './types'
+import {FETCH_INSTALLERS,  FETCH_INSTALLERS_FAILURE, FETCH_INSTALLERS_SUCCESS, CREATE_INSTALLER, CREATE_INSTALLER_SUCCESS, CREATE_INSTALLER_FAILURE} from './types'
 import axios from 'axios'
 
 // static api route
 const apiUrl = '/api/test'
+const insertInstallerApiUrl = '/api/addinstaller'
 
 export function fetchInstallers(){
     return dispatch => {
@@ -13,6 +14,15 @@ export function fetchInstallers(){
                     .catch(err => response => dispatch(fetchInstallersFailure(err)))
     }
 }
+
+export function createInstaller(postData){
+    return dispatch => {
+        axios.post(insertInstallerApiUrl, postData)
+            .then(response => console(response))
+                .catch(err => console.log(err))
+    }
+}
+
 
 function fetchInstallersAsync(response){
     console.log(response)

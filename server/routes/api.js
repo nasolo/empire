@@ -1,5 +1,6 @@
 var express = require('express');
 var router = express.Router();
+const InstContr = require('../controllers/InstallersController')
 
 router.get('/:resource', function(req, res, next){
 
@@ -9,6 +10,11 @@ router.get('/:resource', function(req, res, next){
         resource: resource
     })
 
+})
+
+router.post('/addinstaller', function(req, res, next){
+    const addInst = InstContr.create(req.body)
+        res.json(addInst)
 })
 
 
