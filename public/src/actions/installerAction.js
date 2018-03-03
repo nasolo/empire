@@ -18,8 +18,16 @@ export function fetchInstallers(){
 export function createInstaller(postData){
     return dispatch => {
         axios.post(insertInstallerApiUrl, postData)
-            .then(response => console(response))
-                .catch(err => createInstallersFailure(err))
+            .then(response => {
+
+                console.log(response)
+
+            })
+                .catch(err => {
+
+                    console.log(err.response)
+
+                })
     }
 }
 

@@ -23,15 +23,17 @@ router.post('/addinstaller',function(req, res, next){
 
     if(err){
 
-        res.status(401)
-        res.json(err.details)
+        
+       return res.status(403).json(err)
     }
 
+   const addInst = InstContr.create(req.body)
+   return res.json(addInst)
+    
 
   })
     
-    // const addInst = InstContr.create(req.body)
-        //res.json(addInst)
+
 })
 
 
