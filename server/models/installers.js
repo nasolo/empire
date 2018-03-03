@@ -1,18 +1,16 @@
-var mongoose = require('mongoose')
 
-var ZoneSchema = new mongoose.Schema({
+const Joi = require('joi');
 
-    id:{type: Number, default:''},
-    firstname: {type: String, default:''},
-    lastname: {type: String, default:''},
-    companyname: {type: String, default:''},
-    totalCrew: {type: Object, default:{}},
-    yards: {type: String, default: ''},
-    specialareas: {type: String, },
-    specialday: {type: Number, default: 0},
-    phoneNumber: {type: Number, default: 0}
+var installerSchema = {
 
-})
+    fname: Joi.string().required(),
+    id: Joi.number().required(),
+    lname: Joi.string().required(),
+    phone: Joi.number().max(11).required(),
+    status: Joi.string().required(),
+    type: Joi.string().required()
+
+}
 
 
-module.exports = mongoose.mode('ZoneSchema', ZoneSchema)
+module.exports = installerSchema

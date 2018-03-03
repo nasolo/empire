@@ -11,7 +11,7 @@ export function fetchInstallers(){
         axios.get(apiUrl)
             .then(response => dispatch(fetchInstallersAsync(response)))
                 .then(response => dispatch(fetchInstallersSuccess(response.data)))
-                    .catch(err => response => dispatch(fetchInstallersFailure(err)))
+                    .catch(err => dispatch(fetchInstallersFailure(err)))
     }
 }
 
@@ -19,9 +19,17 @@ export function createInstaller(postData){
     return dispatch => {
         axios.post(insertInstallerApiUrl, postData)
             .then(response => console(response))
-                .catch(err => console.log(err))
+                .catch(err => createInstallersFailure(err))
     }
 }
+
+function createInstallersFailure(err){
+    return {
+        type: CREATE_INSTALLER_FAILURE,
+        payload: err
+    } 
+}
+
 
 
 function fetchInstallersAsync(response){
