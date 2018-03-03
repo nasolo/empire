@@ -1,4 +1,4 @@
-import {FETCH_INSTALLERS,  FETCH_INSTALLERS_FAILURE, FETCH_INSTALLERS_SUCCESS}  from '../actions/types'
+import {FETCH_INSTALLERS,  FETCH_INSTALLERS_FAILURE, FETCH_INSTALLERS_SUCCESS, CREATE_INSTALLER, CREATE_INSTALLER_SUCCESS, CREATE_INSTALLER_FAILURE}  from '../actions/types'
 import initialState from './initialState'
 export default function(state=initialState, action){
     let newState
@@ -25,6 +25,16 @@ export default function(state=initialState, action){
                             lastUpdated: Date.now(),
                             payload: [action.payload]
                         }
+        case CREATE_INSTALLER_FAILURE:
+            console.log(CREATE_INSTALLER_FAILURE, action, ...state)
+            return {...state, postData:{
+                                isPosting: false,
+                                lastUpdated: Date.now(),
+                                error: true,
+                                payload: [action.payload]
+                            }
+            }
+
     default:
         return state
     }

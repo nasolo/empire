@@ -4,7 +4,12 @@ const Joi = require('joi');
 const instSchema = require('../models/installers')
 const InstContr = require('../controllers/InstallersController')
 
+const options = {
 
+    abortEarly: false
+
+
+}
 
 router.get('/:resource', function(req, res){
 
@@ -19,22 +24,20 @@ router.get('/:resource', function(req, res){
 router.post('/addinstaller',function(req, res, next){
   const postData = req.body
 
-  Joi.validate(postData, instSchema, (err, value)=>{
-
+  Joi.validate(postData, instSchema, options, (err, value, next)=>{
+     
     if(err){
-
-        
-       return res.status(403).json(err)
+     
+      return res.status(403).json(err)
     }
 
-   const addInst = InstContr.create(req.body)
-   return res.json(addInst)
+  // const addInst = InstContr.create(req.body)
+  // return res.json(addInst)
     
 
   })
     
 
 })
-
 
 module.exports = router

@@ -20,12 +20,19 @@ export function createInstaller(postData){
         axios.post(insertInstallerApiUrl, postData)
             .then(response => {
 
-                console.log(response)
+               
 
             })
                 .catch(err => {
+                    const errData = err.response.data
+                    if(errData.isJoi && errData.name == "ValidationError"){
+                        return dispatch(createInstallersFailure((errData.details)))
+                     
 
-                    console.log(err.response)
+
+                }
+
+                    
 
                 })
     }
