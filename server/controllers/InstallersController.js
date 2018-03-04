@@ -5,15 +5,11 @@ const dbroute = require('../routes/dbroutes')
 
 module.exports = {
     find: function(){
-        Installer.find(params, function(err, Installers){
 
-            if(err){
-                callback(err, null)
-                return 
-            }
-            callback(null, Installers)
+            db = dbroute.loadDatabase(dbroute._installersdb.path)
+            return db.get("installers")
+            .value()
 
-        })
     },
     findById: function(){
 

@@ -14,10 +14,10 @@ const options = {
 router.get('/:resource', function(req, res){
 
     var resource = req.params.resource
-    res.json({
-        confirmation: 'succuess',
-        resource: resource
-    })
+    
+    if(resource == "getInstallers")
+
+    res.json(InstContr.find())
 
 })
 

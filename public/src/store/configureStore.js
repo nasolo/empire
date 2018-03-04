@@ -1,12 +1,14 @@
 import {createStore, applyMiddleware} from 'redux'
 import rootReducer from '../reducers'
 import thunk from 'redux-thunk'
+import logger from 'redux-logger'
 
+/*
 const logger = (store)=>(next)=>(action) =>{
   console.log("action fired", action)
   next(action)
 }
-
+*/
 
 
 export default function configureStore() {

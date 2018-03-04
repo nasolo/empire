@@ -5,35 +5,43 @@ export default function(state=initialState, action){
     switch(action.type){
         case FETCH_INSTALLERS:
         console.log(FETCH_INSTALLERS, initialState)
-            return {...state,
-                isFetching: true,
-                didInvalidate: false,
-                lastUpdated: Date.now(),
-                payload: [action.payload]
-              }
+            return {...state,installers:{
+                                            isFetching: true,
+                                            didInvalidate: false,
+                                            lastUpdated: Date.now(),
+                                            payload: [action.payload]
+                                        }
+                     }
         case FETCH_INSTALLERS_SUCCESS:
             console.log(FETCH_INSTALLERS_SUCCESS, action, ...state)
-            return {...state, isFetching: false,
-                            didInvalidate: false,
-                            lastUpdated: Date.now(),
-                            payload: [action.payload]
-                        }
+            return {...state, installers:{
+                                            isFetching: false,
+                                            didInvalidate: false,
+                                            lastUpdated: Date.now(),
+                                            payload: [action.payload]
+                                        }
+                    }
         case FETCH_INSTALLERS_FAILURE:
             console.log(FETCH_INSTALLERS_FAILURE, action, ...state)
-            return {...state, isFetching: false,
-                            didInvalidate: false,
-                            lastUpdated: Date.now(),
-                            payload: [action.payload]
-                        }
+            return {...state, installers:{
+                                            isFetching: true,
+                                            didInvalidate: false,
+                                            lastUpdated: Date.now(),
+                                            payload: [action.payload]
+                                         }
+                                    }
         case CREATE_INSTALLER_FAILURE:
             console.log(CREATE_INSTALLER_FAILURE, action, ...state)
-            return {...state, postData:{
-                                isPosting: false,
-                                lastUpdated: Date.now(),
-                                error: true,
-                                payload: [action.payload]
-                            }
-            }
+            return {...state, installers:{
+                                            postData:
+                                            {
+                                                isPosting: false,
+                                                lastUpdated: Date.now(),
+                                                error: true,
+                                                payload: [action.payload]
+                                            }
+                                        }
+                    }
 
     default:
         return state

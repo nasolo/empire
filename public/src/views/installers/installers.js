@@ -3,6 +3,8 @@ import PropTypes from 'prop-types'
 import {connect} from 'react-redux'
 import {bindActionCreators} from 'redux';
 import * as installerAction from '../../actions/installerAction'
+import Promise from 'promise'
+import randomstring from 'randomstring'
 import {
   Badge,
   Row,
@@ -34,6 +36,9 @@ import {
   InputGroupButton
 } from 'reactstrap';
 
+
+
+
 class Installers extends Component {
 
     constructor(props) {
@@ -43,6 +48,8 @@ class Installers extends Component {
       this.addInstaller = this.addInstaller.bind(this);
       this.handleInputChange = this.handleInputChange.bind(this);
       this.togglePrimary = this.togglePrimary.bind(this);
+      this.loadinstallers = this.loadinstallers.bind(this)
+    
      
       this.state = { 
         collapse: true,
@@ -61,9 +68,54 @@ class Installers extends Component {
     }
 
     componentWillMount() { // HERE WE ARE TRIGGERING THE ACTION
-      console.log(this.props)
+      this.props.installerAction.fetchInstallers()
       
    }
+
+    
+loadinstallers(){
+
+const listOfInstallers = this.props.installersList.payload[0]
+
+var tableOfInstallers = []
+
+for(var obj in listOfInstallers){
+  var list = listOfInstallers[obj]
+    tableOfInstallers.push(
+
+      <tr key={randomstring.generate()}>
+        <td>{list.id}</td>
+        <td>{list.fname + " " + list.lname}</td>
+        <td>{list.type}</td>
+        <td>{list.phoneNumber}</td>
+        <td>
+          <Badge color="success">{list.status}</Badge>
+        </td>
+      </tr>
+
+
+    )
+
+}
+
+return <CardBody>
+    <Table responsive>
+      <thead>
+      <tr>
+        <th>Username</th>
+        <th>Date registered</th>
+        <th>Role</th>
+        <th>Status</th>
+      </tr>
+      </thead>
+      <tbody>
+      {tableOfInstallers}
+      </tbody>
+    </Table>
+   
+  </CardBody>
+}
+
   
     toggle() {
       this.setState({ collapse: !this.state.collapse });
@@ -84,12 +136,10 @@ class Installers extends Component {
         phone: !isNaN(this.state.phone) ? parseInt(this.state.phone) : this.state.phone
        }
 
-      event.preventDefault();
-      console.log(installerData)
-      return this.props.installerAction.createInstaller(installerData)
-     
-
+        this.props.installerAction.createInstaller(installerData)
+       
     }
+
     handleInputChange(event) {
       const target = event.target
       const name = target.name
@@ -103,6 +153,7 @@ class Installers extends Component {
   
   render() {
     return (
+      
       <div className="animated fadeIn">
         <Row>
           <Col xs="12" lg="12">
@@ -143,13 +194,16 @@ class Installers extends Component {
             <Card>
               <CardBody>
                 <form onSubmit={this.addInstaller} className="form-horizontal">
+              
                   <FormGroup row>
                     <Col md="3">
                       <Label htmlFor="id">ID</Label>
                     </Col>
                     <Col xs="12" md="9">
+                 
                       <Input type="number" id="id" name="id" value={this.state.id} onChange={this.handleInputChange} placeholder="Installer id required"/>
                       <FormText color="muted">Please enter installer id</FormText>
+                      
                     </Col>
                   </FormGroup>
                   <FormGroup row>
@@ -230,80 +284,7 @@ class Installers extends Component {
               
                 
               </CardHeader>
-              <CardBody>
-                <Table responsive>
-                  <thead>
-                  <tr>
-                    <th>Username</th>
-                    <th>Date registered</th>
-                    <th>Role</th>
-                    <th>Status</th>
-                  </tr>
-                  </thead>
-                  <tbody>
-                  <tr>
-                    <td>Samppa Nori</td>
-                    <td>2012/01/01</td>
-                    <td>Member</td>
-                    <td>
-                      <Badge color="success">Active</Badge>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>Estavan Lykos</td>
-                    <td>2012/02/01</td>
-                    <td>Staff</td>
-                    <td>
-                      <Badge color="danger">Banned</Badge>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>Chetan Mohamed</td>
-                    <td>2012/02/01</td>
-                    <td>Admin</td>
-                    <td>
-                      <Badge color="secondary">Inactive</Badge>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>Derick Maximinus</td>
-                    <td>2012/03/01</td>
-                    <td>Member</td>
-                    <td>
-                      <Badge color="warning">Pending</Badge>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>Friderik Dávid</td>
-                    <td>2012/01/21</td>
-                    <td>Staff</td>
-                    <td>
-                      <Badge color="success">Active</Badge>
-                    </td>
-                  </tr>
-                  </tbody>
-                </Table>
-                <Pagination>
-                  <PaginationItem>
-                    <PaginationLink previous href="#"></PaginationLink>
-                  </PaginationItem>
-                  <PaginationItem active>
-                    <PaginationLink href="#">1</PaginationLink>
-                  </PaginationItem>
-                  <PaginationItem>
-                    <PaginationLink href="#">2</PaginationLink>
-                  </PaginationItem>
-                  <PaginationItem>
-                    <PaginationLink href="#">3</PaginationLink>
-                  </PaginationItem>
-                  <PaginationItem>
-                    <PaginationLink href="#">4</PaginationLink>
-                  </PaginationItem>
-                  <PaginationItem>
-                    <PaginationLink next href="#"></PaginationLink>
-                  </PaginationItem>
-                </Pagination>
-              </CardBody>
+                {this.props.isFetching ? "loading..." : this.loadinstallers()}
             </Card>
           </Col>
 
@@ -322,9 +303,10 @@ Installers.propTypes = {
 }
 
 function mapStateToProps(state) {
-   
+   console.log(state)
   return {
-    installersList: state.installersList.data
+    
+    installersList: state.installersList.installers
   };
 }
 
