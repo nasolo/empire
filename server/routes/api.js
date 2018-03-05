@@ -16,8 +16,10 @@ router.get('/:resource', function(req, res){
     var resource = req.params.resource
     
     if(resource == "getInstallers")
+      var listOfinstallers = InstContr.find()
+      console.log(listOfinstallers)
 
-    res.json(InstContr.find())
+    res.json(listOfinstallers)
 
 })
 

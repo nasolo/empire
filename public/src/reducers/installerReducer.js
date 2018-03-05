@@ -9,16 +9,16 @@ export default function(state=initialState, action){
                                             isFetching: true,
                                             didInvalidate: false,
                                             lastUpdated: Date.now(),
-                                            payload: [action.payload]
+                                            payload: [...action.payload]
                                         }
                      }
         case FETCH_INSTALLERS_SUCCESS:
-            console.log(FETCH_INSTALLERS_SUCCESS, action, ...state)
+            console.log(FETCH_INSTALLERS_SUCCESS, action.payload, ...state)
             return {...state, installers:{
                                             isFetching: false,
                                             didInvalidate: false,
                                             lastUpdated: Date.now(),
-                                            payload: [action.payload]
+                                            payload: [...action.payload]
                                         }
                     }
         case FETCH_INSTALLERS_FAILURE:
@@ -27,21 +27,9 @@ export default function(state=initialState, action){
                                             isFetching: true,
                                             didInvalidate: false,
                                             lastUpdated: Date.now(),
-                                            payload: [action.payload]
+                                            payload: [...action.payload]
                                          }
                                     }
-        case CREATE_INSTALLER_FAILURE:
-            console.log(CREATE_INSTALLER_FAILURE, action, ...state)
-            return {...state, installers:{
-                                            postData:
-                                            {
-                                                isPosting: false,
-                                                lastUpdated: Date.now(),
-                                                error: true,
-                                                payload: [action.payload]
-                                            }
-                                        }
-                    }
 
     default:
         return state

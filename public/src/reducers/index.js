@@ -4,9 +4,11 @@ import albumsReducer from './albumsReucer'
 import commentReducer from './commentsReducer'
 import postsReducer from './postsReducer'
 import installerReducer from './installerReducer'
+import addInstallerReducer from './addInstallerReducer';
 
 const rootReducer = combineReducers({
-   installersList: installerReducer
+   fetchInstallersReducer: installerReducer,
+   addInstallerReducer: addInstallerReducer
 })
 
 
