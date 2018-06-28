@@ -6,10 +6,10 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var validate = require('express-jsonschema').validate;
 
-
-
 var index = require('./routes/index');
 var api = require('./routes/api');
+var excelReader = require('./routes/excelReader')
+var graphqlroutes = require('./routes/graphqlroutes');
 
 var app = express();
 
@@ -40,7 +40,7 @@ app.use(function(err, req, res, next) {
       // pass error to next error middleware handler 
       next(err);
   }
-});
+ });
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -56,6 +56,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', index);
 app.use('/api', api);
+app.use('/readexcel', excelReader);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

@@ -1,6 +1,7 @@
 const path = require('path')
 const low = require('lowdb')
 const fileSync = require('../node_modules/lowdb/adapters/FileSync')
+const lodashId = require('lodash-id')
 
 
 
@@ -10,7 +11,7 @@ module.exports = {
 
         const adapter = new fileSync(dburl)
         return low(adapter)
-
+         
     },
 
     _installersdb: {
@@ -19,6 +20,14 @@ module.exports = {
             installers: []
         }
     
+    },
+    _serviceRequestdb: {
+        path: path.join(__dirname, '../database/serviceRequestDatabase.json'),
+        defaults: {
+            serviceRequests: []
+        }
+    
     }
 
+    
 }
