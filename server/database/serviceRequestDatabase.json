@@ -1,11 +1,36 @@
 {
   "serviceRequests": [
     {
-      "id": "SyuWidIGxzm",
+      "id": "S1Q_7kDfX",
+      "followuphistory": [
+        {
+          "updatedDate": 1530487660946,
+          "description": "Cust sent e-mil on 11-6-17  listing all the install damage & problems post install. Cust wants a call back asap"
+        },
+        {
+          "updatedDate": 1530487720716,
+          "description": "Cust sent e-mil on 11-6-17  listing all the install damage & problems post install. Cust wants a call back asap"
+        },
+        {
+          "updatedDate": 1530487840637,
+          "description": "Cust sent e-mil on 11-6-17  listing all the install damage & problems post install. Cust wants a call back asap"
+        },
+        {
+          "updatedDate": 1530488009795,
+          "description": "Cust sent e-mil on 11-6-17  listing all the install damage & problems post install. Cust wants a call back asap"
+        },
+        {
+          "updatedDate": 1530488011497,
+          "description": "Cust sent e-mil on 11-6-17  listing all the install damage & problems post install. Cust wants a call back asap"
+        },
+        {
+          "updatedDate": 1530488104254,
+          "description": "Cust sent e-mil on 11-6-17  listing all the install damage & problems post install. Cust wants a call back asap"
+        }
+      ],
       "company": "Empire",
       "businessunit": "Residential",
       "serviceregion": "Chicago",
-      "storenumber": "",
       "srnumber": "1-2871372909",
       "accountnumber": "1-64DLDR",
       "opened": "1905-07-09T00:00:00.000Z",
@@ -22,35 +47,51 @@
       "product": "Carpet",
       "ordernumberlink": "http://ems.empirecarpet.com/modules/orderentry/orderinfo.aspx?jobnumber=C113960",
       "resolutioncomments": "complete",
-      "collectamount": "",
       "address": "807 Edgewater Dr",
       "city": "Minooka",
       "state": "IL",
       "zipcode": 60447,
       "country": "USA",
-      "originalcompletiondate": "",
-      "paymentterms": "",
       "firstname": "Anita",
       "parentproductline": "Home Furnishing",
       "productline": "Carpet",
       "description": "Cust sent e-mil on 11-6-17  listing all the install damage & problems post install. Cust wants a call back asap",
-      "closed": "",
-      "resolution": "",
       "srtype": "Installation Experience",
       "county": "Grundy",
-      "escalatedsource": "",
       "datemodified": "1905-07-10T00:00:00.000Z",
-      "serviceordernumber": "",
-      "serviceordernumberlink": "",
-      "opportunitysource": "TV",
-      "opportunitysubsource": ""
+      "opportunitysource": "TV"
     },
     {
-      "id": "ryfEoOUflfX",
+      "id": "SklmOmJwz7",
+      "followuphistory": [
+        {
+          "updatedDate": 1530487660947,
+          "description": "cci stated their are issues with carpet"
+        },
+        {
+          "updatedDate": 1530487720718,
+          "description": "cci stated their are issues with carpet"
+        },
+        {
+          "updatedDate": 1530487840639,
+          "description": "cci stated their are issues with carpet"
+        },
+        {
+          "updatedDate": 1530488009797,
+          "description": "cci stated their are issues with carpet"
+        },
+        {
+          "updatedDate": 1530488011498,
+          "description": "cci stated their are issues with carpet"
+        },
+        {
+          "updatedDate": 1530488104256,
+          "description": "cci stated their are issues with carpet"
+        }
+      ],
       "company": "Empire",
       "businessunit": "Residential",
       "serviceregion": "Chicago",
-      "storenumber": "",
       "srnumber": "1-2926725340",
       "accountnumber": "1-1C6TSIP",
       "opened": "1905-07-09T00:00:00.000Z",
@@ -66,36 +107,51 @@
       "priority": "Normal",
       "product": "Carpet",
       "ordernumberlink": "http://ems.empirecarpet.com/modules/orderentry/orderinfo.aspx?jobnumber=C115336",
-      "resolutioncomments": "",
-      "collectamount": "",
       "address": "279 East Hunters Way",
       "city": "Hainesville",
       "state": "IL",
       "zipcode": 60030,
       "country": "USA",
-      "originalcompletiondate": "",
-      "paymentterms": "",
       "firstname": "Anthony",
       "parentproductline": "Home Furnishing",
       "productline": "Carpet",
       "description": "cci stated their are issues with carpet",
-      "closed": "",
-      "resolution": "",
       "srtype": "Installation Experience",
       "county": "Lake",
-      "escalatedsource": "",
       "datemodified": "1905-07-10T00:00:00.000Z",
-      "serviceordernumber": "",
-      "serviceordernumberlink": "",
-      "opportunitysource": "Web Leads",
-      "opportunitysubsource": ""
+      "opportunitysource": "Web Leads"
     },
     {
-      "id": "ryhUjdIGlMQ",
+      "id": "SJ-7_mkDMQ",
+      "followuphistory": [
+        {
+          "updatedDate": 1530487660949,
+          "description": "Product: lvp Issue: cuts and angles are very poor presentation, nail holes are still showing Installer Present: NO cci that the cuts and angles are very poor presentation  and nail holes are still showing, cust does not want the same inst t"
+        },
+        {
+          "updatedDate": 1530487720719,
+          "description": "Product: lvp Issue: cuts and angles are very poor presentation, nail holes are still showing Installer Present: NO cci that the cuts and angles are very poor presentation  and nail holes are still showing, cust does not want the same inst t"
+        },
+        {
+          "updatedDate": 1530487840640,
+          "description": "Product: lvp Issue: cuts and angles are very poor presentation, nail holes are still showing Installer Present: NO cci that the cuts and angles are very poor presentation  and nail holes are still showing, cust does not want the same inst t"
+        },
+        {
+          "updatedDate": 1530488009798,
+          "description": "Product: lvp Issue: cuts and angles are very poor presentation, nail holes are still showing Installer Present: NO cci that the cuts and angles are very poor presentation  and nail holes are still showing, cust does not want the same inst t"
+        },
+        {
+          "updatedDate": 1530488011499,
+          "description": "Product: lvp Issue: cuts and angles are very poor presentation, nail holes are still showing Installer Present: NO cci that the cuts and angles are very poor presentation  and nail holes are still showing, cust does not want the same inst t"
+        },
+        {
+          "updatedDate": 1530488104257,
+          "description": "Product: lvp Issue: cuts and angles are very poor presentation, nail holes are still showing Installer Present: NO cci that the cuts and angles are very poor presentation  and nail holes are still showing, cust does not want the same inst t"
+        }
+      ],
       "company": "Empire",
       "businessunit": "Residential",
       "serviceregion": "Chicago",
-      "storenumber": "",
       "srnumber": "1-2958414936",
       "accountnumber": "1-18QM1RT",
       "opened": "1905-07-10T00:00:00.000Z",
@@ -111,36 +167,51 @@
       "priority": "Normal",
       "product": "LVP",
       "ordernumberlink": "http://ems.empirecarpet.com/modules/orderentry/orderinfo.aspx?jobnumber=FC67451",
-      "resolutioncomments": "",
-      "collectamount": "",
       "address": "350 Gladstone Lane",
       "city": "Elgin",
       "state": "IL",
       "zipcode": 60120,
       "country": "USA",
-      "originalcompletiondate": "",
-      "paymentterms": "",
       "firstname": "Gina  & JOHN",
       "parentproductline": "Home Furnishing",
       "productline": "LVP",
       "description": "Product: lvp Issue: cuts and angles are very poor presentation, nail holes are still showing Installer Present: NO cci that the cuts and angles are very poor presentation  and nail holes are still showing, cust does not want the same inst t",
-      "closed": "",
-      "resolution": "",
       "srtype": "Installation Experience",
       "county": "Kane",
-      "escalatedsource": "",
       "datemodified": "1905-07-10T00:00:00.000Z",
-      "serviceordernumber": "",
-      "serviceordernumberlink": "",
-      "opportunitysource": "Web Leads",
-      "opportunitysubsource": ""
+      "opportunitysource": "Web Leads"
     },
     {
-      "id": "ryLYjOUMlMm",
+      "id": "rJGmd7JPzm",
+      "followuphistory": [
+        {
+          "updatedDate": 1530487660950,
+          "description": "installer is short on the carpet and no one has been back"
+        },
+        {
+          "updatedDate": 1530487720721,
+          "description": "installer is short on the carpet and no one has been back"
+        },
+        {
+          "updatedDate": 1530487840642,
+          "description": "installer is short on the carpet and no one has been back"
+        },
+        {
+          "updatedDate": 1530488009799,
+          "description": "installer is short on the carpet and no one has been back"
+        },
+        {
+          "updatedDate": 1530488011499,
+          "description": "installer is short on the carpet and no one has been back"
+        },
+        {
+          "updatedDate": 1530488104258,
+          "description": "installer is short on the carpet and no one has been back"
+        }
+      ],
       "company": "Empire",
       "businessunit": "Residential",
       "serviceregion": "Chicago",
-      "storenumber": "",
       "srnumber": "1-2972734737",
       "accountnumber": "1-1BD3H7D",
       "opened": "1905-07-10T00:00:00.000Z",
@@ -156,36 +227,51 @@
       "priority": "Normal",
       "product": "Carpet",
       "ordernumberlink": "http://ems.empirecarpet.com/modules/orderentry/orderinfo.aspx?jobnumber=C114143",
-      "resolutioncomments": "",
-      "collectamount": "",
       "address": "1464 Woodbury Cir",
       "city": "Gurnee",
       "state": "IL",
       "zipcode": 60031,
       "country": "USA",
-      "originalcompletiondate": "",
-      "paymentterms": "",
       "firstname": "Sandy",
       "parentproductline": "Home Furnishing",
       "productline": "Carpet",
       "description": "installer is short on the carpet and no one has been back",
-      "closed": "",
-      "resolution": "",
       "srtype": "Installation Experience",
       "county": "Lake",
-      "escalatedsource": "",
       "datemodified": "1905-07-10T00:00:00.000Z",
-      "serviceordernumber": "",
-      "serviceordernumberlink": "",
-      "opportunitysource": "TV",
-      "opportunitysubsource": ""
+      "opportunitysource": "TV"
     },
     {
-      "id": "B1ghiO8MlGX",
+      "id": "Bk7mOQkwMQ",
+      "followuphistory": [
+        {
+          "updatedDate": 1530487660951,
+          "description": "cci adv inst forgot certain things. would like to have someone go out"
+        },
+        {
+          "updatedDate": 1530487720722,
+          "description": "cci adv inst forgot certain things. would like to have someone go out"
+        },
+        {
+          "updatedDate": 1530487840644,
+          "description": "cci adv inst forgot certain things. would like to have someone go out"
+        },
+        {
+          "updatedDate": 1530488009800,
+          "description": "cci adv inst forgot certain things. would like to have someone go out"
+        },
+        {
+          "updatedDate": 1530488011500,
+          "description": "cci adv inst forgot certain things. would like to have someone go out"
+        },
+        {
+          "updatedDate": 1530488104258,
+          "description": "cci adv inst forgot certain things. would like to have someone go out"
+        }
+      ],
       "company": "Empire",
       "businessunit": "Commercial",
       "serviceregion": "Milwaukee",
-      "storenumber": "",
       "srnumber": "1-2979116835",
       "accountnumber": "1-1CK1UP5",
       "opened": "1905-07-10T00:00:00.000Z",
@@ -201,36 +287,51 @@
       "priority": "Hot",
       "product": "LVP",
       "ordernumberlink": "http://ems.empirecarpet.com/modules/orderentry/orderinfo.aspx?jobnumber=FM16679",
-      "resolutioncomments": "",
-      "collectamount": "",
       "address": "4931 S. 27th Street, Suite 200",
       "city": "Milwaukee",
       "state": "WI",
       "zipcode": 53221,
       "country": "USA",
-      "originalcompletiondate": "",
-      "paymentterms": "",
       "firstname": "Ivy",
       "parentproductline": "Home Furnishing",
       "productline": "LVP",
       "description": "cci adv inst forgot certain things. would like to have someone go out",
-      "closed": "",
-      "resolution": "",
       "srtype": "Installation Experience",
       "county": "Milwaukee",
-      "escalatedsource": "",
       "datemodified": "1905-07-10T00:00:00.000Z",
-      "serviceordernumber": "",
-      "serviceordernumberlink": "",
-      "opportunitysource": "Self Generated - Commercial Business",
-      "opportunitysubsource": ""
+      "opportunitysource": "Self Generated - Commercial Business"
     },
     {
-      "id": "Bk90sOUMgM7",
+      "id": "B14Xd7JwGQ",
+      "followuphistory": [
+        {
+          "updatedDate": 1530487660952,
+          "description": "Installer Comments: inst made cust uncomfortable for not signing form of completion. inst said hes never had a cust who did not sign the form in 20 years Installer Present: NO cci says his stereo system has been completely destroyed, master channel knob is broken off and missing, face of one of the s"
+        },
+        {
+          "updatedDate": 1530487720723,
+          "description": "Installer Comments: inst made cust uncomfortable for not signing form of completion. inst said hes never had a cust who did not sign the form in 20 years Installer Present: NO cci says his stereo system has been completely destroyed, master channel knob is broken off and missing, face of one of the s"
+        },
+        {
+          "updatedDate": 1530487840645,
+          "description": "Installer Comments: inst made cust uncomfortable for not signing form of completion. inst said hes never had a cust who did not sign the form in 20 years Installer Present: NO cci says his stereo system has been completely destroyed, master channel knob is broken off and missing, face of one of the s"
+        },
+        {
+          "updatedDate": 1530488009801,
+          "description": "Installer Comments: inst made cust uncomfortable for not signing form of completion. inst said hes never had a cust who did not sign the form in 20 years Installer Present: NO cci says his stereo system has been completely destroyed, master channel knob is broken off and missing, face of one of the s"
+        },
+        {
+          "updatedDate": 1530488011501,
+          "description": "Installer Comments: inst made cust uncomfortable for not signing form of completion. inst said hes never had a cust who did not sign the form in 20 years Installer Present: NO cci says his stereo system has been completely destroyed, master channel knob is broken off and missing, face of one of the s"
+        },
+        {
+          "updatedDate": 1530488104259,
+          "description": "Installer Comments: inst made cust uncomfortable for not signing form of completion. inst said hes never had a cust who did not sign the form in 20 years Installer Present: NO cci says his stereo system has been completely destroyed, master channel knob is broken off and missing, face of one of the s"
+        }
+      ],
       "company": "Empire",
       "businessunit": "Residential",
       "serviceregion": "Chicago",
-      "storenumber": "",
       "srnumber": "1-2982873500",
       "accountnumber": "1-1AVYTR5",
       "opened": "1905-07-10T00:00:00.000Z",
@@ -246,36 +347,51 @@
       "priority": "Hot",
       "product": "Carpet",
       "ordernumberlink": "http://ems.empirecarpet.com/modules/orderentry/orderinfo.aspx?jobnumber=C116688",
-      "resolutioncomments": "",
-      "collectamount": "",
       "address": "604 Argyle Ave",
       "city": "Flossmoor",
       "state": "IL",
       "zipcode": 60422,
       "country": "USA",
-      "originalcompletiondate": "",
-      "paymentterms": "",
       "firstname": "Timothy",
       "parentproductline": "Home Furnishing",
       "productline": "Carpet",
       "description": "Installer Comments: inst made cust uncomfortable for not signing form of completion. inst said hes never had a cust who did not sign the form in 20 years Installer Present: NO cci says his stereo system has been completely destroyed, master channel knob is broken off and missing, face of one of the s",
-      "closed": "",
-      "resolution": "",
       "srtype": "Installation Experience",
       "county": "Cook",
-      "escalatedsource": "",
       "datemodified": "1905-07-10T00:00:00.000Z",
-      "serviceordernumber": "",
-      "serviceordernumberlink": "",
-      "opportunitysource": "Other",
-      "opportunitysubsource": ""
+      "opportunitysource": "Other"
     },
     {
-      "id": "r1Nbesd8MxMX",
+      "id": "HJH7dQJPzX",
+      "followuphistory": [
+        {
+          "updatedDate": 1530487660953,
+          "description": "ici to adv the baseboard is not the correct color and the customer is not going to have baseboard installed, and needing to g"
+        },
+        {
+          "updatedDate": 1530487720725,
+          "description": "ici to adv the baseboard is not the correct color and the customer is not going to have baseboard installed, and needing to g"
+        },
+        {
+          "updatedDate": 1530487840646,
+          "description": "ici to adv the baseboard is not the correct color and the customer is not going to have baseboard installed, and needing to g"
+        },
+        {
+          "updatedDate": 1530488009801,
+          "description": "ici to adv the baseboard is not the correct color and the customer is not going to have baseboard installed, and needing to g"
+        },
+        {
+          "updatedDate": 1530488011502,
+          "description": "ici to adv the baseboard is not the correct color and the customer is not going to have baseboard installed, and needing to g"
+        },
+        {
+          "updatedDate": 1530488104260,
+          "description": "ici to adv the baseboard is not the correct color and the customer is not going to have baseboard installed, and needing to g"
+        }
+      ],
       "company": "Empire",
       "businessunit": "Residential",
       "serviceregion": "Chicago",
-      "storenumber": "",
       "srnumber": "1-2984334720",
       "accountnumber": "1-10LVOBU",
       "opened": "1905-07-10T00:00:00.000Z",
@@ -291,36 +407,51 @@
       "priority": "Hot",
       "product": "LVT",
       "ordernumberlink": "http://ems.empirecarpet.com/modules/orderentry/orderinfo.aspx?jobnumber=FC71049",
-      "resolutioncomments": "",
-      "collectamount": "",
       "address": "1051 Washington Ct",
       "city": "Bartlett",
       "state": "IL",
       "zipcode": 60103,
       "country": "USA",
-      "originalcompletiondate": "",
-      "paymentterms": "",
       "firstname": "Aaron",
       "parentproductline": "Home Furnishing",
       "productline": "LVT",
       "description": "ici to adv the baseboard is not the correct color and the customer is not going to have baseboard installed, and needing to g",
-      "closed": "",
-      "resolution": "",
       "srtype": "Installation Experience",
       "county": "Cook",
-      "escalatedsource": "",
       "datemodified": "1905-07-10T00:00:00.000Z",
-      "serviceordernumber": "",
-      "serviceordernumberlink": "",
-      "opportunitysource": "Web Leads",
-      "opportunitysubsource": ""
+      "opportunitysource": "Web Leads"
     },
     {
-      "id": "SJRmejOLzlz7",
+      "id": "ByI7uXyPG7",
+      "followuphistory": [
+        {
+          "updatedDate": 1530487660954,
+          "description": "cci said installers were very rude and didnt complete laundry room or office, adv 24bus hr cb BCB 8154143281 anytime"
+        },
+        {
+          "updatedDate": 1530487720726,
+          "description": "cci said installers were very rude and didnt complete laundry room or office, adv 24bus hr cb BCB 8154143281 anytime"
+        },
+        {
+          "updatedDate": 1530487840647,
+          "description": "cci said installers were very rude and didnt complete laundry room or office, adv 24bus hr cb BCB 8154143281 anytime"
+        },
+        {
+          "updatedDate": 1530488009802,
+          "description": "cci said installers were very rude and didnt complete laundry room or office, adv 24bus hr cb BCB 8154143281 anytime"
+        },
+        {
+          "updatedDate": 1530488011503,
+          "description": "cci said installers were very rude and didnt complete laundry room or office, adv 24bus hr cb BCB 8154143281 anytime"
+        },
+        {
+          "updatedDate": 1530488104261,
+          "description": "cci said installers were very rude and didnt complete laundry room or office, adv 24bus hr cb BCB 8154143281 anytime"
+        }
+      ],
       "company": "Empire",
       "businessunit": "Residential",
       "serviceregion": "Chicago",
-      "storenumber": "",
       "srnumber": "1-2988438899",
       "accountnumber": "1-1D4X8N7",
       "opened": "1905-07-10T00:00:00.000Z",
@@ -336,36 +467,51 @@
       "priority": "Hot",
       "product": "Laminate",
       "ordernumberlink": "http://ems.empirecarpet.com/modules/orderentry/orderinfo.aspx?jobnumber=FC71063",
-      "resolutioncomments": "",
-      "collectamount": "",
       "address": "709 Cambridge Ln",
       "city": "Shorewood",
       "state": "IL",
       "zipcode": 60404,
       "country": "USA",
-      "originalcompletiondate": "",
-      "paymentterms": "",
       "firstname": "Erin",
       "parentproductline": "Home Furnishing",
       "productline": "Laminate",
       "description": "cci said installers were very rude and didnt complete laundry room or office, adv 24bus hr cb BCB 8154143281 anytime",
-      "closed": "",
-      "resolution": "",
       "srtype": "Installation Experience",
       "county": "Will",
-      "escalatedsource": "",
       "datemodified": "1905-07-10T00:00:00.000Z",
-      "serviceordernumber": "",
-      "serviceordernumberlink": "",
-      "opportunitysource": "Web Leads",
-      "opportunitysubsource": ""
+      "opportunitysource": "Web Leads"
     },
     {
-      "id": "rk_IxoOUMezQ",
+      "id": "ryPm_mkvGm",
+      "followuphistory": [
+        {
+          "updatedDate": 1530487660955,
+          "description": "cci states nvr recvd c/b for transition issue, states needs seemless transitons pieces, advsd 24 bus hr c/b bcb 2623916744, a"
+        },
+        {
+          "updatedDate": 1530487720727,
+          "description": "cci states nvr recvd c/b for transition issue, states needs seemless transitons pieces, advsd 24 bus hr c/b bcb 2623916744, a"
+        },
+        {
+          "updatedDate": 1530487840649,
+          "description": "cci states nvr recvd c/b for transition issue, states needs seemless transitons pieces, advsd 24 bus hr c/b bcb 2623916744, a"
+        },
+        {
+          "updatedDate": 1530488009803,
+          "description": "cci states nvr recvd c/b for transition issue, states needs seemless transitons pieces, advsd 24 bus hr c/b bcb 2623916744, a"
+        },
+        {
+          "updatedDate": 1530488011504,
+          "description": "cci states nvr recvd c/b for transition issue, states needs seemless transitons pieces, advsd 24 bus hr c/b bcb 2623916744, a"
+        },
+        {
+          "updatedDate": 1530488104262,
+          "description": "cci states nvr recvd c/b for transition issue, states needs seemless transitons pieces, advsd 24 bus hr c/b bcb 2623916744, a"
+        }
+      ],
       "company": "Empire",
       "businessunit": "Residential",
       "serviceregion": "Milwaukee",
-      "storenumber": "",
       "srnumber": "1-2989117328",
       "accountnumber": "1-1D1KZSW",
       "opened": "1905-07-10T00:00:00.000Z",
@@ -381,36 +527,51 @@
       "priority": "Hot",
       "product": "LVP",
       "ordernumberlink": "http://ems.empirecarpet.com/modules/orderentry/orderinfo.aspx?jobnumber=FM16742",
-      "resolutioncomments": "",
-      "collectamount": "",
       "address": "1110 Wejegi Dr",
       "city": "Hubertus",
       "state": "WI",
       "zipcode": 53033,
       "country": "USA",
-      "originalcompletiondate": "",
-      "paymentterms": "",
       "firstname": "Diane",
       "parentproductline": "Home Furnishing",
       "productline": "LVP",
       "description": "cci states nvr recvd c/b for transition issue, states needs seemless transitons pieces, advsd 24 bus hr c/b bcb 2623916744, a",
-      "closed": "",
-      "resolution": "",
       "srtype": "Installation Experience",
       "county": "Washington",
-      "escalatedsource": "",
       "datemodified": "1905-07-10T00:00:00.000Z",
-      "serviceordernumber": "",
-      "serviceordernumberlink": "",
-      "opportunitysource": "TV",
-      "opportunitysubsource": ""
+      "opportunitysource": "TV"
     },
     {
-      "id": "HkMKgiO8GxMm",
+      "id": "BydQ_X1PMX",
+      "followuphistory": [
+        {
+          "updatedDate": 1530487660956,
+          "description": "Type: Reschedule Date: 01/01/2018 cci to adv that repair tech has not showed up problem with doors has not been resolved adv cust and called the market lvm adv"
+        },
+        {
+          "updatedDate": 1530487720729,
+          "description": "Type: Reschedule Date: 01/01/2018 cci to adv that repair tech has not showed up problem with doors has not been resolved adv cust and called the market lvm adv"
+        },
+        {
+          "updatedDate": 1530487840650,
+          "description": "Type: Reschedule Date: 01/01/2018 cci to adv that repair tech has not showed up problem with doors has not been resolved adv cust and called the market lvm adv"
+        },
+        {
+          "updatedDate": 1530488009804,
+          "description": "Type: Reschedule Date: 01/01/2018 cci to adv that repair tech has not showed up problem with doors has not been resolved adv cust and called the market lvm adv"
+        },
+        {
+          "updatedDate": 1530488011504,
+          "description": "Type: Reschedule Date: 01/01/2018 cci to adv that repair tech has not showed up problem with doors has not been resolved adv cust and called the market lvm adv"
+        },
+        {
+          "updatedDate": 1530488104263,
+          "description": "Type: Reschedule Date: 01/01/2018 cci to adv that repair tech has not showed up problem with doors has not been resolved adv cust and called the market lvm adv"
+        }
+      ],
       "company": "Empire",
       "businessunit": "Residential",
       "serviceregion": "Chicago",
-      "storenumber": "",
       "srnumber": "1-2991795019",
       "accountnumber": "1-19RLSRA",
       "opened": "1905-07-10T00:00:00.000Z",
@@ -426,36 +587,51 @@
       "priority": "Hot",
       "product": "Hardwood",
       "ordernumberlink": "http://ems.empirecarpet.com/modules/orderentry/orderinfo.aspx?jobnumber=FC68750",
-      "resolutioncomments": "",
-      "collectamount": "",
       "address": "1812 South Clark Street",
       "city": "Chicago",
       "state": "IL",
       "zipcode": 60616,
       "country": "USA",
-      "originalcompletiondate": "",
-      "paymentterms": "",
       "firstname": "Ellen",
       "parentproductline": "Home Furnishing",
       "productline": "Hardwood",
       "description": "Type: Reschedule Date: 01/01/2018 cci to adv that repair tech has not showed up problem with doors has not been resolved adv cust and called the market lvm adv",
-      "closed": "",
-      "resolution": "",
       "srtype": "Installation Experience",
       "county": "Cook",
-      "escalatedsource": "",
       "datemodified": "1905-07-10T00:00:00.000Z",
-      "serviceordernumber": "",
-      "serviceordernumberlink": "",
-      "opportunitysource": "Email",
-      "opportunitysubsource": ""
+      "opportunitysource": "Email"
     },
     {
-      "id": "rJhigoOLflzQ",
+      "id": "BJtX_7yvfm",
+      "followuphistory": [
+        {
+          "updatedDate": 1530487660957,
+          "description": "Product: lvt Issue: install issues and takeup Installer Present: NO cci to adv has concerns with some of the borders not even and the edging not cut properly, adv the kitchen floor was to be re"
+        },
+        {
+          "updatedDate": 1530487720730,
+          "description": "Product: lvt Issue: install issues and takeup Installer Present: NO cci to adv has concerns with some of the borders not even and the edging not cut properly, adv the kitchen floor was to be re"
+        },
+        {
+          "updatedDate": 1530487840651,
+          "description": "Product: lvt Issue: install issues and takeup Installer Present: NO cci to adv has concerns with some of the borders not even and the edging not cut properly, adv the kitchen floor was to be re"
+        },
+        {
+          "updatedDate": 1530488009805,
+          "description": "Product: lvt Issue: install issues and takeup Installer Present: NO cci to adv has concerns with some of the borders not even and the edging not cut properly, adv the kitchen floor was to be re"
+        },
+        {
+          "updatedDate": 1530488011505,
+          "description": "Product: lvt Issue: install issues and takeup Installer Present: NO cci to adv has concerns with some of the borders not even and the edging not cut properly, adv the kitchen floor was to be re"
+        },
+        {
+          "updatedDate": 1530488104264,
+          "description": "Product: lvt Issue: install issues and takeup Installer Present: NO cci to adv has concerns with some of the borders not even and the edging not cut properly, adv the kitchen floor was to be re"
+        }
+      ],
       "company": "Empire",
       "businessunit": "Residential",
       "serviceregion": "Chicago",
-      "storenumber": "",
       "srnumber": "1-2995230626",
       "accountnumber": "1-4X2IZB",
       "opened": "1905-07-10T00:00:00.000Z",
@@ -471,36 +647,51 @@
       "priority": "Hot",
       "product": "LVT",
       "ordernumberlink": "http://ems.empirecarpet.com/modules/orderentry/orderinfo.aspx?jobnumber=FC71255",
-      "resolutioncomments": "",
-      "collectamount": "",
       "address": "10136 S King Dr",
       "city": "Chicago",
       "state": "IL",
       "zipcode": 60628,
       "country": "USA",
-      "originalcompletiondate": "",
-      "paymentterms": "",
       "firstname": "Randy",
       "parentproductline": "Home Furnishing",
       "productline": "LVT",
       "description": "Product: lvt Issue: install issues and takeup Installer Present: NO cci to adv has concerns with some of the borders not even and the edging not cut properly, adv the kitchen floor was to be re",
-      "closed": "",
-      "resolution": "",
       "srtype": "Installation Experience",
       "county": "Cook",
-      "escalatedsource": "",
       "datemodified": "1905-07-10T00:00:00.000Z",
-      "serviceordernumber": "",
-      "serviceordernumberlink": "",
-      "opportunitysource": "Repeat Customer",
-      "opportunitysubsource": ""
+      "opportunitysource": "Repeat Customer"
     },
     {
-      "id": "ryUCgou8zgGQ",
+      "id": "HycXOmJvG7",
+      "followuphistory": [
+        {
+          "updatedDate": 1530487660958,
+          "description": "cci for update on reslection and repair; sr closed and state they will contact cust; no f/u yet"
+        },
+        {
+          "updatedDate": 1530487720731,
+          "description": "cci for update on reslection and repair; sr closed and state they will contact cust; no f/u yet"
+        },
+        {
+          "updatedDate": 1530487840653,
+          "description": "cci for update on reslection and repair; sr closed and state they will contact cust; no f/u yet"
+        },
+        {
+          "updatedDate": 1530488009806,
+          "description": "cci for update on reslection and repair; sr closed and state they will contact cust; no f/u yet"
+        },
+        {
+          "updatedDate": 1530488011506,
+          "description": "cci for update on reslection and repair; sr closed and state they will contact cust; no f/u yet"
+        },
+        {
+          "updatedDate": 1530488104265,
+          "description": "cci for update on reslection and repair; sr closed and state they will contact cust; no f/u yet"
+        }
+      ],
       "company": "Empire",
       "businessunit": "Residential",
       "serviceregion": "Chicago",
-      "storenumber": "",
       "srnumber": "1-2998177498",
       "accountnumber": "1-1CVAEVY",
       "opened": "1905-07-10T00:00:00.000Z",
@@ -516,36 +707,51 @@
       "priority": "Hot",
       "product": "Carpet",
       "ordernumberlink": "http://ems.empirecarpet.com/modules/orderentry/orderinfo.aspx?jobnumber=C116287",
-      "resolutioncomments": "",
-      "collectamount": "",
       "address": "1239 Baythorne Dr",
       "city": "Flossmoor",
       "state": "IL",
       "zipcode": 60422,
       "country": "USA",
-      "originalcompletiondate": "",
-      "paymentterms": "",
       "firstname": "Glenn",
       "parentproductline": "Home Furnishing",
       "productline": "Carpet",
       "description": "cci for update on reslection and repair; sr closed and state they will contact cust; no f/u yet",
-      "closed": "",
-      "resolution": "",
       "srtype": "Installation Experience",
       "county": "Cook",
-      "escalatedsource": "",
       "datemodified": "1905-07-10T00:00:00.000Z",
-      "serviceordernumber": "",
-      "serviceordernumberlink": "",
-      "opportunitysource": "Pay For Performance",
-      "opportunitysubsource": ""
+      "opportunitysource": "Pay For Performance"
     },
     {
-      "id": "BJlZZjd8Ggfm",
+      "id": "BkjQ_QyvGQ",
+      "followuphistory": [
+        {
+          "updatedDate": 1530487660959,
+          "description": "Product: carpet Issue: door needs to be put back Installer Present: NO cci states that carpet installation was done, he got a cll this morning stating that installers are going out, he states that"
+        },
+        {
+          "updatedDate": 1530487720732,
+          "description": "Product: carpet Issue: door needs to be put back Installer Present: NO cci states that carpet installation was done, he got a cll this morning stating that installers are going out, he states that"
+        },
+        {
+          "updatedDate": 1530487840654,
+          "description": "Product: carpet Issue: door needs to be put back Installer Present: NO cci states that carpet installation was done, he got a cll this morning stating that installers are going out, he states that"
+        },
+        {
+          "updatedDate": 1530488009806,
+          "description": "Product: carpet Issue: door needs to be put back Installer Present: NO cci states that carpet installation was done, he got a cll this morning stating that installers are going out, he states that"
+        },
+        {
+          "updatedDate": 1530488011507,
+          "description": "Product: carpet Issue: door needs to be put back Installer Present: NO cci states that carpet installation was done, he got a cll this morning stating that installers are going out, he states that"
+        },
+        {
+          "updatedDate": 1530488104266,
+          "description": "Product: carpet Issue: door needs to be put back Installer Present: NO cci states that carpet installation was done, he got a cll this morning stating that installers are going out, he states that"
+        }
+      ],
       "company": "Empire",
       "businessunit": "Residential",
       "serviceregion": "Chicago",
-      "storenumber": "",
       "srnumber": "1-2998280916",
       "accountnumber": "1-1DFRH47",
       "opened": "1905-07-10T00:00:00.000Z",
@@ -561,36 +767,51 @@
       "priority": "Normal",
       "product": "Carpet",
       "ordernumberlink": "http://ems.empirecarpet.com/modules/orderentry/orderinfo.aspx?jobnumber=C117081",
-      "resolutioncomments": "",
-      "collectamount": "",
       "address": "606 East Woodland Park Ave",
       "city": "Chicago",
       "state": "IL",
       "zipcode": 60616,
       "country": "USA",
-      "originalcompletiondate": "",
-      "paymentterms": "",
       "firstname": "Jeffrey",
       "parentproductline": "Home Furnishing",
       "productline": "Carpet",
       "description": "Product: carpet Issue: door needs to be put back Installer Present: NO cci states that carpet installation was done, he got a cll this morning stating that installers are going out, he states that",
-      "closed": "",
-      "resolution": "",
       "srtype": "Installation Experience",
       "county": "Cook",
-      "escalatedsource": "",
       "datemodified": "1905-07-10T00:00:00.000Z",
-      "serviceordernumber": "",
-      "serviceordernumberlink": "",
-      "opportunitysource": "Web Leads",
-      "opportunitysubsource": ""
+      "opportunitysource": "Web Leads"
     },
     {
-      "id": "H1qQbsuLMgMQ",
+      "id": "H12QO7yvz7",
+      "followuphistory": [
+        {
+          "updatedDate": 1530487660960,
+          "description": "Product: Carpet Issue: carpet is crooked and door chipped Installer Present: NO Cci stating he's not happy with carpet inst said he's carpet was crooked said the pattern was not correct, also said inst den"
+        },
+        {
+          "updatedDate": 1530487720733,
+          "description": "Product: Carpet Issue: carpet is crooked and door chipped Installer Present: NO Cci stating he's not happy with carpet inst said he's carpet was crooked said the pattern was not correct, also said inst den"
+        },
+        {
+          "updatedDate": 1530487840655,
+          "description": "Product: Carpet Issue: carpet is crooked and door chipped Installer Present: NO Cci stating he's not happy with carpet inst said he's carpet was crooked said the pattern was not correct, also said inst den"
+        },
+        {
+          "updatedDate": 1530488009807,
+          "description": "Product: Carpet Issue: carpet is crooked and door chipped Installer Present: NO Cci stating he's not happy with carpet inst said he's carpet was crooked said the pattern was not correct, also said inst den"
+        },
+        {
+          "updatedDate": 1530488011508,
+          "description": "Product: Carpet Issue: carpet is crooked and door chipped Installer Present: NO Cci stating he's not happy with carpet inst said he's carpet was crooked said the pattern was not correct, also said inst den"
+        },
+        {
+          "updatedDate": 1530488104266,
+          "description": "Product: Carpet Issue: carpet is crooked and door chipped Installer Present: NO Cci stating he's not happy with carpet inst said he's carpet was crooked said the pattern was not correct, also said inst den"
+        }
+      ],
       "company": "Empire",
       "businessunit": "Residential",
       "serviceregion": "Chicago",
-      "storenumber": "",
       "srnumber": "1-3002811795",
       "accountnumber": "1-1DL6GIJ",
       "opened": "1905-07-10T00:00:00.000Z",
@@ -606,36 +827,51 @@
       "priority": "Hot",
       "product": "Carpet",
       "ordernumberlink": "http://ems.empirecarpet.com/modules/orderentry/orderinfo.aspx?jobnumber=C117204",
-      "resolutioncomments": "",
-      "collectamount": "",
       "address": "6325 Dean Dr",
       "city": "Woodridge",
       "state": "IL",
       "zipcode": 60517,
       "country": "USA",
-      "originalcompletiondate": "",
-      "paymentterms": "",
       "firstname": "Rachell",
       "parentproductline": "Home Furnishing",
       "productline": "Carpet",
       "description": "Product: Carpet Issue: carpet is crooked and door chipped Installer Present: NO Cci stating he's not happy with carpet inst said he's carpet was crooked said the pattern was not correct, also said inst den",
-      "closed": "",
-      "resolution": "",
       "srtype": "Installation Experience",
       "county": "DuPage",
-      "escalatedsource": "",
       "datemodified": "1905-07-10T00:00:00.000Z",
-      "serviceordernumber": "",
-      "serviceordernumberlink": "",
-      "opportunitysource": "Self Generated",
-      "opportunitysubsource": ""
+      "opportunitysource": "Self Generated"
     },
     {
-      "id": "rkNLZouUzgGX",
+      "id": "H16mdXJDzQ",
+      "followuphistory": [
+        {
+          "updatedDate": 1530487660961,
+          "description": "Product: Yes Issue: Around the border of wall, transition piece looks plastic and cheap and there is a gap on the corner, cst does not like it Installer Present: NO Cci piece that goes around the corner of the wall looks like plastic and cheap, cst does not like it, also states there is a"
+        },
+        {
+          "updatedDate": 1530487720734,
+          "description": "Product: Yes Issue: Around the border of wall, transition piece looks plastic and cheap and there is a gap on the corner, cst does not like it Installer Present: NO Cci piece that goes around the corner of the wall looks like plastic and cheap, cst does not like it, also states there is a"
+        },
+        {
+          "updatedDate": 1530487840656,
+          "description": "Product: Yes Issue: Around the border of wall, transition piece looks plastic and cheap and there is a gap on the corner, cst does not like it Installer Present: NO Cci piece that goes around the corner of the wall looks like plastic and cheap, cst does not like it, also states there is a"
+        },
+        {
+          "updatedDate": 1530488009808,
+          "description": "Product: Yes Issue: Around the border of wall, transition piece looks plastic and cheap and there is a gap on the corner, cst does not like it Installer Present: NO Cci piece that goes around the corner of the wall looks like plastic and cheap, cst does not like it, also states there is a"
+        },
+        {
+          "updatedDate": 1530488011509,
+          "description": "Product: Yes Issue: Around the border of wall, transition piece looks plastic and cheap and there is a gap on the corner, cst does not like it Installer Present: NO Cci piece that goes around the corner of the wall looks like plastic and cheap, cst does not like it, also states there is a"
+        },
+        {
+          "updatedDate": 1530488104267,
+          "description": "Product: Yes Issue: Around the border of wall, transition piece looks plastic and cheap and there is a gap on the corner, cst does not like it Installer Present: NO Cci piece that goes around the corner of the wall looks like plastic and cheap, cst does not like it, also states there is a"
+        }
+      ],
       "company": "Empire",
       "businessunit": "Residential",
       "serviceregion": "Chicago",
-      "storenumber": "",
       "srnumber": "1-3005084474",
       "accountnumber": "1-1DHQFRV",
       "opened": "1905-07-10T00:00:00.000Z",
@@ -651,36 +887,52 @@
       "priority": "Hot",
       "product": "LVP",
       "ordernumberlink": "http://ems.empirecarpet.com/modules/orderentry/orderinfo.aspx?jobnumber=FC71401",
-      "resolutioncomments": "",
-      "collectamount": "",
       "address": "219 Cleveland St",
       "city": "Gary",
       "state": "IN",
       "zipcode": 46404,
       "country": "USA",
-      "originalcompletiondate": "",
-      "paymentterms": "",
       "firstname": "Darlene",
       "parentproductline": "Home Furnishing",
       "productline": "LVP",
       "description": "Product: Yes Issue: Around the border of wall, transition piece looks plastic and cheap and there is a gap on the corner, cst does not like it Installer Present: NO Cci piece that goes around the corner of the wall looks like plastic and cheap, cst does not like it, also states there is a",
-      "closed": "",
-      "resolution": "",
       "srtype": "Installation Experience",
       "county": "Lake",
-      "escalatedsource": "",
       "datemodified": "1905-07-10T00:00:00.000Z",
-      "serviceordernumber": "",
-      "serviceordernumberlink": "",
       "opportunitysource": "Pay For Performance",
       "opportunitysubsource": "Mobile_Web_FC"
     },
     {
-      "id": "BkA_WjO8Mxfm",
+      "id": "H1CXu71Pzm",
+      "followuphistory": [
+        {
+          "updatedDate": 1530487660962,
+          "description": "Product: carpet Issue: carpet was cut too short towards the end Installer Present: NO cci said the carpet was cut too short in the end"
+        },
+        {
+          "updatedDate": 1530487720735,
+          "description": "Product: carpet Issue: carpet was cut too short towards the end Installer Present: NO cci said the carpet was cut too short in the end"
+        },
+        {
+          "updatedDate": 1530487840658,
+          "description": "Product: carpet Issue: carpet was cut too short towards the end Installer Present: NO cci said the carpet was cut too short in the end"
+        },
+        {
+          "updatedDate": 1530488009809,
+          "description": "Product: carpet Issue: carpet was cut too short towards the end Installer Present: NO cci said the carpet was cut too short in the end"
+        },
+        {
+          "updatedDate": 1530488011510,
+          "description": "Product: carpet Issue: carpet was cut too short towards the end Installer Present: NO cci said the carpet was cut too short in the end"
+        },
+        {
+          "updatedDate": 1530488104268,
+          "description": "Product: carpet Issue: carpet was cut too short towards the end Installer Present: NO cci said the carpet was cut too short in the end"
+        }
+      ],
       "company": "Empire",
       "businessunit": "Residential",
       "serviceregion": "Chicago",
-      "storenumber": "",
       "srnumber": "1-3006503883",
       "accountnumber": "1-1CQNLJ4",
       "opened": "1905-07-10T00:00:00.000Z",
@@ -696,36 +948,52 @@
       "priority": "Normal",
       "product": "Carpet",
       "ordernumberlink": "http://ems.empirecarpet.com/modules/orderentry/orderinfo.aspx?jobnumber=C116109",
-      "resolutioncomments": "",
-      "collectamount": "",
       "address": "2013 Joana Ave",
       "city": "Zion",
       "state": "IL",
       "zipcode": 60099,
       "country": "USA",
-      "originalcompletiondate": "",
-      "paymentterms": "",
       "firstname": "John",
       "parentproductline": "Home Furnishing",
       "productline": "Carpet",
       "description": "Product: carpet Issue: carpet was cut too short towards the end Installer Present: NO cci said the carpet was cut too short in the end",
-      "closed": "",
-      "resolution": "",
       "srtype": "Installation Experience",
       "county": "Lake",
-      "escalatedsource": "",
       "datemodified": "1905-07-10T00:00:00.000Z",
-      "serviceordernumber": "",
-      "serviceordernumberlink": "",
       "opportunitysource": "Pay For Performance",
       "opportunitysubsource": "Soleo_01"
     },
     {
-      "id": "S1_o-iOUzeG7",
+      "id": "SyJlQOXkDMm",
+      "followuphistory": [
+        {
+          "updatedDate": 1530487660963,
+          "description": "web chat email:  Thank you for responding accordingly, it is verg much appreciated. There are three windows left undone. One"
+        },
+        {
+          "updatedDate": 1530487720736,
+          "description": "web chat email:  Thank you for responding accordingly, it is verg much appreciated. There are three windows left undone. One"
+        },
+        {
+          "updatedDate": 1530487840659,
+          "description": "web chat email:  Thank you for responding accordingly, it is verg much appreciated. There are three windows left undone. One"
+        },
+        {
+          "updatedDate": 1530488009810,
+          "description": "web chat email:  Thank you for responding accordingly, it is verg much appreciated. There are three windows left undone. One"
+        },
+        {
+          "updatedDate": 1530488011510,
+          "description": "web chat email:  Thank you for responding accordingly, it is verg much appreciated. There are three windows left undone. One"
+        },
+        {
+          "updatedDate": 1530488104269,
+          "description": "web chat email:  Thank you for responding accordingly, it is verg much appreciated. There are three windows left undone. One"
+        }
+      ],
       "company": "Empire",
       "businessunit": "Residential",
       "serviceregion": "Chicago",
-      "storenumber": "",
       "srnumber": "1-3006822478",
       "accountnumber": "1-1BIR8HQ",
       "opened": "1905-07-10T00:00:00.000Z",
@@ -741,36 +1009,51 @@
       "priority": "Normal",
       "product": "Window Treatments",
       "ordernumberlink": "http://ems.empirecarpet.com/modules/orderentry/orderinfo.aspx?jobnumber=WT32538",
-      "resolutioncomments": "",
-      "collectamount": "",
       "address": "9217 Meade Ave",
       "city": "Oak Lawn",
       "state": "IL",
       "zipcode": 60453,
       "country": "USA",
-      "originalcompletiondate": "",
-      "paymentterms": "",
       "firstname": "Michelle",
       "parentproductline": "Home Furnishing",
       "productline": "Window Treatments",
       "description": "web chat email:  Thank you for responding accordingly, it is verg much appreciated. There are three windows left undone. One",
-      "closed": "",
-      "resolution": "",
       "srtype": "Installation Experience",
       "county": "Cook",
-      "escalatedsource": "",
       "datemodified": "1905-07-10T00:00:00.000Z",
-      "serviceordernumber": "",
-      "serviceordernumberlink": "",
-      "opportunitysource": "Web Leads",
-      "opportunitysubsource": ""
+      "opportunitysource": "Web Leads"
     },
     {
-      "id": "Bkf0bodLGxGQ",
+      "id": "HJlxmOQkPzQ",
+      "followuphistory": [
+        {
+          "updatedDate": 1530487660964,
+          "description": "ici shortage, job was complete just needs 12x9, adv inst to let cust know she will receive c/b 24 busn hr"
+        },
+        {
+          "updatedDate": 1530487720737,
+          "description": "ici shortage, job was complete just needs 12x9, adv inst to let cust know she will receive c/b 24 busn hr"
+        },
+        {
+          "updatedDate": 1530487840660,
+          "description": "ici shortage, job was complete just needs 12x9, adv inst to let cust know she will receive c/b 24 busn hr"
+        },
+        {
+          "updatedDate": 1530488009810,
+          "description": "ici shortage, job was complete just needs 12x9, adv inst to let cust know she will receive c/b 24 busn hr"
+        },
+        {
+          "updatedDate": 1530488011511,
+          "description": "ici shortage, job was complete just needs 12x9, adv inst to let cust know she will receive c/b 24 busn hr"
+        },
+        {
+          "updatedDate": 1530488104270,
+          "description": "ici shortage, job was complete just needs 12x9, adv inst to let cust know she will receive c/b 24 busn hr"
+        }
+      ],
       "company": "Empire",
       "businessunit": "Residential",
       "serviceregion": "Chicago",
-      "storenumber": "",
       "srnumber": "1-3008731938",
       "accountnumber": "1-1A9OA23",
       "opened": "1905-07-10T00:00:00.000Z",
@@ -786,36 +1069,51 @@
       "priority": "Hot",
       "product": "Carpet",
       "ordernumberlink": "http://ems.empirecarpet.com/modules/orderentry/orderinfo.aspx?jobnumber=C116953",
-      "resolutioncomments": "",
-      "collectamount": "",
       "address": "17464 Teton Cir",
       "city": "Lockport",
       "state": "IL",
       "zipcode": 60441,
       "country": "USA",
-      "originalcompletiondate": "",
-      "paymentterms": "",
       "firstname": "Amy",
       "parentproductline": "Home Furnishing",
       "productline": "Carpet",
       "description": "ici shortage, job was complete just needs 12x9, adv inst to let cust know she will receive c/b 24 busn hr",
-      "closed": "",
-      "resolution": "",
       "srtype": "Installation Experience",
       "county": "Will",
-      "escalatedsource": "",
       "datemodified": "1905-07-10T00:00:00.000Z",
-      "serviceordernumber": "",
-      "serviceordernumberlink": "",
-      "opportunitysource": "Web Leads",
-      "opportunitysubsource": ""
+      "opportunitysource": "Web Leads"
     },
     {
-      "id": "BJngfoOUfeMm",
+      "id": "HJblm_7kwM7",
+      "followuphistory": [
+        {
+          "updatedDate": 1530487660966,
+          "description": "cci sd when cpt instlld 1 of the closets wasnt done & all spare cpt instllrs took w/them BCB 8157413888 or 8152634888"
+        },
+        {
+          "updatedDate": 1530487720739,
+          "description": "cci sd when cpt instlld 1 of the closets wasnt done & all spare cpt instllrs took w/them BCB 8157413888 or 8152634888"
+        },
+        {
+          "updatedDate": 1530487840662,
+          "description": "cci sd when cpt instlld 1 of the closets wasnt done & all spare cpt instllrs took w/them BCB 8157413888 or 8152634888"
+        },
+        {
+          "updatedDate": 1530488009811,
+          "description": "cci sd when cpt instlld 1 of the closets wasnt done & all spare cpt instllrs took w/them BCB 8157413888 or 8152634888"
+        },
+        {
+          "updatedDate": 1530488011514,
+          "description": "cci sd when cpt instlld 1 of the closets wasnt done & all spare cpt instllrs took w/them BCB 8157413888 or 8152634888"
+        },
+        {
+          "updatedDate": 1530488104271,
+          "description": "cci sd when cpt instlld 1 of the closets wasnt done & all spare cpt instllrs took w/them BCB 8157413888 or 8152634888"
+        }
+      ],
       "company": "Empire",
       "businessunit": "Residential",
       "serviceregion": "Chicago",
-      "storenumber": "",
       "srnumber": "1-3008606463",
       "accountnumber": "1-1CLWAIX",
       "opened": "1905-07-10T00:00:00.000Z",
@@ -831,43 +1129,57 @@
       "priority": "Hot",
       "product": "Carpet",
       "ordernumberlink": "http://ems.empirecarpet.com/modules/orderentry/orderinfo.aspx?jobnumber=C115966",
-      "resolutioncomments": "",
-      "collectamount": "",
       "address": "1619 Richmond Cir",
       "city": "Joliet",
       "state": "IL",
       "zipcode": 60435,
       "country": "USA",
-      "originalcompletiondate": "",
-      "paymentterms": "",
       "firstname": "Jeffery",
       "parentproductline": "Home Furnishing",
       "productline": "Carpet",
       "description": "cci sd when cpt instlld 1 of the closets wasnt done & all spare cpt instllrs took w/them BCB 8157413888 or 8152634888",
-      "closed": "",
-      "resolution": "",
       "srtype": "Installation Experience",
       "county": "Will",
-      "escalatedsource": "",
       "datemodified": "1905-07-10T00:00:00.000Z",
-      "serviceordernumber": "",
-      "serviceordernumberlink": "",
-      "opportunitysource": "Referral",
-      "opportunitysubsource": ""
+      "opportunitysource": "Referral"
     },
     {
-      "id": "Sk87fouLzxzQ",
+      "id": "S1GlmdXkDzX",
+      "followuphistory": [
+        {
+          "updatedDate": 1530487660967,
+          "description": "Condo: YES Landlord: NO Mailing Address: 2020 LINCOLN PARK WEST Attention: Francis Corrigan cus wnts certifcate of insurance or will be cancelling order, unable to get email address"
+        },
+        {
+          "updatedDate": 1530487720740,
+          "description": "Condo: YES Landlord: NO Mailing Address: 2020 LINCOLN PARK WEST Attention: Francis Corrigan cus wnts certifcate of insurance or will be cancelling order, unable to get email address"
+        },
+        {
+          "updatedDate": 1530487840663,
+          "description": "Condo: YES Landlord: NO Mailing Address: 2020 LINCOLN PARK WEST Attention: Francis Corrigan cus wnts certifcate of insurance or will be cancelling order, unable to get email address"
+        },
+        {
+          "updatedDate": 1530488009812,
+          "description": "Condo: YES Landlord: NO Mailing Address: 2020 LINCOLN PARK WEST Attention: Francis Corrigan cus wnts certifcate of insurance or will be cancelling order, unable to get email address"
+        },
+        {
+          "updatedDate": 1530488011514,
+          "description": "Condo: YES Landlord: NO Mailing Address: 2020 LINCOLN PARK WEST Attention: Francis Corrigan cus wnts certifcate of insurance or will be cancelling order, unable to get email address"
+        },
+        {
+          "updatedDate": 1530488104271,
+          "description": "Condo: YES Landlord: NO Mailing Address: 2020 LINCOLN PARK WEST Attention: Francis Corrigan cus wnts certifcate of insurance or will be cancelling order, unable to get email address"
+        }
+      ],
       "company": "Empire",
       "businessunit": "Residential",
       "serviceregion": "Chicago",
-      "storenumber": "",
       "srnumber": "1-3010147508",
       "accountnumber": "1-7HKTH1",
       "opened": "1905-07-10T00:00:00.000Z",
       "area": "Pre-Installation",
       "owner": "IM_POC",
       "subarea": "Request Cert. of Insurance",
-      "summary": "",
       "createdby": "AIPENA",
       "lastname": "Bryant",
       "mainphonenumber": "(773) 405-0078",
@@ -876,36 +1188,51 @@
       "priority": "Hot",
       "product": "Carpet",
       "ordernumberlink": "http://ems.empirecarpet.com/modules/orderentry/orderinfo.aspx?jobnumber=C117005",
-      "resolutioncomments": "",
-      "collectamount": "",
       "address": "2020 Lincoln park west, 3A",
       "city": "Chicago",
       "state": "IL",
       "zipcode": 60614,
       "country": "USA",
-      "originalcompletiondate": "",
-      "paymentterms": "",
       "firstname": "Jennifer",
       "parentproductline": "Home Furnishing",
       "productline": "Carpet",
       "description": "Condo: YES Landlord: NO Mailing Address: 2020 LINCOLN PARK WEST Attention: Francis Corrigan cus wnts certifcate of insurance or will be cancelling order, unable to get email address",
-      "closed": "",
-      "resolution": "",
       "srtype": "Installation Experience",
       "county": "Cook",
-      "escalatedsource": "",
       "datemodified": "1905-07-10T00:00:00.000Z",
-      "serviceordernumber": "",
-      "serviceordernumberlink": "",
-      "opportunitysource": "Web Leads",
-      "opportunitysubsource": ""
+      "opportunitysource": "Web Leads"
     },
     {
-      "id": "HygLGsOLzeGQ",
+      "id": "SJXgmu7yDz7",
+      "followuphistory": [
+        {
+          "updatedDate": 1530487660969,
+          "description": "Needs white strips that need to be put back around base boards, bcb# 219-448-0397 asap"
+        },
+        {
+          "updatedDate": 1530487720741,
+          "description": "Needs white strips that need to be put back around base boards, bcb# 219-448-0397 asap"
+        },
+        {
+          "updatedDate": 1530487840664,
+          "description": "Needs white strips that need to be put back around base boards, bcb# 219-448-0397 asap"
+        },
+        {
+          "updatedDate": 1530488009813,
+          "description": "Needs white strips that need to be put back around base boards, bcb# 219-448-0397 asap"
+        },
+        {
+          "updatedDate": 1530488011515,
+          "description": "Needs white strips that need to be put back around base boards, bcb# 219-448-0397 asap"
+        },
+        {
+          "updatedDate": 1530488104272,
+          "description": "Needs white strips that need to be put back around base boards, bcb# 219-448-0397 asap"
+        }
+      ],
       "company": "Empire",
       "businessunit": "Residential",
       "serviceregion": "Chicago",
-      "storenumber": "",
       "srnumber": "1-3010194278",
       "accountnumber": "1-1DBI1IM",
       "opened": "1905-07-10T00:00:00.000Z",
@@ -921,36 +1248,51 @@
       "priority": "Hot",
       "product": "Carpet",
       "ordernumberlink": "http://ems.empirecarpet.com/modules/orderentry/orderinfo.aspx?jobnumber=C116900",
-      "resolutioncomments": "",
-      "collectamount": "",
       "address": "11611 Maryland Street",
       "city": "Crown Point",
       "state": "IN",
       "zipcode": 46307,
       "country": "USA",
-      "originalcompletiondate": "",
-      "paymentterms": "",
       "firstname": "Cynthia",
       "parentproductline": "Home Furnishing",
       "productline": "Carpet",
       "description": "Needs white strips that need to be put back around base boards, bcb# 219-448-0397 asap",
-      "closed": "",
-      "resolution": "",
       "srtype": "Installation Experience",
       "county": "Lake",
-      "escalatedsource": "",
       "datemodified": "1905-07-10T00:00:00.000Z",
-      "serviceordernumber": "",
-      "serviceordernumberlink": "",
-      "opportunitysource": "Other",
-      "opportunitysubsource": ""
+      "opportunitysource": "Other"
     },
     {
-      "id": "BJ5OGiuIzezm",
+      "id": "HyEeX_7yDzm",
+      "followuphistory": [
+        {
+          "updatedDate": 1530487660970,
+          "description": "cust would like to schedule a date for delivery of her WT that were sent in for repair. Cust would like the date of Feb 24th"
+        },
+        {
+          "updatedDate": 1530487720742,
+          "description": "cust would like to schedule a date for delivery of her WT that were sent in for repair. Cust would like the date of Feb 24th"
+        },
+        {
+          "updatedDate": 1530487840665,
+          "description": "cust would like to schedule a date for delivery of her WT that were sent in for repair. Cust would like the date of Feb 24th"
+        },
+        {
+          "updatedDate": 1530488009814,
+          "description": "cust would like to schedule a date for delivery of her WT that were sent in for repair. Cust would like the date of Feb 24th"
+        },
+        {
+          "updatedDate": 1530488011516,
+          "description": "cust would like to schedule a date for delivery of her WT that were sent in for repair. Cust would like the date of Feb 24th"
+        },
+        {
+          "updatedDate": 1530488104273,
+          "description": "cust would like to schedule a date for delivery of her WT that were sent in for repair. Cust would like the date of Feb 24th"
+        }
+      ],
       "company": "Empire",
       "businessunit": "Residential",
       "serviceregion": "Chicago",
-      "storenumber": "",
       "srnumber": "1-3010268332",
       "accountnumber": "1-BHYYPI",
       "opened": "1905-07-10T00:00:00.000Z",
@@ -966,43 +1308,57 @@
       "priority": "Normal",
       "product": "Window Treatments",
       "ordernumberlink": "http://ems.empirecarpet.com/modules/orderentry/orderinfo.aspx?jobnumber=WT10395",
-      "resolutioncomments": "",
-      "collectamount": "",
       "address": "504 Little Creek Dr",
       "city": "Streamwood",
       "state": "IL",
       "zipcode": 60107,
       "country": "USA",
-      "originalcompletiondate": "",
-      "paymentterms": "",
       "firstname": "Renee",
       "parentproductline": "Home Furnishing",
       "productline": "Window Treatments",
       "description": "cust would like to schedule a date for delivery of her WT that were sent in for repair. Cust would like the date of Feb 24th",
-      "closed": "",
-      "resolution": "",
       "srtype": "Installation Experience",
       "county": "Cook",
-      "escalatedsource": "",
       "datemodified": "1905-07-10T00:00:00.000Z",
-      "serviceordernumber": "",
-      "serviceordernumberlink": "",
-      "opportunitysource": "Referral",
-      "opportunitysubsource": ""
+      "opportunitysource": "Referral"
     },
     {
-      "id": "S1Ejzod8fgfQ",
+      "id": "rkBgXumJwf7",
+      "followuphistory": [
+        {
+          "updatedDate": 1530487660971,
+          "description": "ici 6715 cant inst due to SHORTAGE needs 6 TUBES of GLUE to use tackstrips since existing floor is tile"
+        },
+        {
+          "updatedDate": 1530487720743,
+          "description": "ici 6715 cant inst due to SHORTAGE needs 6 TUBES of GLUE to use tackstrips since existing floor is tile"
+        },
+        {
+          "updatedDate": 1530487840666,
+          "description": "ici 6715 cant inst due to SHORTAGE needs 6 TUBES of GLUE to use tackstrips since existing floor is tile"
+        },
+        {
+          "updatedDate": 1530488009814,
+          "description": "ici 6715 cant inst due to SHORTAGE needs 6 TUBES of GLUE to use tackstrips since existing floor is tile"
+        },
+        {
+          "updatedDate": 1530488011517,
+          "description": "ici 6715 cant inst due to SHORTAGE needs 6 TUBES of GLUE to use tackstrips since existing floor is tile"
+        },
+        {
+          "updatedDate": 1530488104274,
+          "description": "ici 6715 cant inst due to SHORTAGE needs 6 TUBES of GLUE to use tackstrips since existing floor is tile"
+        }
+      ],
       "company": "Empire",
       "businessunit": "Residential",
       "serviceregion": "Milwaukee",
-      "storenumber": "",
       "srnumber": "1-3010766598",
       "accountnumber": "1-HSWVVB",
       "opened": "1905-07-10T00:00:00.000Z",
       "area": "Installer at Home",
       "owner": "IM_POC",
       "subarea": "Shortage",
-      "summary": "",
       "createdby": "CARRODRIGUEZ",
       "lastname": "James",
       "mainphonenumber": "(414) 464-9012",
@@ -1011,36 +1367,51 @@
       "priority": "Hot",
       "product": "Carpet",
       "ordernumberlink": "http://ems.empirecarpet.com/modules/orderentry/orderinfo.aspx?jobnumber=M027165",
-      "resolutioncomments": "",
-      "collectamount": "",
       "address": "3231 N 24th Pl",
       "city": "Milwaukee",
       "state": "WI",
       "zipcode": 53206,
       "country": "USA",
-      "originalcompletiondate": "",
-      "paymentterms": "",
       "firstname": "Brooke",
       "parentproductline": "Home Furnishing",
       "productline": "Carpet",
       "description": "ici 6715 cant inst due to SHORTAGE needs 6 TUBES of GLUE to use tackstrips since existing floor is tile",
-      "closed": "",
-      "resolution": "",
       "srtype": "Installation Experience",
       "county": "Milwaukee",
-      "escalatedsource": "",
       "datemodified": "1905-07-10T00:00:00.000Z",
-      "serviceordernumber": "",
-      "serviceordernumberlink": "",
-      "opportunitysource": "Web Leads",
-      "opportunitysubsource": ""
+      "opportunitysource": "Web Leads"
     },
     {
-      "id": "HJA6MidUMxMm",
+      "id": "r1Ux7u7yDM7",
+      "followuphistory": [
+        {
+          "updatedDate": 1530487660972,
+          "description": "cci asking that we add moving furniture to order has a large hutch that needs to be moved"
+        },
+        {
+          "updatedDate": 1530487720745,
+          "description": "cci asking that we add moving furniture to order has a large hutch that needs to be moved"
+        },
+        {
+          "updatedDate": 1530487840667,
+          "description": "cci asking that we add moving furniture to order has a large hutch that needs to be moved"
+        },
+        {
+          "updatedDate": 1530488009815,
+          "description": "cci asking that we add moving furniture to order has a large hutch that needs to be moved"
+        },
+        {
+          "updatedDate": 1530488011518,
+          "description": "cci asking that we add moving furniture to order has a large hutch that needs to be moved"
+        },
+        {
+          "updatedDate": 1530488104275,
+          "description": "cci asking that we add moving furniture to order has a large hutch that needs to be moved"
+        }
+      ],
       "company": "Empire",
       "businessunit": "Residential",
       "serviceregion": "Chicago",
-      "storenumber": "",
       "srnumber": "1-3011997484",
       "accountnumber": "1-1DF1CTN",
       "opened": "1905-07-10T00:00:00.000Z",
@@ -1056,43 +1427,57 @@
       "priority": "Normal",
       "product": "Carpet",
       "ordernumberlink": "http://ems.empirecarpet.com/modules/orderentry/orderinfo.aspx?jobnumber=C117022",
-      "resolutioncomments": "",
-      "collectamount": "",
       "address": "11300 Highland Drive",
       "city": "Plainfield",
       "state": "IL",
       "zipcode": 60585,
       "country": "USA",
-      "originalcompletiondate": "",
-      "paymentterms": "",
       "firstname": "Mike",
       "parentproductline": "Home Furnishing",
       "productline": "Carpet",
       "description": "cci asking that we add moving furniture to order has a large hutch that needs to be moved",
-      "closed": "",
-      "resolution": "",
       "srtype": "Purchase Order",
       "county": "Will",
-      "escalatedsource": "",
       "datemodified": "1905-07-10T00:00:00.000Z",
-      "serviceordernumber": "",
-      "serviceordernumberlink": "",
-      "opportunitysource": "Web Leads",
-      "opportunitysubsource": ""
+      "opportunitysource": "Web Leads"
     },
     {
-      "id": "H1OgmjOIMeGm",
+      "id": "BJvgXd7kPGm",
+      "followuphistory": [
+        {
+          "updatedDate": 1530487660973,
+          "description": "rci for cust for eta, cld inst na lvm, cld mrkt na lvm, bcb (574) 291-9081. bct asap"
+        },
+        {
+          "updatedDate": 1530487720746,
+          "description": "rci for cust for eta, cld inst na lvm, cld mrkt na lvm, bcb (574) 291-9081. bct asap"
+        },
+        {
+          "updatedDate": 1530487840669,
+          "description": "rci for cust for eta, cld inst na lvm, cld mrkt na lvm, bcb (574) 291-9081. bct asap"
+        },
+        {
+          "updatedDate": 1530488009816,
+          "description": "rci for cust for eta, cld inst na lvm, cld mrkt na lvm, bcb (574) 291-9081. bct asap"
+        },
+        {
+          "updatedDate": 1530488011519,
+          "description": "rci for cust for eta, cld inst na lvm, cld mrkt na lvm, bcb (574) 291-9081. bct asap"
+        },
+        {
+          "updatedDate": 1530488104275,
+          "description": "rci for cust for eta, cld inst na lvm, cld mrkt na lvm, bcb (574) 291-9081. bct asap"
+        }
+      ],
       "company": "Empire",
       "businessunit": "Residential",
       "serviceregion": "South Bend",
-      "storenumber": "",
       "srnumber": "1-3012034978",
       "accountnumber": "1-1DMZI8S",
       "opened": "1905-07-10T00:00:00.000Z",
       "area": "Pre-Installation",
       "owner": "IM_POC",
       "subarea": "Installer ETA",
-      "summary": "",
       "createdby": "ISARODRIGUEZ",
       "lastname": "Kil",
       "mainphonenumber": "(574) 291-9081",
@@ -1101,43 +1486,57 @@
       "priority": "Normal",
       "product": "Carpet",
       "ordernumberlink": "http://ems.empirecarpet.com/modules/orderentry/orderinfo.aspx?jobnumber=CK02393",
-      "resolutioncomments": "",
-      "collectamount": "",
       "address": "1216 Apple Ridge Ct",
       "city": "South Bend",
       "state": "IN",
       "zipcode": 46601,
       "country": "USA",
-      "originalcompletiondate": "",
-      "paymentterms": "",
       "firstname": "Richard",
       "parentproductline": "Home Furnishing",
       "productline": "Carpet",
       "description": "rci for cust for eta, cld inst na lvm, cld mrkt na lvm, bcb (574) 291-9081. bct asap",
-      "closed": "",
-      "resolution": "",
       "srtype": "Installation Experience",
       "county": "St Joseph",
-      "escalatedsource": "",
       "datemodified": "1905-07-10T00:00:00.000Z",
-      "serviceordernumber": "",
-      "serviceordernumberlink": "",
-      "opportunitysource": "TV",
-      "opportunitysubsource": ""
+      "opportunitysource": "TV"
     },
     {
-      "id": "H1MmmjdUfgMm",
+      "id": "BJuxQu71Pzm",
+      "followuphistory": [
+        {
+          "updatedDate": 1530487660974,
+          "description": "Customer wanted me to note that the installers were very hard workers, were very nice, and appreciates that they were honest"
+        },
+        {
+          "updatedDate": 1530487720747,
+          "description": "Customer wanted me to note that the installers were very hard workers, were very nice, and appreciates that they were honest"
+        },
+        {
+          "updatedDate": 1530487840670,
+          "description": "Customer wanted me to note that the installers were very hard workers, were very nice, and appreciates that they were honest"
+        },
+        {
+          "updatedDate": 1530488009817,
+          "description": "Customer wanted me to note that the installers were very hard workers, were very nice, and appreciates that they were honest"
+        },
+        {
+          "updatedDate": 1530488011519,
+          "description": "Customer wanted me to note that the installers were very hard workers, were very nice, and appreciates that they were honest"
+        },
+        {
+          "updatedDate": 1530488104276,
+          "description": "Customer wanted me to note that the installers were very hard workers, were very nice, and appreciates that they were honest"
+        }
+      ],
       "company": "Empire",
       "businessunit": "Residential",
       "serviceregion": "Milwaukee",
-      "storenumber": "",
       "srnumber": "1-3012557106",
       "accountnumber": "1-1DO9FBA",
       "opened": "1905-07-10T00:00:00.000Z",
       "area": "Post-Install",
       "owner": "IM_POC",
       "subarea": "Good Conduct",
-      "summary": "",
       "createdby": "JVIGIL",
       "lastname": "Daul",
       "mainphonenumber": "(262) 782-3759",
@@ -1146,36 +1545,51 @@
       "priority": "Normal",
       "product": "LVT",
       "ordernumberlink": "http://ems.empirecarpet.com/modules/orderentry/orderinfo.aspx?jobnumber=FM16805",
-      "resolutioncomments": "",
-      "collectamount": "",
       "address": "15731 W Brook Dr",
       "city": "New Berlin",
       "state": "WI",
       "zipcode": 53151,
       "country": "USA",
-      "originalcompletiondate": "",
-      "paymentterms": "",
       "firstname": "Jacqueline",
       "parentproductline": "Home Furnishing",
       "productline": "LVT",
       "description": "Customer wanted me to note that the installers were very hard workers, were very nice, and appreciates that they were honest",
-      "closed": "",
-      "resolution": "",
       "srtype": "Installation Experience",
       "county": "Waukesha",
-      "escalatedsource": "",
       "datemodified": "1905-07-10T00:00:00.000Z",
-      "serviceordernumber": "",
-      "serviceordernumberlink": "",
-      "opportunitysource": "TV",
-      "opportunitysubsource": ""
+      "opportunitysource": "TV"
     },
     {
-      "id": "Sk3BmjuIGlMQ",
+      "id": "rkYxQuX1Pz7",
+      "followuphistory": [
+        {
+          "updatedDate": 1530487660975,
+          "description": "Type: Reschedule Date: 02/12/2018 cc to reshc service repair due to bad weather, cust ok to resch to 2/12, submitted SR 1-3013262025 to reschd service repair "
+        },
+        {
+          "updatedDate": 1530487720748,
+          "description": "Type: Reschedule Date: 02/12/2018 cc to reshc service repair due to bad weather, cust ok to resch to 2/12, submitted SR 1-3013262025 to reschd service repair "
+        },
+        {
+          "updatedDate": 1530487840671,
+          "description": "Type: Reschedule Date: 02/12/2018 cc to reshc service repair due to bad weather, cust ok to resch to 2/12, submitted SR 1-3013262025 to reschd service repair "
+        },
+        {
+          "updatedDate": 1530488009818,
+          "description": "Type: Reschedule Date: 02/12/2018 cc to reshc service repair due to bad weather, cust ok to resch to 2/12, submitted SR 1-3013262025 to reschd service repair "
+        },
+        {
+          "updatedDate": 1530488011520,
+          "description": "Type: Reschedule Date: 02/12/2018 cc to reshc service repair due to bad weather, cust ok to resch to 2/12, submitted SR 1-3013262025 to reschd service repair "
+        },
+        {
+          "updatedDate": 1530488104277,
+          "description": "Type: Reschedule Date: 02/12/2018 cc to reshc service repair due to bad weather, cust ok to resch to 2/12, submitted SR 1-3013262025 to reschd service repair "
+        }
+      ],
       "company": "Empire",
       "businessunit": "Residential",
       "serviceregion": "Chicago",
-      "storenumber": "",
       "srnumber": "1-3013262025",
       "accountnumber": "1-81IWBM",
       "opened": "1905-07-10T00:00:00.000Z",
@@ -1191,43 +1605,57 @@
       "priority": "Hot",
       "product": "Carpet",
       "ordernumberlink": "http://ems.empirecarpet.com/modules/orderentry/orderinfo.aspx?jobnumber=C067267",
-      "resolutioncomments": "",
-      "collectamount": "",
       "address": "16953 89th Avenue",
       "city": "Orland Hills",
       "state": "IL",
       "zipcode": 60487,
       "country": "USA",
-      "originalcompletiondate": "",
-      "paymentterms": "",
       "firstname": "Kathy",
       "parentproductline": "Home Furnishing",
       "productline": "Carpet",
       "description": "Type: Reschedule Date: 02/12/2018 cc to reshc service repair due to bad weather, cust ok to resch to 2/12, submitted SR 1-3013262025 to reschd service repair ",
-      "closed": "",
-      "resolution": "",
       "srtype": "Installation Experience",
       "county": "Cook",
-      "escalatedsource": "",
       "datemodified": "1905-07-10T00:00:00.000Z",
-      "serviceordernumber": "",
-      "serviceordernumberlink": "",
-      "opportunitysource": "Web Leads",
-      "opportunitysubsource": ""
+      "opportunitysource": "Web Leads"
     },
     {
-      "id": "rkLuQodIfxfQ",
+      "id": "HJ5xm_XywGX",
+      "followuphistory": [
+        {
+          "updatedDate": 1530487660976,
+          "description": "Cust request instrs return Mon 2/12 to complete install."
+        },
+        {
+          "updatedDate": 1530487720749,
+          "description": "Cust request instrs return Mon 2/12 to complete install."
+        },
+        {
+          "updatedDate": 1530487840672,
+          "description": "Cust request instrs return Mon 2/12 to complete install."
+        },
+        {
+          "updatedDate": 1530488009819,
+          "description": "Cust request instrs return Mon 2/12 to complete install."
+        },
+        {
+          "updatedDate": 1530488011521,
+          "description": "Cust request instrs return Mon 2/12 to complete install."
+        },
+        {
+          "updatedDate": 1530488104278,
+          "description": "Cust request instrs return Mon 2/12 to complete install."
+        }
+      ],
       "company": "Empire",
       "businessunit": "Commercial",
       "serviceregion": "Chicago",
-      "storenumber": "",
       "srnumber": "1-3012937916",
       "accountnumber": "1-R1Y147",
       "opened": "1905-07-10T00:00:00.000Z",
       "area": "Post-Install",
       "owner": "IM_POC",
       "subarea": "Incomplete Installation",
-      "summary": "",
       "createdby": "CLCASTILLO",
       "lastname": "Scott",
       "mainphonenumber": "(630) 890-6559",
@@ -1236,36 +1664,51 @@
       "priority": "Hot",
       "product": "LVP",
       "ordernumberlink": "http://ems.empirecarpet.com/modules/orderentry/orderinfo.aspx?jobnumber=FC71398",
-      "resolutioncomments": "",
-      "collectamount": "",
       "address": "5410 Alexandria Ln",
       "city": "Carpentersville",
       "state": "IL",
       "zipcode": 60110,
       "country": "USA",
-      "originalcompletiondate": "",
-      "paymentterms": "",
       "firstname": "Tammy",
       "parentproductline": "Home Furnishing",
       "productline": "LVP",
       "description": "Cust request instrs return Mon 2/12 to complete install.",
-      "closed": "",
-      "resolution": "",
       "srtype": "Installation Experience",
       "county": "Kane",
-      "escalatedsource": "",
       "datemodified": "1905-07-10T00:00:00.000Z",
-      "serviceordernumber": "",
-      "serviceordernumberlink": "",
-      "opportunitysource": "Self Generated - Commercial Business",
-      "opportunitysubsource": ""
+      "opportunitysource": "Self Generated - Commercial Business"
     },
     {
-      "id": "rkgjmsuUMxzm",
+      "id": "rJieQO7Jvz7",
+      "followuphistory": [
+        {
+          "updatedDate": 1530487660977,
+          "description": "Type: Reschedule Date: 02/16/2018 cc to reshc service repair due to bad weather, we can resch to any day next week, resch to 2/16, cust requested between 10:3"
+        },
+        {
+          "updatedDate": 1530487720750,
+          "description": "Type: Reschedule Date: 02/16/2018 cc to reshc service repair due to bad weather, we can resch to any day next week, resch to 2/16, cust requested between 10:3"
+        },
+        {
+          "updatedDate": 1530487840674,
+          "description": "Type: Reschedule Date: 02/16/2018 cc to reshc service repair due to bad weather, we can resch to any day next week, resch to 2/16, cust requested between 10:3"
+        },
+        {
+          "updatedDate": 1530488009819,
+          "description": "Type: Reschedule Date: 02/16/2018 cc to reshc service repair due to bad weather, we can resch to any day next week, resch to 2/16, cust requested between 10:3"
+        },
+        {
+          "updatedDate": 1530488011522,
+          "description": "Type: Reschedule Date: 02/16/2018 cc to reshc service repair due to bad weather, we can resch to any day next week, resch to 2/16, cust requested between 10:3"
+        },
+        {
+          "updatedDate": 1530488104279,
+          "description": "Type: Reschedule Date: 02/16/2018 cc to reshc service repair due to bad weather, we can resch to any day next week, resch to 2/16, cust requested between 10:3"
+        }
+      ],
       "company": "Empire",
       "businessunit": "Residential",
       "serviceregion": "Chicago",
-      "storenumber": "",
       "srnumber": "1-3013262213",
       "accountnumber": "1-8JFBOI",
       "opened": "1905-07-10T00:00:00.000Z",
@@ -1281,43 +1724,57 @@
       "priority": "Hot",
       "product": "Carpet",
       "ordernumberlink": "http://ems.empirecarpet.com/modules/orderentry/orderinfo.aspx?jobnumber=C106131",
-      "resolutioncomments": "",
-      "collectamount": "",
       "address": "11S047 Sheri Ave",
       "city": "Naperville",
       "state": "IL",
       "zipcode": 60565,
       "country": "USA",
-      "originalcompletiondate": "",
-      "paymentterms": "",
       "firstname": "Angela",
       "parentproductline": "Home Furnishing",
       "productline": "Carpet",
       "description": "Type: Reschedule Date: 02/16/2018 cc to reshc service repair due to bad weather, we can resch to any day next week, resch to 2/16, cust requested between 10:3",
-      "closed": "",
-      "resolution": "",
       "srtype": "Installation Experience",
       "county": "Dupage",
-      "escalatedsource": "",
       "datemodified": "1905-07-10T00:00:00.000Z",
-      "serviceordernumber": "",
-      "serviceordernumberlink": "",
-      "opportunitysource": "Repeat Customer",
-      "opportunitysubsource": ""
+      "opportunitysource": "Repeat Customer"
     },
     {
-      "id": "rk96XouUflM7",
+      "id": "SkngXu71PzX",
+      "followuphistory": [
+        {
+          "updatedDate": 1530487660978,
+          "description": "cci for inst eta, no inst assign yet, cust doesn't live at house and needs at least 45 min heads up, bcb (708) 415-4568"
+        },
+        {
+          "updatedDate": 1530487720751,
+          "description": "cci for inst eta, no inst assign yet, cust doesn't live at house and needs at least 45 min heads up, bcb (708) 415-4568"
+        },
+        {
+          "updatedDate": 1530487840675,
+          "description": "cci for inst eta, no inst assign yet, cust doesn't live at house and needs at least 45 min heads up, bcb (708) 415-4568"
+        },
+        {
+          "updatedDate": 1530488009820,
+          "description": "cci for inst eta, no inst assign yet, cust doesn't live at house and needs at least 45 min heads up, bcb (708) 415-4568"
+        },
+        {
+          "updatedDate": 1530488011523,
+          "description": "cci for inst eta, no inst assign yet, cust doesn't live at house and needs at least 45 min heads up, bcb (708) 415-4568"
+        },
+        {
+          "updatedDate": 1530488104280,
+          "description": "cci for inst eta, no inst assign yet, cust doesn't live at house and needs at least 45 min heads up, bcb (708) 415-4568"
+        }
+      ],
       "company": "Empire",
       "businessunit": "Residential",
       "serviceregion": "Chicago",
-      "storenumber": "",
       "srnumber": "1-3012834547",
       "accountnumber": "1-1DKSN3Y",
       "opened": "1905-07-10T00:00:00.000Z",
       "area": "Pre-Installation",
       "owner": "IM_POC",
       "subarea": "Installer ETA",
-      "summary": "",
       "createdby": "JSDIAZ",
       "lastname": "Manning",
       "mainphonenumber": "(708) 415-4568",
@@ -1326,43 +1783,57 @@
       "priority": "Hot",
       "product": "Carpet",
       "ordernumberlink": "http://ems.empirecarpet.com/modules/orderentry/orderinfo.aspx?jobnumber=C117382",
-      "resolutioncomments": "",
-      "collectamount": "",
       "address": "16646 S Pine Creek Dr",
       "city": "Lockport",
       "state": "IL",
       "zipcode": 60441,
       "country": "USA",
-      "originalcompletiondate": "",
-      "paymentterms": "",
       "firstname": "Brian",
       "parentproductline": "Home Furnishing",
       "productline": "Carpet",
       "description": "cci for inst eta, no inst assign yet, cust doesn't live at house and needs at least 45 min heads up, bcb (708) 415-4568",
-      "closed": "",
-      "resolution": "",
       "srtype": "Installation Experience",
       "county": "Will",
-      "escalatedsource": "",
       "datemodified": "1905-07-10T00:00:00.000Z",
-      "serviceordernumber": "",
-      "serviceordernumberlink": "",
-      "opportunitysource": "TV",
-      "opportunitysubsource": ""
+      "opportunitysource": "TV"
     },
     {
-      "id": "HJNxNjdUMezm",
+      "id": "By6eX_XJDf7",
+      "followuphistory": [
+        {
+          "updatedDate": 1530487660979,
+          "description": "Type: Reschedule Date: 02/16/2018 cc to reshc service repair due to bad weather, we can resch to any day next week, resch to 2/16"
+        },
+        {
+          "updatedDate": 1530487720752,
+          "description": "Type: Reschedule Date: 02/16/2018 cc to reshc service repair due to bad weather, we can resch to any day next week, resch to 2/16"
+        },
+        {
+          "updatedDate": 1530487840676,
+          "description": "Type: Reschedule Date: 02/16/2018 cc to reshc service repair due to bad weather, we can resch to any day next week, resch to 2/16"
+        },
+        {
+          "updatedDate": 1530488009821,
+          "description": "Type: Reschedule Date: 02/16/2018 cc to reshc service repair due to bad weather, we can resch to any day next week, resch to 2/16"
+        },
+        {
+          "updatedDate": 1530488011523,
+          "description": "Type: Reschedule Date: 02/16/2018 cc to reshc service repair due to bad weather, we can resch to any day next week, resch to 2/16"
+        },
+        {
+          "updatedDate": 1530488104281,
+          "description": "Type: Reschedule Date: 02/16/2018 cc to reshc service repair due to bad weather, we can resch to any day next week, resch to 2/16"
+        }
+      ],
       "company": "Empire",
       "businessunit": "Residential",
       "serviceregion": "Chicago",
-      "storenumber": "",
       "srnumber": "1-3013262219",
       "accountnumber": "1-1CVAEVY",
       "opened": "1905-07-10T00:00:00.000Z",
       "area": "Repair",
       "owner": "IM_POC",
       "subarea": "Confirm/Reschedule Repair",
-      "summary": "",
       "createdby": "AMAURICIO",
       "lastname": "Coffey",
       "mainphonenumber": "(708) 205-3985",
@@ -1371,43 +1842,57 @@
       "priority": "Hot",
       "product": "Carpet",
       "ordernumberlink": "http://ems.empirecarpet.com/modules/orderentry/orderinfo.aspx?jobnumber=C116287",
-      "resolutioncomments": "",
-      "collectamount": "",
       "address": "1239 Baythorne Dr",
       "city": "Flossmoor",
       "state": "IL",
       "zipcode": 60422,
       "country": "USA",
-      "originalcompletiondate": "",
-      "paymentterms": "",
       "firstname": "Glenn",
       "parentproductline": "Home Furnishing",
       "productline": "Carpet",
       "description": "Type: Reschedule Date: 02/16/2018 cc to reshc service repair due to bad weather, we can resch to any day next week, resch to 2/16",
-      "closed": "",
-      "resolution": "",
       "srtype": "Installation Experience",
       "county": "Cook",
-      "escalatedsource": "",
       "datemodified": "1905-07-10T00:00:00.000Z",
-      "serviceordernumber": "",
-      "serviceordernumberlink": "",
-      "opportunitysource": "Pay For Performance",
-      "opportunitysubsource": ""
+      "opportunitysource": "Pay For Performance"
     },
     {
-      "id": "HyAfVsdIfxz7",
+      "id": "HJ0gQuXJPfm",
+      "followuphistory": [
+        {
+          "updatedDate": 1530487660980,
+          "description": "Type: Reschedule Date: 02/09/2018 cc  adv cust due to weather install needs to be resch, SR resch created adv cust 1-3 busn day c/b bcb (815) 671-2919"
+        },
+        {
+          "updatedDate": 1530487720754,
+          "description": "Type: Reschedule Date: 02/09/2018 cc  adv cust due to weather install needs to be resch, SR resch created adv cust 1-3 busn day c/b bcb (815) 671-2919"
+        },
+        {
+          "updatedDate": 1530487840677,
+          "description": "Type: Reschedule Date: 02/09/2018 cc  adv cust due to weather install needs to be resch, SR resch created adv cust 1-3 busn day c/b bcb (815) 671-2919"
+        },
+        {
+          "updatedDate": 1530488009822,
+          "description": "Type: Reschedule Date: 02/09/2018 cc  adv cust due to weather install needs to be resch, SR resch created adv cust 1-3 busn day c/b bcb (815) 671-2919"
+        },
+        {
+          "updatedDate": 1530488011524,
+          "description": "Type: Reschedule Date: 02/09/2018 cc  adv cust due to weather install needs to be resch, SR resch created adv cust 1-3 busn day c/b bcb (815) 671-2919"
+        },
+        {
+          "updatedDate": 1530488104282,
+          "description": "Type: Reschedule Date: 02/09/2018 cc  adv cust due to weather install needs to be resch, SR resch created adv cust 1-3 busn day c/b bcb (815) 671-2919"
+        }
+      ],
       "company": "Empire",
       "businessunit": "Residential",
       "serviceregion": "Chicago",
-      "storenumber": "",
       "srnumber": "1-3012988681",
       "accountnumber": "1-PKFLZM",
       "opened": "1905-07-10T00:00:00.000Z",
       "area": "Repair",
       "owner": "IM_POC",
       "subarea": "Confirm/Reschedule Repair",
-      "summary": "",
       "createdby": "CHRMARTINEZ",
       "lastname": "Gonzalez",
       "mainphonenumber": "(630) 209-4557",
@@ -1416,43 +1901,57 @@
       "priority": "Normal",
       "product": "Laminate",
       "ordernumberlink": "http://ems.empirecarpet.com/modules/orderentry/orderinfo.aspx?jobnumber=FC58364",
-      "resolutioncomments": "",
-      "collectamount": "",
       "address": "124 Parkside Dr",
       "city": "Shorewood",
       "state": "IL",
       "zipcode": 60404,
       "country": "USA",
-      "originalcompletiondate": "",
-      "paymentterms": "",
       "firstname": "Christian",
       "parentproductline": "Home Furnishing",
       "productline": "Laminate",
       "description": "Type: Reschedule Date: 02/09/2018 cc  adv cust due to weather install needs to be resch, SR resch created adv cust 1-3 busn day c/b bcb (815) 671-2919",
-      "closed": "",
-      "resolution": "",
       "srtype": "Installation Experience",
       "county": "Will",
-      "escalatedsource": "",
       "datemodified": "1905-07-10T00:00:00.000Z",
-      "serviceordernumber": "",
-      "serviceordernumberlink": "",
-      "opportunitysource": "Repeat Customer",
-      "opportunitysubsource": ""
+      "opportunitysource": "Repeat Customer"
     },
     {
-      "id": "BkdrNi_UMlG7",
+      "id": "r11ZXOmyDG7",
+      "followuphistory": [
+        {
+          "updatedDate": 1530487660981,
+          "description": "Type: Reschedule Date: 02/09/2018 cc LVM on main, alt # not working, adv cust due to weather service needs to be resch, SR resch created"
+        },
+        {
+          "updatedDate": 1530487720755,
+          "description": "Type: Reschedule Date: 02/09/2018 cc LVM on main, alt # not working, adv cust due to weather service needs to be resch, SR resch created"
+        },
+        {
+          "updatedDate": 1530487840679,
+          "description": "Type: Reschedule Date: 02/09/2018 cc LVM on main, alt # not working, adv cust due to weather service needs to be resch, SR resch created"
+        },
+        {
+          "updatedDate": 1530488009823,
+          "description": "Type: Reschedule Date: 02/09/2018 cc LVM on main, alt # not working, adv cust due to weather service needs to be resch, SR resch created"
+        },
+        {
+          "updatedDate": 1530488011525,
+          "description": "Type: Reschedule Date: 02/09/2018 cc LVM on main, alt # not working, adv cust due to weather service needs to be resch, SR resch created"
+        },
+        {
+          "updatedDate": 1530488104282,
+          "description": "Type: Reschedule Date: 02/09/2018 cc LVM on main, alt # not working, adv cust due to weather service needs to be resch, SR resch created"
+        }
+      ],
       "company": "Empire",
       "businessunit": "Residential",
       "serviceregion": "Chicago",
-      "storenumber": "",
       "srnumber": "1-3012988688",
       "accountnumber": "1-15TR4SL",
       "opened": "1905-07-10T00:00:00.000Z",
       "area": "Repair",
       "owner": "IM_POC",
       "subarea": "Confirm/Reschedule Repair",
-      "summary": "",
       "createdby": "CHRMARTINEZ",
       "lastname": "Debiase",
       "mainphonenumber": "(630) 375-1705",
@@ -1461,36 +1960,51 @@
       "priority": "Normal",
       "product": "LVP",
       "ordernumberlink": "http://ems.empirecarpet.com/modules/orderentry/orderinfo.aspx?jobnumber=FC64822",
-      "resolutioncomments": "",
-      "collectamount": "",
       "address": "1010 Chelsea Ln",
       "city": "Aurora",
       "state": "IL",
       "zipcode": 60504,
       "country": "USA",
-      "originalcompletiondate": "",
-      "paymentterms": "",
       "firstname": "Michelle",
       "parentproductline": "Home Furnishing",
       "productline": "LVP",
       "description": "Type: Reschedule Date: 02/09/2018 cc LVM on main, alt # not working, adv cust due to weather service needs to be resch, SR resch created",
-      "closed": "",
-      "resolution": "",
       "srtype": "Installation Experience",
       "county": "Kane",
-      "escalatedsource": "",
       "datemodified": "1905-07-10T00:00:00.000Z",
-      "serviceordernumber": "",
-      "serviceordernumberlink": "",
-      "opportunitysource": "Repeat Customer",
-      "opportunitysubsource": ""
+      "opportunitysource": "Repeat Customer"
     },
     {
-      "id": "ByfuEjuIzgGQ",
+      "id": "HygZ7_X1Df7",
+      "followuphistory": [
+        {
+          "updatedDate": 1530487660982,
+          "description": "Type: Reschedule Date: 02/09/2018 clld cst to resch from 2/9/18 due to weather, n.a lvm to cll bck to resch, (262) 303-4332"
+        },
+        {
+          "updatedDate": 1530487720756,
+          "description": "Type: Reschedule Date: 02/09/2018 clld cst to resch from 2/9/18 due to weather, n.a lvm to cll bck to resch, (262) 303-4332"
+        },
+        {
+          "updatedDate": 1530487840680,
+          "description": "Type: Reschedule Date: 02/09/2018 clld cst to resch from 2/9/18 due to weather, n.a lvm to cll bck to resch, (262) 303-4332"
+        },
+        {
+          "updatedDate": 1530488009824,
+          "description": "Type: Reschedule Date: 02/09/2018 clld cst to resch from 2/9/18 due to weather, n.a lvm to cll bck to resch, (262) 303-4332"
+        },
+        {
+          "updatedDate": 1530488011526,
+          "description": "Type: Reschedule Date: 02/09/2018 clld cst to resch from 2/9/18 due to weather, n.a lvm to cll bck to resch, (262) 303-4332"
+        },
+        {
+          "updatedDate": 1530488104283,
+          "description": "Type: Reschedule Date: 02/09/2018 clld cst to resch from 2/9/18 due to weather, n.a lvm to cll bck to resch, (262) 303-4332"
+        }
+      ],
       "company": "Empire",
       "businessunit": "Residential",
       "serviceregion": "Milwaukee",
-      "storenumber": "",
       "srnumber": "1-3013272212",
       "accountnumber": "1-1AZNU37",
       "opened": "1905-07-10T00:00:00.000Z",
@@ -1506,36 +2020,51 @@
       "priority": "Hot",
       "product": "Carpet",
       "ordernumberlink": "http://ems.empirecarpet.com/modules/orderentry/orderinfo.aspx?jobnumber=M026571",
-      "resolutioncomments": "",
-      "collectamount": "",
       "address": "W332 N6673 County Rd C",
       "city": "Nashotah",
       "state": "WI",
       "zipcode": 53058,
       "country": "USA",
-      "originalcompletiondate": "",
-      "paymentterms": "",
       "firstname": "Joe",
       "parentproductline": "Home Furnishing",
       "productline": "Carpet",
       "description": "Type: Reschedule Date: 02/09/2018 clld cst to resch from 2/9/18 due to weather, n.a lvm to cll bck to resch, (262) 303-4332",
-      "closed": "",
-      "resolution": "",
       "srtype": "Installation Experience",
       "county": "Waukesha",
-      "escalatedsource": "",
       "datemodified": "1905-07-10T00:00:00.000Z",
-      "serviceordernumber": "",
-      "serviceordernumberlink": "",
-      "opportunitysource": "Web Leads",
-      "opportunitysubsource": ""
+      "opportunitysource": "Web Leads"
     },
     {
-      "id": "HJ354oOUMgGQ",
+      "id": "H1Z-QO71vzm",
+      "followuphistory": [
+        {
+          "updatedDate": 1530487660983,
+          "description": "Type: Reschedule Date: 02/09/2018 cc  adv cust due to weather service needs to be resch, cust req 02/14, SR resch created adv cust 1-3 busn day c/b"
+        },
+        {
+          "updatedDate": 1530487720757,
+          "description": "Type: Reschedule Date: 02/09/2018 cc  adv cust due to weather service needs to be resch, cust req 02/14, SR resch created adv cust 1-3 busn day c/b"
+        },
+        {
+          "updatedDate": 1530487840681,
+          "description": "Type: Reschedule Date: 02/09/2018 cc  adv cust due to weather service needs to be resch, cust req 02/14, SR resch created adv cust 1-3 busn day c/b"
+        },
+        {
+          "updatedDate": 1530488009824,
+          "description": "Type: Reschedule Date: 02/09/2018 cc  adv cust due to weather service needs to be resch, cust req 02/14, SR resch created adv cust 1-3 busn day c/b"
+        },
+        {
+          "updatedDate": 1530488011526,
+          "description": "Type: Reschedule Date: 02/09/2018 cc  adv cust due to weather service needs to be resch, cust req 02/14, SR resch created adv cust 1-3 busn day c/b"
+        },
+        {
+          "updatedDate": 1530488104284,
+          "description": "Type: Reschedule Date: 02/09/2018 cc  adv cust due to weather service needs to be resch, cust req 02/14, SR resch created adv cust 1-3 busn day c/b"
+        }
+      ],
       "company": "Empire",
       "businessunit": "Residential",
       "serviceregion": "Chicago",
-      "storenumber": "",
       "srnumber": "1-3012988741",
       "accountnumber": "1-164KS05",
       "opened": "1905-07-10T00:00:00.000Z",
@@ -1551,36 +2080,51 @@
       "priority": "Normal",
       "product": "Laminate",
       "ordernumberlink": "http://ems.empirecarpet.com/modules/orderentry/orderinfo.aspx?jobnumber=FC65071",
-      "resolutioncomments": "",
-      "collectamount": "",
       "address": "4819 W Fletcher",
       "city": "Chicago",
       "state": "IL",
       "zipcode": 60641,
       "country": "USA",
-      "originalcompletiondate": "",
-      "paymentterms": "",
       "firstname": "Miguel",
       "parentproductline": "Home Furnishing",
       "productline": "Laminate",
       "description": "Type: Reschedule Date: 02/09/2018 cc  adv cust due to weather service needs to be resch, cust req 02/14, SR resch created adv cust 1-3 busn day c/b",
-      "closed": "",
-      "resolution": "",
       "srtype": "Installation Experience",
       "county": "Cook",
-      "escalatedsource": "",
       "datemodified": "1905-07-10T00:00:00.000Z",
-      "serviceordernumber": "",
-      "serviceordernumberlink": "",
-      "opportunitysource": "Web Leads",
-      "opportunitysubsource": ""
+      "opportunitysource": "Web Leads"
     },
     {
-      "id": "S1ITEs_Lzgfm",
+      "id": "S1f-XdX1DGX",
+      "followuphistory": [
+        {
+          "updatedDate": 1530487660984,
+          "description": "Type: Reschedule Date: 02/09/2018 cc adv cust due to weather service needs to be resch, cust req 02/15, SR resch created adv cust 1-3 busn day c/b"
+        },
+        {
+          "updatedDate": 1530487720759,
+          "description": "Type: Reschedule Date: 02/09/2018 cc adv cust due to weather service needs to be resch, cust req 02/15, SR resch created adv cust 1-3 busn day c/b"
+        },
+        {
+          "updatedDate": 1530487840682,
+          "description": "Type: Reschedule Date: 02/09/2018 cc adv cust due to weather service needs to be resch, cust req 02/15, SR resch created adv cust 1-3 busn day c/b"
+        },
+        {
+          "updatedDate": 1530488009825,
+          "description": "Type: Reschedule Date: 02/09/2018 cc adv cust due to weather service needs to be resch, cust req 02/15, SR resch created adv cust 1-3 busn day c/b"
+        },
+        {
+          "updatedDate": 1530488011527,
+          "description": "Type: Reschedule Date: 02/09/2018 cc adv cust due to weather service needs to be resch, cust req 02/15, SR resch created adv cust 1-3 busn day c/b"
+        },
+        {
+          "updatedDate": 1530488104285,
+          "description": "Type: Reschedule Date: 02/09/2018 cc adv cust due to weather service needs to be resch, cust req 02/15, SR resch created adv cust 1-3 busn day c/b"
+        }
+      ],
       "company": "Empire",
       "businessunit": "Residential",
       "serviceregion": "Chicago",
-      "storenumber": "",
       "srnumber": "1-3012988744",
       "accountnumber": "1-18SRJ2J",
       "opened": "1905-07-10T00:00:00.000Z",
@@ -1596,43 +2140,57 @@
       "priority": "Normal",
       "product": "Hardwood",
       "ordernumberlink": "http://ems.empirecarpet.com/modules/orderentry/orderinfo.aspx?jobnumber=FC67478",
-      "resolutioncomments": "",
-      "collectamount": "",
       "address": "16755 Clyde Ave.",
       "city": "South Holland",
       "state": "IL",
       "zipcode": 60473,
       "country": "USA",
-      "originalcompletiondate": "",
-      "paymentterms": "",
       "firstname": "Henry",
       "parentproductline": "Home Furnishing",
       "productline": "Hardwood",
       "description": "Type: Reschedule Date: 02/09/2018 cc adv cust due to weather service needs to be resch, cust req 02/15, SR resch created adv cust 1-3 busn day c/b",
-      "closed": "",
-      "resolution": "",
       "srtype": "Installation Experience",
       "county": "Cook",
-      "escalatedsource": "",
       "datemodified": "1905-07-10T00:00:00.000Z",
-      "serviceordernumber": "",
-      "serviceordernumberlink": "",
-      "opportunitysource": "TV",
-      "opportunitysubsource": ""
+      "opportunitysource": "TV"
     },
     {
-      "id": "HJglSj_LMgMm",
+      "id": "Sym-m_myvfm",
+      "followuphistory": [
+        {
+          "updatedDate": 1530487660985,
+          "description": "Type: Reschedule Date: 02/09/2018 cc LVM,adv cust due to weather service needs to be resch, SR resch created "
+        },
+        {
+          "updatedDate": 1530487720760,
+          "description": "Type: Reschedule Date: 02/09/2018 cc LVM,adv cust due to weather service needs to be resch, SR resch created "
+        },
+        {
+          "updatedDate": 1530487840684,
+          "description": "Type: Reschedule Date: 02/09/2018 cc LVM,adv cust due to weather service needs to be resch, SR resch created "
+        },
+        {
+          "updatedDate": 1530488009826,
+          "description": "Type: Reschedule Date: 02/09/2018 cc LVM,adv cust due to weather service needs to be resch, SR resch created "
+        },
+        {
+          "updatedDate": 1530488011528,
+          "description": "Type: Reschedule Date: 02/09/2018 cc LVM,adv cust due to weather service needs to be resch, SR resch created "
+        },
+        {
+          "updatedDate": 1530488104286,
+          "description": "Type: Reschedule Date: 02/09/2018 cc LVM,adv cust due to weather service needs to be resch, SR resch created "
+        }
+      ],
       "company": "Empire",
       "businessunit": "Residential",
       "serviceregion": "Chicago",
-      "storenumber": "",
       "srnumber": "1-3012988747",
       "accountnumber": "1-1AFMK15",
       "opened": "1905-07-10T00:00:00.000Z",
       "area": "Repair",
       "owner": "IM_POC",
       "subarea": "Confirm/Reschedule Repair",
-      "summary": "",
       "createdby": "CHRMARTINEZ",
       "lastname": "WEBSTER",
       "mainphonenumber": "(847) 791-7925",
@@ -1641,36 +2199,51 @@
       "priority": "Normal",
       "product": "LVP",
       "ordernumberlink": "http://ems.empirecarpet.com/modules/orderentry/orderinfo.aspx?jobnumber=FC69008",
-      "resolutioncomments": "",
-      "collectamount": "",
       "address": "933 Ventura Dr",
       "city": "Palatine",
       "state": "IL",
       "zipcode": 60074,
       "country": "USA",
-      "originalcompletiondate": "",
-      "paymentterms": "",
       "firstname": "WENDY",
       "parentproductline": "Home Furnishing",
       "productline": "LVP",
       "description": "Type: Reschedule Date: 02/09/2018 cc LVM,adv cust due to weather service needs to be resch, SR resch created ",
-      "closed": "",
-      "resolution": "",
       "srtype": "Installation Experience",
       "county": "Cook",
-      "escalatedsource": "",
       "datemodified": "1905-07-10T00:00:00.000Z",
-      "serviceordernumber": "",
-      "serviceordernumberlink": "",
-      "opportunitysource": "Other",
-      "opportunitysubsource": ""
+      "opportunitysource": "Other"
     },
     {
-      "id": "rycGBsdIzeMQ",
+      "id": "B14b7umkvGm",
+      "followuphistory": [
+        {
+          "updatedDate": 1530487660986,
+          "description": "Type: Reschedule Date: 02/09/2018 cc  adv cust due to weather service needs to be resch, cust req 02/10, SR resch created adv cust 1-3 busn day c/b bcb"
+        },
+        {
+          "updatedDate": 1530487720761,
+          "description": "Type: Reschedule Date: 02/09/2018 cc  adv cust due to weather service needs to be resch, cust req 02/10, SR resch created adv cust 1-3 busn day c/b bcb"
+        },
+        {
+          "updatedDate": 1530487840685,
+          "description": "Type: Reschedule Date: 02/09/2018 cc  adv cust due to weather service needs to be resch, cust req 02/10, SR resch created adv cust 1-3 busn day c/b bcb"
+        },
+        {
+          "updatedDate": 1530488009827,
+          "description": "Type: Reschedule Date: 02/09/2018 cc  adv cust due to weather service needs to be resch, cust req 02/10, SR resch created adv cust 1-3 busn day c/b bcb"
+        },
+        {
+          "updatedDate": 1530488011529,
+          "description": "Type: Reschedule Date: 02/09/2018 cc  adv cust due to weather service needs to be resch, cust req 02/10, SR resch created adv cust 1-3 busn day c/b bcb"
+        },
+        {
+          "updatedDate": 1530488104287,
+          "description": "Type: Reschedule Date: 02/09/2018 cc  adv cust due to weather service needs to be resch, cust req 02/10, SR resch created adv cust 1-3 busn day c/b bcb"
+        }
+      ],
       "company": "Empire",
       "businessunit": "Residential",
       "serviceregion": "Chicago",
-      "storenumber": "",
       "srnumber": "1-3012988832",
       "accountnumber": "1-7MY3AB",
       "opened": "1905-07-10T00:00:00.000Z",
@@ -1686,43 +2259,58 @@
       "priority": "Hot",
       "product": "Laminate",
       "ordernumberlink": "http://ems.empirecarpet.com/modules/orderentry/orderinfo.aspx?jobnumber=FC70890",
-      "resolutioncomments": "",
-      "collectamount": "",
       "address": "2925 Bonnie Brae Crescent",
       "city": "Flossmoor",
       "state": "IL",
       "zipcode": 60422,
       "country": "USA",
-      "originalcompletiondate": "",
-      "paymentterms": "",
       "firstname": "Shirley",
       "parentproductline": "Home Furnishing",
       "productline": "Laminate",
       "description": "Type: Reschedule Date: 02/09/2018 cc  adv cust due to weather service needs to be resch, cust req 02/10, SR resch created adv cust 1-3 busn day c/b bcb",
-      "closed": "",
-      "resolution": "",
       "srtype": "Installation Experience",
       "county": "Cook",
-      "escalatedsource": "",
       "datemodified": "1905-07-10T00:00:00.000Z",
-      "serviceordernumber": "",
-      "serviceordernumberlink": "",
       "opportunitysource": "Pay For Performance",
       "opportunitysubsource": "GoogleB_01"
     },
     {
-      "id": "r1NBHouIMlfm",
+      "id": "SkS-QdmJDf7",
+      "followuphistory": [
+        {
+          "updatedDate": 1530487660987,
+          "description": "Type: Reschedule Date: 02/09/2018 cust would like repair service to be set for 2/12, cust bcb 847-659-9418 or 224-563-7887"
+        },
+        {
+          "updatedDate": 1530487720762,
+          "description": "Type: Reschedule Date: 02/09/2018 cust would like repair service to be set for 2/12, cust bcb 847-659-9418 or 224-563-7887"
+        },
+        {
+          "updatedDate": 1530487840686,
+          "description": "Type: Reschedule Date: 02/09/2018 cust would like repair service to be set for 2/12, cust bcb 847-659-9418 or 224-563-7887"
+        },
+        {
+          "updatedDate": 1530488009827,
+          "description": "Type: Reschedule Date: 02/09/2018 cust would like repair service to be set for 2/12, cust bcb 847-659-9418 or 224-563-7887"
+        },
+        {
+          "updatedDate": 1530488011530,
+          "description": "Type: Reschedule Date: 02/09/2018 cust would like repair service to be set for 2/12, cust bcb 847-659-9418 or 224-563-7887"
+        },
+        {
+          "updatedDate": 1530488104288,
+          "description": "Type: Reschedule Date: 02/09/2018 cust would like repair service to be set for 2/12, cust bcb 847-659-9418 or 224-563-7887"
+        }
+      ],
       "company": "Empire",
       "businessunit": "Residential",
       "serviceregion": "Chicago",
-      "storenumber": "",
       "srnumber": "1-3012834460",
       "accountnumber": "1-1DI29ZL",
       "opened": "1905-07-10T00:00:00.000Z",
       "area": "Repair",
       "owner": "IM_POC",
       "subarea": "Confirm/Reschedule Repair",
-      "summary": "",
       "createdby": "CMMUNOZ",
       "lastname": "Martinez",
       "mainphonenumber": "(219) 841-2303",
@@ -1731,36 +2319,51 @@
       "priority": "Hot",
       "product": "Carpet",
       "ordernumberlink": "http://ems.empirecarpet.com/modules/orderentry/orderinfo.aspx?jobnumber=C117314",
-      "resolutioncomments": "",
-      "collectamount": "",
       "address": "3862 Linton Way",
       "city": "Portage",
       "state": "IN",
       "zipcode": 46368,
       "country": "USA",
-      "originalcompletiondate": "",
-      "paymentterms": "",
       "firstname": "Ignacio",
       "parentproductline": "Home Furnishing",
       "productline": "Carpet",
       "description": "Type: Reschedule Date: 02/09/2018 cust would like repair service to be set for 2/12, cust bcb 847-659-9418 or 224-563-7887",
-      "closed": "",
-      "resolution": "",
       "srtype": "Installation Experience",
       "county": "Porter",
-      "escalatedsource": "",
       "datemodified": "1905-07-10T00:00:00.000Z",
-      "serviceordernumber": "",
-      "serviceordernumberlink": "",
-      "opportunitysource": "Web Leads",
-      "opportunitysubsource": ""
+      "opportunitysource": "Web Leads"
     },
     {
-      "id": "ByAwSiuIGlfm",
+      "id": "BkUZXu71PG7",
+      "followuphistory": [
+        {
+          "updatedDate": 1530487660988,
+          "description": "Type: Reschedule Date: 02/09/2018 cc  adv cust due to weather service needs to be resch, cust req 02/12, SR resch created adv cust 1-3 buns day c/b"
+        },
+        {
+          "updatedDate": 1530487720763,
+          "description": "Type: Reschedule Date: 02/09/2018 cc  adv cust due to weather service needs to be resch, cust req 02/12, SR resch created adv cust 1-3 buns day c/b"
+        },
+        {
+          "updatedDate": 1530487840687,
+          "description": "Type: Reschedule Date: 02/09/2018 cc  adv cust due to weather service needs to be resch, cust req 02/12, SR resch created adv cust 1-3 buns day c/b"
+        },
+        {
+          "updatedDate": 1530488009828,
+          "description": "Type: Reschedule Date: 02/09/2018 cc  adv cust due to weather service needs to be resch, cust req 02/12, SR resch created adv cust 1-3 buns day c/b"
+        },
+        {
+          "updatedDate": 1530488011530,
+          "description": "Type: Reschedule Date: 02/09/2018 cc  adv cust due to weather service needs to be resch, cust req 02/12, SR resch created adv cust 1-3 buns day c/b"
+        },
+        {
+          "updatedDate": 1530488104289,
+          "description": "Type: Reschedule Date: 02/09/2018 cc  adv cust due to weather service needs to be resch, cust req 02/12, SR resch created adv cust 1-3 buns day c/b"
+        }
+      ],
       "company": "Empire",
       "businessunit": "Residential",
       "serviceregion": "Milwaukee",
-      "storenumber": "",
       "srnumber": "1-3012988838",
       "accountnumber": "1-1BR2QAH",
       "opened": "1905-07-10T00:00:00.000Z",
@@ -1776,36 +2379,51 @@
       "priority": "Normal",
       "product": "Hardwood",
       "ordernumberlink": "http://ems.empirecarpet.com/modules/orderentry/orderinfo.aspx?jobnumber=FM16582",
-      "resolutioncomments": "",
-      "collectamount": "",
       "address": "3120 South 8th St.",
       "city": "Milwaukee",
       "state": "WI",
       "zipcode": 53215,
       "country": "USA",
-      "originalcompletiondate": "",
-      "paymentterms": "",
       "firstname": "Susan",
       "parentproductline": "Home Furnishing",
       "productline": "Hardwood",
       "description": "Type: Reschedule Date: 02/09/2018 cc  adv cust due to weather service needs to be resch, cust req 02/12, SR resch created adv cust 1-3 buns day c/b",
-      "closed": "",
-      "resolution": "",
       "srtype": "Installation Experience",
       "county": "Milwaukee",
-      "escalatedsource": "",
       "datemodified": "1905-07-10T00:00:00.000Z",
-      "serviceordernumber": "",
-      "serviceordernumberlink": "",
-      "opportunitysource": "Web Leads",
-      "opportunitysubsource": ""
+      "opportunitysource": "Web Leads"
     },
     {
-      "id": "B1_qHi_LzeMQ",
+      "id": "rJvZQdmywM7",
+      "followuphistory": [
+        {
+          "updatedDate": 1530487660989,
+          "description": "Mr. Bell ci wnts to get an update on the WT, cst sd its been about 3 wks since he ordered them, adv cst 24 bus hrs 224.730.12"
+        },
+        {
+          "updatedDate": 1530487720764,
+          "description": "Mr. Bell ci wnts to get an update on the WT, cst sd its been about 3 wks since he ordered them, adv cst 24 bus hrs 224.730.12"
+        },
+        {
+          "updatedDate": 1530487840688,
+          "description": "Mr. Bell ci wnts to get an update on the WT, cst sd its been about 3 wks since he ordered them, adv cst 24 bus hrs 224.730.12"
+        },
+        {
+          "updatedDate": 1530488009829,
+          "description": "Mr. Bell ci wnts to get an update on the WT, cst sd its been about 3 wks since he ordered them, adv cst 24 bus hrs 224.730.12"
+        },
+        {
+          "updatedDate": 1530488011531,
+          "description": "Mr. Bell ci wnts to get an update on the WT, cst sd its been about 3 wks since he ordered them, adv cst 24 bus hrs 224.730.12"
+        },
+        {
+          "updatedDate": 1530488104289,
+          "description": "Mr. Bell ci wnts to get an update on the WT, cst sd its been about 3 wks since he ordered them, adv cst 24 bus hrs 224.730.12"
+        }
+      ],
       "company": "Empire",
       "businessunit": "Residential",
       "serviceregion": "Chicago",
-      "storenumber": "",
       "srnumber": "1-3013272879",
       "accountnumber": "1-1CUF37J",
       "opened": "1905-07-10T00:00:00.000Z",
@@ -1821,36 +2439,51 @@
       "priority": "Hot",
       "product": "Window Treatments",
       "ordernumberlink": "http://ems.empirecarpet.com/modules/orderentry/orderinfo.aspx?jobnumber=WT32758",
-      "resolutioncomments": "",
-      "collectamount": "",
       "address": "2012 Ezekiel Ave",
       "city": "Zion",
       "state": "IL",
       "zipcode": 60099,
       "country": "USA",
-      "originalcompletiondate": "",
-      "paymentterms": "",
       "firstname": "Richard",
       "parentproductline": "Home Furnishing",
       "productline": "Window Treatments",
       "description": "Mr. Bell ci wnts to get an update on the WT, cst sd its been about 3 wks since he ordered them, adv cst 24 bus hrs 224.730.12",
-      "closed": "",
-      "resolution": "",
       "srtype": "Installation Experience",
       "county": "Lake",
-      "escalatedsource": "",
       "datemodified": "1905-07-10T00:00:00.000Z",
-      "serviceordernumber": "",
-      "serviceordernumberlink": "",
-      "opportunitysource": "Repeat Customer",
-      "opportunitysubsource": ""
+      "opportunitysource": "Repeat Customer"
     },
     {
-      "id": "BJMaHjuUGgzm",
+      "id": "ByubQuXyvzm",
+      "followuphistory": [
+        {
+          "updatedDate": 1530487660990,
+          "description": "cci to get info after asbestos has been cleared, wants to know how much will be deducted"
+        },
+        {
+          "updatedDate": 1530487720765,
+          "description": "cci to get info after asbestos has been cleared, wants to know how much will be deducted"
+        },
+        {
+          "updatedDate": 1530487840689,
+          "description": "cci to get info after asbestos has been cleared, wants to know how much will be deducted"
+        },
+        {
+          "updatedDate": 1530488009830,
+          "description": "cci to get info after asbestos has been cleared, wants to know how much will be deducted"
+        },
+        {
+          "updatedDate": 1530488011532,
+          "description": "cci to get info after asbestos has been cleared, wants to know how much will be deducted"
+        },
+        {
+          "updatedDate": 1530488104290,
+          "description": "cci to get info after asbestos has been cleared, wants to know how much will be deducted"
+        }
+      ],
       "company": "Empire",
       "businessunit": "Residential",
       "serviceregion": "Chicago",
-      "storenumber": "",
       "srnumber": "1-3014117182",
       "accountnumber": "1-R1NQ8T",
       "opened": "1905-07-10T00:00:00.000Z",
@@ -1866,43 +2499,57 @@
       "priority": "Hot",
       "product": "Hardwood",
       "ordernumberlink": "http://ems.empirecarpet.com/modules/orderentry/orderinfo.aspx?jobnumber=FC71141",
-      "resolutioncomments": "",
-      "collectamount": "",
       "address": "631 Oakton  St",
       "city": "Elk Grove Village",
       "state": "IL",
       "zipcode": 60007,
       "country": "USA",
-      "originalcompletiondate": "",
-      "paymentterms": "",
       "firstname": "Michael",
       "parentproductline": "Home Furnishing",
       "productline": "Hardwood",
       "description": "cci to get info after asbestos has been cleared, wants to know how much will be deducted",
-      "closed": "",
-      "resolution": "",
       "srtype": "Installation Experience",
       "county": "Cook",
-      "escalatedsource": "",
       "datemodified": "1905-07-10T00:00:00.000Z",
-      "serviceordernumber": "",
-      "serviceordernumberlink": "",
-      "opportunitysource": "Web Leads",
-      "opportunitysubsource": ""
+      "opportunitysource": "Web Leads"
     },
     {
-      "id": "BJ2JLjdLGgM7",
+      "id": "H1F-X_71wf7",
+      "followuphistory": [
+        {
+          "updatedDate": 1530487660991,
+          "description": "ici cod cust said he was promised addtl disc of 86.00 bringing total to 315.66 took payment"
+        },
+        {
+          "updatedDate": 1530487720766,
+          "description": "ici cod cust said he was promised addtl disc of 86.00 bringing total to 315.66 took payment"
+        },
+        {
+          "updatedDate": 1530487840691,
+          "description": "ici cod cust said he was promised addtl disc of 86.00 bringing total to 315.66 took payment"
+        },
+        {
+          "updatedDate": 1530488009831,
+          "description": "ici cod cust said he was promised addtl disc of 86.00 bringing total to 315.66 took payment"
+        },
+        {
+          "updatedDate": 1530488011533,
+          "description": "ici cod cust said he was promised addtl disc of 86.00 bringing total to 315.66 took payment"
+        },
+        {
+          "updatedDate": 1530488104291,
+          "description": "ici cod cust said he was promised addtl disc of 86.00 bringing total to 315.66 took payment"
+        }
+      ],
       "company": "Empire",
       "businessunit": "Residential",
       "serviceregion": "Chicago",
-      "storenumber": "",
       "srnumber": "1-3014934506",
       "accountnumber": "1-1DKSN3Y",
       "opened": "1905-07-10T00:00:00.000Z",
       "area": "Installer at Home",
       "owner": "IM_POC",
       "subarea": "Discrepancy with COD amount",
-      "summary": "",
       "createdby": "VRAMIREZ",
       "lastname": "Manning",
       "mainphonenumber": "(708) 415-4568",
@@ -1911,43 +2558,57 @@
       "priority": "Hot",
       "product": "Carpet",
       "ordernumberlink": "http://ems.empirecarpet.com/modules/orderentry/orderinfo.aspx?jobnumber=C117382",
-      "resolutioncomments": "",
-      "collectamount": "",
       "address": "16646 S Pine Creek Dr",
       "city": "Lockport",
       "state": "IL",
       "zipcode": 60441,
       "country": "USA",
-      "originalcompletiondate": "",
-      "paymentterms": "",
       "firstname": "Brian",
       "parentproductline": "Home Furnishing",
       "productline": "Carpet",
       "description": "ici cod cust said he was promised addtl disc of 86.00 bringing total to 315.66 took payment",
-      "closed": "",
-      "resolution": "",
       "srtype": "Installation Experience",
       "county": "Will",
-      "escalatedsource": "",
       "datemodified": "1905-07-10T00:00:00.000Z",
-      "serviceordernumber": "",
-      "serviceordernumberlink": "",
-      "opportunitysource": "TV",
-      "opportunitysubsource": ""
+      "opportunitysource": "TV"
     },
     {
-      "id": "H18fUouUGxM7",
+      "id": "Sk9W7Om1PMm",
+      "followuphistory": [
+        {
+          "updatedDate": 1530487660992,
+          "description": "ici 6715 SHORTAGE needs 14x12 MIX IT UP SUPERSTAR dyelot DL017630 cust wants 2/12/18 completion"
+        },
+        {
+          "updatedDate": 1530487720768,
+          "description": "ici 6715 SHORTAGE needs 14x12 MIX IT UP SUPERSTAR dyelot DL017630 cust wants 2/12/18 completion"
+        },
+        {
+          "updatedDate": 1530487840692,
+          "description": "ici 6715 SHORTAGE needs 14x12 MIX IT UP SUPERSTAR dyelot DL017630 cust wants 2/12/18 completion"
+        },
+        {
+          "updatedDate": 1530488009831,
+          "description": "ici 6715 SHORTAGE needs 14x12 MIX IT UP SUPERSTAR dyelot DL017630 cust wants 2/12/18 completion"
+        },
+        {
+          "updatedDate": 1530488011534,
+          "description": "ici 6715 SHORTAGE needs 14x12 MIX IT UP SUPERSTAR dyelot DL017630 cust wants 2/12/18 completion"
+        },
+        {
+          "updatedDate": 1530488104292,
+          "description": "ici 6715 SHORTAGE needs 14x12 MIX IT UP SUPERSTAR dyelot DL017630 cust wants 2/12/18 completion"
+        }
+      ],
       "company": "Empire",
       "businessunit": "Residential",
       "serviceregion": "Chicago",
-      "storenumber": "",
       "srnumber": "1-3013923728",
       "accountnumber": "1-1CXSMX4",
       "opened": "1905-07-10T00:00:00.000Z",
       "area": "Installer at Home",
       "owner": "IM_POC",
       "subarea": "Shortage",
-      "summary": "",
       "createdby": "CARRODRIGUEZ",
       "lastname": "Medina",
       "mainphonenumber": "(773) 619-0826",
@@ -1956,43 +2617,57 @@
       "priority": "Hot",
       "product": "Carpet",
       "ordernumberlink": "http://ems.empirecarpet.com/modules/orderentry/orderinfo.aspx?jobnumber=C117427",
-      "resolutioncomments": "",
-      "collectamount": "",
       "address": "13862 W Adams Rd",
       "city": "Wadsworth",
       "state": "IL",
       "zipcode": 60083,
       "country": "USA",
-      "originalcompletiondate": "",
-      "paymentterms": "",
       "firstname": "Rene",
       "parentproductline": "Home Furnishing",
       "productline": "Carpet",
       "description": "ici 6715 SHORTAGE needs 14x12 MIX IT UP SUPERSTAR dyelot DL017630 cust wants 2/12/18 completion",
-      "closed": "",
-      "resolution": "",
       "srtype": "Installation Experience",
       "county": "Lake",
-      "escalatedsource": "",
       "datemodified": "1905-07-10T00:00:00.000Z",
-      "serviceordernumber": "",
-      "serviceordernumberlink": "",
-      "opportunitysource": "Sales Rep Repeat Customer",
-      "opportunitysubsource": ""
+      "opportunitysource": "Sales Rep Repeat Customer"
     },
     {
-      "id": "r1lrUidUMxG7",
+      "id": "B1i-XO7JvG7",
+      "followuphistory": [
+        {
+          "updatedDate": 1530487660993,
+          "description": "cci req eta for complaint, she needs a 30min prior call adv that she needs to drive to location, bcb (847) 501-0234,asap plea"
+        },
+        {
+          "updatedDate": 1530487720769,
+          "description": "cci req eta for complaint, she needs a 30min prior call adv that she needs to drive to location, bcb (847) 501-0234,asap plea"
+        },
+        {
+          "updatedDate": 1530487840694,
+          "description": "cci req eta for complaint, she needs a 30min prior call adv that she needs to drive to location, bcb (847) 501-0234,asap plea"
+        },
+        {
+          "updatedDate": 1530488009832,
+          "description": "cci req eta for complaint, she needs a 30min prior call adv that she needs to drive to location, bcb (847) 501-0234,asap plea"
+        },
+        {
+          "updatedDate": 1530488011535,
+          "description": "cci req eta for complaint, she needs a 30min prior call adv that she needs to drive to location, bcb (847) 501-0234,asap plea"
+        },
+        {
+          "updatedDate": 1530488104293,
+          "description": "cci req eta for complaint, she needs a 30min prior call adv that she needs to drive to location, bcb (847) 501-0234,asap plea"
+        }
+      ],
       "company": "Empire",
       "businessunit": "Residential",
       "serviceregion": "Chicago",
-      "storenumber": "",
       "srnumber": "1-3015143278",
       "accountnumber": "1-18S5BQI",
       "opened": "1905-07-10T00:00:00.000Z",
       "area": "Pre-Installation",
       "owner": "IM_POC",
       "subarea": "Installer ETA",
-      "summary": "",
       "createdby": "JLOERA",
       "lastname": "Kern",
       "mainphonenumber": "(847) 501-0234",
@@ -2001,43 +2676,57 @@
       "priority": "Hot",
       "product": "Carpet",
       "ordernumberlink": "http://ems.empirecarpet.com/modules/orderentry/orderinfo.aspx?jobnumber=C109206",
-      "resolutioncomments": "",
-      "collectamount": "",
       "address": "121 E Elk",
       "city": "Hainesville",
       "state": "IL",
       "zipcode": 60030,
       "country": "USA",
-      "originalcompletiondate": "",
-      "paymentterms": "",
       "firstname": "Jessica",
       "parentproductline": "Home Furnishing",
       "productline": "Carpet",
       "description": "cci req eta for complaint, she needs a 30min prior call adv that she needs to drive to location, bcb (847) 501-0234,asap plea",
-      "closed": "",
-      "resolution": "",
       "srtype": "Installation Experience",
       "county": "Lake",
-      "escalatedsource": "",
       "datemodified": "1905-07-10T00:00:00.000Z",
-      "serviceordernumber": "",
-      "serviceordernumberlink": "",
-      "opportunitysource": "Repeat Customer",
-      "opportunitysubsource": ""
+      "opportunitysource": "Repeat Customer"
     },
     {
-      "id": "B19vLo_LGlzX",
+      "id": "H13-mu71vzm",
+      "followuphistory": [
+        {
+          "updatedDate": 1530487660994,
+          "description": "Installer called in a shortage of Carpet Dream Catcher- Mushroom 12X39 ft total needed"
+        },
+        {
+          "updatedDate": 1530487720770,
+          "description": "Installer called in a shortage of Carpet Dream Catcher- Mushroom 12X39 ft total needed"
+        },
+        {
+          "updatedDate": 1530487840695,
+          "description": "Installer called in a shortage of Carpet Dream Catcher- Mushroom 12X39 ft total needed"
+        },
+        {
+          "updatedDate": 1530488009833,
+          "description": "Installer called in a shortage of Carpet Dream Catcher- Mushroom 12X39 ft total needed"
+        },
+        {
+          "updatedDate": 1530488011536,
+          "description": "Installer called in a shortage of Carpet Dream Catcher- Mushroom 12X39 ft total needed"
+        },
+        {
+          "updatedDate": 1530488104294,
+          "description": "Installer called in a shortage of Carpet Dream Catcher- Mushroom 12X39 ft total needed"
+        }
+      ],
       "company": "Empire",
       "businessunit": "Residential",
       "serviceregion": "Chicago",
-      "storenumber": "",
       "srnumber": "1-3015373213",
       "accountnumber": "1-LFN3RR",
       "opened": "1905-07-10T00:00:00.000Z",
       "area": "Installer at Home",
       "owner": "IM_POC",
       "subarea": "Shortage",
-      "summary": "",
       "createdby": "JESRAMIREZ",
       "lastname": "Lewis",
       "mainphonenumber": "(708) 802-1750",
@@ -2046,43 +2735,57 @@
       "priority": "Hot",
       "product": "Carpet",
       "ordernumberlink": "http://ems.empirecarpet.com/modules/orderentry/orderinfo.aspx?jobnumber=C117396",
-      "resolutioncomments": "",
-      "collectamount": "",
       "address": "22409 Lakeshore Dr.",
       "city": "Richton Park",
       "state": "IL",
       "zipcode": 60471,
       "country": "USA",
-      "originalcompletiondate": "",
-      "paymentterms": "",
       "firstname": "Wesley",
       "parentproductline": "Home Furnishing",
       "productline": "Carpet",
       "description": "Installer called in a shortage of Carpet Dream Catcher- Mushroom 12X39 ft total needed",
-      "closed": "",
-      "resolution": "",
       "srtype": "Installation Experience",
       "county": "Cook",
-      "escalatedsource": "",
       "datemodified": "1905-07-10T00:00:00.000Z",
-      "serviceordernumber": "",
-      "serviceordernumberlink": "",
-      "opportunitysource": "Web Leads",
-      "opportunitysubsource": ""
+      "opportunitysource": "Web Leads"
     },
     {
-      "id": "SJ4qLoOLfxzX",
+      "id": "SJa-QumyvGm",
+      "followuphistory": [
+        {
+          "updatedDate": 1530487660995,
+          "description": "ICI sd they have a shortage of 12x7 for a closet cust wants it done by monday"
+        },
+        {
+          "updatedDate": 1530487720771,
+          "description": "ICI sd they have a shortage of 12x7 for a closet cust wants it done by monday"
+        },
+        {
+          "updatedDate": 1530487840696,
+          "description": "ICI sd they have a shortage of 12x7 for a closet cust wants it done by monday"
+        },
+        {
+          "updatedDate": 1530488009834,
+          "description": "ICI sd they have a shortage of 12x7 for a closet cust wants it done by monday"
+        },
+        {
+          "updatedDate": 1530488011536,
+          "description": "ICI sd they have a shortage of 12x7 for a closet cust wants it done by monday"
+        },
+        {
+          "updatedDate": 1530488104295,
+          "description": "ICI sd they have a shortage of 12x7 for a closet cust wants it done by monday"
+        }
+      ],
       "company": "Empire",
       "businessunit": "Residential",
       "serviceregion": "Chicago",
-      "storenumber": "",
       "srnumber": "1-3015326321",
       "accountnumber": "1-1DRDI06",
       "opened": "1905-07-10T00:00:00.000Z",
       "area": "Installer at Home",
       "owner": "IM_POC",
       "subarea": "Wrong Product Delivered",
-      "summary": "",
       "createdby": "JALVAREZ",
       "lastname": "Denapoli",
       "mainphonenumber": "(815) 529-8986",
@@ -2091,43 +2794,57 @@
       "priority": "Hot",
       "product": "Carpet",
       "ordernumberlink": "http://ems.empirecarpet.com/modules/orderentry/orderinfo.aspx?jobnumber=C117523",
-      "resolutioncomments": "",
-      "collectamount": "",
       "address": "1033 Wimbledon Dr",
       "city": "Island Lake",
       "state": "IL",
       "zipcode": 60042,
       "country": "USA",
-      "originalcompletiondate": "",
-      "paymentterms": "",
       "firstname": "Jennell",
       "parentproductline": "Home Furnishing",
       "productline": "Carpet",
       "description": "ICI sd they have a shortage of 12x7 for a closet cust wants it done by monday",
-      "closed": "",
-      "resolution": "",
       "srtype": "Installation Experience",
       "county": "Lake",
-      "escalatedsource": "",
       "datemodified": "1905-07-10T00:00:00.000Z",
-      "serviceordernumber": "",
-      "serviceordernumberlink": "",
-      "opportunitysource": "Web Leads",
-      "opportunitysubsource": ""
+      "opportunitysource": "Web Leads"
     },
     {
-      "id": "HJRhIs_UGgM7",
+      "id": "SyC-Q_7kvGQ",
+      "followuphistory": [
+        {
+          "updatedDate": 1530487660996,
+          "description": "Condo: YES Landlord: NO Mailing Address: 950 n. Michigan Ave 2100 Attention: 1 Magnificent Mile cci needs this sent to his property, adv 24, cb#3126646055"
+        },
+        {
+          "updatedDate": 1530487720772,
+          "description": "Condo: YES Landlord: NO Mailing Address: 950 n. Michigan Ave 2100 Attention: 1 Magnificent Mile cci needs this sent to his property, adv 24, cb#3126646055"
+        },
+        {
+          "updatedDate": 1530487840698,
+          "description": "Condo: YES Landlord: NO Mailing Address: 950 n. Michigan Ave 2100 Attention: 1 Magnificent Mile cci needs this sent to his property, adv 24, cb#3126646055"
+        },
+        {
+          "updatedDate": 1530488009835,
+          "description": "Condo: YES Landlord: NO Mailing Address: 950 n. Michigan Ave 2100 Attention: 1 Magnificent Mile cci needs this sent to his property, adv 24, cb#3126646055"
+        },
+        {
+          "updatedDate": 1530488011537,
+          "description": "Condo: YES Landlord: NO Mailing Address: 950 n. Michigan Ave 2100 Attention: 1 Magnificent Mile cci needs this sent to his property, adv 24, cb#3126646055"
+        },
+        {
+          "updatedDate": 1530488104296,
+          "description": "Condo: YES Landlord: NO Mailing Address: 950 n. Michigan Ave 2100 Attention: 1 Magnificent Mile cci needs this sent to his property, adv 24, cb#3126646055"
+        }
+      ],
       "company": "Empire",
       "businessunit": "Residential",
       "serviceregion": "Chicago",
-      "storenumber": "",
       "srnumber": "1-3015407806",
       "accountnumber": "1-1DQH1U4",
       "opened": "1905-07-10T00:00:00.000Z",
       "area": "Pre-Installation",
       "owner": "IM_POC",
       "subarea": "Request Cert. of Insurance",
-      "summary": "",
       "createdby": "AGROSALES",
       "lastname": "Rozell",
       "mainphonenumber": "(312) 961-4877",
@@ -2136,43 +2853,57 @@
       "priority": "Hot",
       "product": "Carpet",
       "ordernumberlink": "http://ems.empirecarpet.com/modules/orderentry/orderinfo.aspx?jobnumber=C117521",
-      "resolutioncomments": "",
-      "collectamount": "",
       "address": "950 N Michigan Ave",
       "city": "Chicago",
       "state": "IL",
       "zipcode": 60611,
       "country": "USA",
-      "originalcompletiondate": "",
-      "paymentterms": "",
       "firstname": "David",
       "parentproductline": "Home Furnishing",
       "productline": "Carpet",
       "description": "Condo: YES Landlord: NO Mailing Address: 950 n. Michigan Ave 2100 Attention: 1 Magnificent Mile cci needs this sent to his property, adv 24, cb#3126646055",
-      "closed": "",
-      "resolution": "",
       "srtype": "Installation Experience",
       "county": "Cook",
-      "escalatedsource": "",
       "datemodified": "1905-07-10T00:00:00.000Z",
-      "serviceordernumber": "",
-      "serviceordernumberlink": "",
-      "opportunitysource": "TV",
-      "opportunitysubsource": ""
+      "opportunitysource": "TV"
     },
     {
-      "id": "Bk_kvi_LMxMm",
+      "id": "rJyfXdX1PG7",
+      "followuphistory": [
+        {
+          "updatedDate": 1530487660997,
+          "description": "Product: laminate Issue: cust is missing a trim Installer Present: NO cci said he is missing a trim. he is really upset with the experience he has had with us"
+        },
+        {
+          "updatedDate": 1530487720774,
+          "description": "Product: laminate Issue: cust is missing a trim Installer Present: NO cci said he is missing a trim. he is really upset with the experience he has had with us"
+        },
+        {
+          "updatedDate": 1530487840700,
+          "description": "Product: laminate Issue: cust is missing a trim Installer Present: NO cci said he is missing a trim. he is really upset with the experience he has had with us"
+        },
+        {
+          "updatedDate": 1530488009836,
+          "description": "Product: laminate Issue: cust is missing a trim Installer Present: NO cci said he is missing a trim. he is really upset with the experience he has had with us"
+        },
+        {
+          "updatedDate": 1530488011538,
+          "description": "Product: laminate Issue: cust is missing a trim Installer Present: NO cci said he is missing a trim. he is really upset with the experience he has had with us"
+        },
+        {
+          "updatedDate": 1530488104297,
+          "description": "Product: laminate Issue: cust is missing a trim Installer Present: NO cci said he is missing a trim. he is really upset with the experience he has had with us"
+        }
+      ],
       "company": "Empire",
       "businessunit": "Residential",
       "serviceregion": "Milwaukee",
-      "storenumber": "",
       "srnumber": "1-3015487002",
       "accountnumber": "1-1DN0TVK",
       "opened": "1905-07-10T00:00:00.000Z",
       "area": "Post-Install",
       "owner": "IM_POC",
       "subarea": "Poor Installation",
-      "summary": "",
       "createdby": "MDMORALES",
       "lastname": "Fugina",
       "mainphonenumber": "(414) 762-5460",
@@ -2181,43 +2912,57 @@
       "priority": "Hot",
       "product": "Laminate",
       "ordernumberlink": "http://ems.empirecarpet.com/modules/orderentry/orderinfo.aspx?jobnumber=FM16804",
-      "resolutioncomments": "",
-      "collectamount": "",
       "address": "8673 S Roxbury Way",
       "city": "Oak Creek",
       "state": "WI",
       "zipcode": 53154,
       "country": "USA",
-      "originalcompletiondate": "",
-      "paymentterms": "",
       "firstname": "Micheal",
       "parentproductline": "Home Furnishing",
       "productline": "Laminate",
       "description": "Product: laminate Issue: cust is missing a trim Installer Present: NO cci said he is missing a trim. he is really upset with the experience he has had with us",
-      "closed": "",
-      "resolution": "",
       "srtype": "Installation Experience",
       "county": "Milwaukee",
-      "escalatedsource": "",
       "datemodified": "1905-07-10T00:00:00.000Z",
-      "serviceordernumber": "",
-      "serviceordernumberlink": "",
-      "opportunitysource": "TV",
-      "opportunitysubsource": ""
+      "opportunitysource": "TV"
     },
     {
-      "id": "B1ffDj_IGeMQ",
+      "id": "ByxMQ_QJDzm",
+      "followuphistory": [
+        {
+          "updatedDate": 1530487660998,
+          "description": "Installer Comments: Installer said they didnt want to do the job bc of hardwood already in the floor Installer Present: NO cci to canc inst date bc inst couldnt do the flooring today, adv cb 24 bus hrs, bcb# 7738023796 ASAP"
+        },
+        {
+          "updatedDate": 1530487720775,
+          "description": "Installer Comments: Installer said they didnt want to do the job bc of hardwood already in the floor Installer Present: NO cci to canc inst date bc inst couldnt do the flooring today, adv cb 24 bus hrs, bcb# 7738023796 ASAP"
+        },
+        {
+          "updatedDate": 1530487840701,
+          "description": "Installer Comments: Installer said they didnt want to do the job bc of hardwood already in the floor Installer Present: NO cci to canc inst date bc inst couldnt do the flooring today, adv cb 24 bus hrs, bcb# 7738023796 ASAP"
+        },
+        {
+          "updatedDate": 1530488009838,
+          "description": "Installer Comments: Installer said they didnt want to do the job bc of hardwood already in the floor Installer Present: NO cci to canc inst date bc inst couldnt do the flooring today, adv cb 24 bus hrs, bcb# 7738023796 ASAP"
+        },
+        {
+          "updatedDate": 1530488011539,
+          "description": "Installer Comments: Installer said they didnt want to do the job bc of hardwood already in the floor Installer Present: NO cci to canc inst date bc inst couldnt do the flooring today, adv cb 24 bus hrs, bcb# 7738023796 ASAP"
+        },
+        {
+          "updatedDate": 1530488104298,
+          "description": "Installer Comments: Installer said they didnt want to do the job bc of hardwood already in the floor Installer Present: NO cci to canc inst date bc inst couldnt do the flooring today, adv cb 24 bus hrs, bcb# 7738023796 ASAP"
+        }
+      ],
       "company": "Empire",
       "businessunit": "Residential",
       "serviceregion": "Chicago",
-      "storenumber": "",
       "srnumber": "1-3015767340",
       "accountnumber": "1-RUNL7G",
       "opened": "1905-07-10T00:00:00.000Z",
       "area": "Installer at Home",
       "owner": "IM_POC",
       "subarea": "Bad Conduct - Install",
-      "summary": "",
       "createdby": "CGHERNANDEZ",
       "lastname": "Anderson",
       "mainphonenumber": "(773) 802-3796",
@@ -2226,29 +2971,19 @@
       "priority": "Hot",
       "product": "Hardwood",
       "ordernumberlink": "http://ems.empirecarpet.com/modules/orderentry/orderinfo.aspx?jobnumber=FC71429",
-      "resolutioncomments": "",
-      "collectamount": "",
       "address": "8049 S Richmond St",
       "city": "Chicago",
       "state": "IL",
       "zipcode": 60652,
       "country": "USA",
-      "originalcompletiondate": "",
-      "paymentterms": "",
       "firstname": "Erica",
       "parentproductline": "Home Furnishing",
       "productline": "Hardwood",
       "description": "Installer Comments: Installer said they didnt want to do the job bc of hardwood already in the floor Installer Present: NO cci to canc inst date bc inst couldnt do the flooring today, adv cb 24 bus hrs, bcb# 7738023796 ASAP",
-      "closed": "",
-      "resolution": "",
       "srtype": "Installation Experience",
       "county": "Cook",
-      "escalatedsource": "",
       "datemodified": "1905-07-10T00:00:00.000Z",
-      "serviceordernumber": "",
-      "serviceordernumberlink": "",
-      "opportunitysource": "Repeat Customer",
-      "opportunitysubsource": ""
+      "opportunitysource": "Repeat Customer"
     }
   ]
 }

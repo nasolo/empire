@@ -2,10 +2,106 @@
 const path = require('path')
 const dbroute = require('../routes/dbroutes')
 const shortid = require('shortid')
+const _ = require('lodash')
+
 
 //load database and database collection
 const db = dbroute.loadDatabase(dbroute._serviceRequestdb.path)
 const collection = db.defaults(dbroute._serviceRequestdb.defaults).get('serviceRequests')
+let getCollectionId =  function(collection, sr){ 
+        var getSr = collection.find({srnumber: sr}).value()
+        return getSr ? getSr.id : false
+    }
+
+
+
+    let sanitizeRowValues = function(rowvalues){
+        return  rowvalues.map((rowvalue, arr, i) => {
+            
+            if(rowvalue == "undefined" || rowvalue == "" || rowvalue == null){
+                return " "                
+            }
+            else{
+             return rowvalue                  
+       }
+    })
+}
+
+let sanitizeRowHeaders = function(rowHeaders){
+
+    return rowHeaders.map(rowHeaders => rowHeaders.map((rowHeader, i, arr) => {
+      
+            return rowHeader.split('').filter(function(x, i, arr){
+                
+                return x !== " "
+            })
+            .map(x =>{
+                return x == "#" ? "number" : x.toLowerCase()})
+            .join('')
+        
+         })
+    )
+
+}
+
+
+let combineHeaderAndVaules = (headerArray, valuesArray)=>{
+       
+    let  headers = headerArray
+     let values = valuesArray
+
+     let srObject = []
+
+      headers.map((header, i, arr)=>{
+          
+        srObject.push(_.zipObject(arr[i], values[i]))
+
+        return srObject
+
+     })
+
+
+     return srObject
+
+
+}
+
+let mergeId = (obj)=>{
+    return obj.map(obj => {
+        id = {
+                id: shortid.generate(),
+                followuphistory: []
+        }
+        return _.merge(id, obj)
+    })
+}
+
+let importData = async (data)=>{
+
+    function updateDatabase(srId, sr){
+        let updatedDbState = collection.find({id: srId}).value().followuphistory.push({
+                updatedDate: Date.now(),
+                description: sr.description
+             })  
+            collection.find({id: srId}).assign(updatedDbState).write()
+
+    return collection.find().value()
+  
+    }
+
+     function insertDatabase(sr){
+         collection.push(sr).write()
+            return  collection.find().value()
+    }
+
+
+      return data.map(sr =>{    
+         let srId = getCollectionId(collection, sr.srnumber)
+            return srId ? updateDatabase(srId, sr) : insertDatabase(sr)
+     })
+     
+}
+
 
 module.exports = {
     find: function(){
@@ -20,64 +116,15 @@ module.exports = {
        return collection.find({id: id}).value()
 
     },
-    create: function(serviceRequestData){
-           // console.log(serviceRequestData.rowvalue)
-           var srObject = {};
-           var rowHeader = serviceRequestData.rowHeader
-           var rowvalue = serviceRequestData.rowvalue
-            var getCollectionId = function(collection, sr){
+    create: async function(xlsData){
 
-                var getSr = collection.find({srnumber: sr}).value()
+        let srHeaders = await sanitizeRowHeaders(xlsData.map(srData =>  srData.rowHeaders))
+        let srValues = await xlsData.map(srData => srData.rowValues)
+        let serviceRecords = await mergeId(combineHeaderAndVaules(srHeaders, srValues))
+     
+       return importData(serviceRecords)
 
-                return getSr ? getSr.id : false
 
-                 
-            }
-
-            
-           rowHeader.map((srs, index) =>{ 
-              
-            //create null ogject value if row vaule is null, empty or undefined
-            if(rowvalue[index] == "undefined" || rowvalue[index] == "" || rowvalue[index] == null){
-                    var srRowValue = ""                   
-               }else{
-                srRowValue = rowvalue[index]                   
-               }
-               
-
-        //since this is the object key remove all white spaces and # 
-          var newObjKey = srs.split('').filter(function(x, i){
-                return x !== " "
-           }).map(x =>{
-                if(x == "#"){
-                    return "number"
-                }else{
-                    return x.toLowerCase()
-                }
-           }).join('')
-           
-           srObject["id"] = shortid.generate()
-            srObject[newObjKey] = srRowValue;
-                
-                
-            return srObject;
-                
-             });
-      
-             
-
-            //check if the collection is in database by srnumber, if true asign currect sr object else push new object
-             
-            if(getCollectionId(collection, srObject.srnumber)){
-                console.log(collection.size().value())
-                
-                return collection.find({id: getCollectionId(collection, srObject.srnumber)}).assign(srObject).write()
-                
-            }else{
-                console.log(collection.size().value())
-
-                return collection.push(srObject).write()
-            }
 
     },
     update: function(id, obj){

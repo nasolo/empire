@@ -33,39 +33,32 @@ if(resource == "getbyid"){
 })
 }
 
-    if(resource == "importexceldata"){
+    if(resource == "import"){
     var workbook = new Excel.Workbook();
-    workbook.xlsx.readFile(filename)
+    var xlsxData = workbook.xlsx.readFile(filename)
         .then((data)=>{
+            var xlsdata = []
             var worksheet = data.getWorksheet(1)
-            
-             worksheet.eachRow({ includeEmpty: true }, function(row, rowNumber) {
-
-               if(rowNumber > 1 ){ 
-                   
-                    return serviceRequestController.create({
-                    
-                        rowHeader: worksheet.getRow(1).values,
-                        rowvalue: row.values
-                    
-                    })
+                 worksheet.eachRow({ includeEmpty: true }, function(row, rowNumber) {
+                    if(rowNumber > 1 ){ 
+                        return xlsdata.push({                
+                            rowHeaders: worksheet.getRow(1).values,
+                            rowValues: row.values
+                            })
+                        }  
+                     })
+                     return xlsdata
         
-                }  
-
-               })
-        }).then(data =>{
-            
-            res.json({
-                confirmation: 'succuess',
-                resource: resource,
-                dataBaseState: serviceRequestController.find()
-                
-            })
-        })
-   
-    }
-
-
+                 }).then((xlsdata)=>{
+                    return serviceRequestController.create(xlsdata) 
+                }).then((newDatabaseState)=>{      
+                    return res.json({
+                            confirmation: 'succuess',
+                            resource: resource,
+                            dataBaseState: newDatabaseState
+                         })
+                    })
+                }
 
 })
 
