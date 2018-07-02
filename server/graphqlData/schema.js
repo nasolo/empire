@@ -6,6 +6,7 @@ type getAllServiceRequests {
     
     id: String
     company: String
+    followuphistory:[followupdata]
     businessunit: String
     serviceregion: String
     storenumber: String 
@@ -48,7 +49,10 @@ type getAllServiceRequests {
     opportunitysource: String
     opportunitysubsource: String
 }
-
+type followupdata {
+  updatedDate: Int
+  description: String
+}
   type Query {
     getAllServiceRequests: [getAllServiceRequests]
   }
