@@ -1,6 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {HashRouter, Route, Switch} from 'react-router-dom';
+import { ApolloProvider } from "react-apollo";
+import ApolloClient from "apollo-boost";
+import { HttpLink } from "apollo-link-http";
+import { InMemoryCache } from "apollo-cache-inmemory";
+
+
+
 
 
 //redux dependencies
@@ -13,6 +20,13 @@ store.subscribe(()=>{
   console.log("store changed", store.getState())
 
 })
+
+// create your Apollo Client
+const client = new ApolloClient({
+
+    uri: `http://localhost:3000/graphql`,
+  cache: new InMemoryCache()
+});
 
 //api website https://jsonplaceholder.typicode.com
 
@@ -37,9 +51,10 @@ import Login from './views/Pages/Login/'
 import Register from './views/Pages/Register/'
 import Page404 from './views/Pages/Page404/'
 import Page500 from './views/Pages/Page500/'
-import { createStore } from 'redux';
+
 
 ReactDOM.render((
+  <ApolloProvider client={client}>
   <Provider store={store}>
   <HashRouter>
     <Switch>
@@ -51,4 +66,5 @@ ReactDOM.render((
     </Switch>
   </HashRouter>
   </Provider>
+  </ApolloProvider>
 ), document.getElementById('root'));

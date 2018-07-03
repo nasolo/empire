@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-//import Postlist from '../reduxTest/reduxTest'
+import gql from "graphql-tag";
+import { Query } from "react-apollo";
+
 import {Bar, Line} from 'react-chartjs-2';
 import {
   Badge,
@@ -23,6 +25,8 @@ import {
   Input,
   Table
 } from 'reactstrap';
+
+
 
 const brandPrimary = '#20a8d8';
 const brandSuccess = '#4dbd74';
@@ -441,7 +445,7 @@ class Dashboard extends Component {
 
     return (
       <div className="animated fadeIn">
-     
+     <Dogs/>
         <Row>
           <Col xs="12" sm="6" lg="3">
             <Card className="text-white bg-primary">
