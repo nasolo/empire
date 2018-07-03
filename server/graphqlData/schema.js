@@ -50,7 +50,7 @@ type getAllServiceRequests {
     opportunitysubsource: String
 }
 type followupdata {
-  updatedDate: Int
+  updatedDate: String
   description: String
 }
   type Query {

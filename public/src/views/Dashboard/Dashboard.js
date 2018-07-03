@@ -27,6 +27,62 @@ import {
 } from 'reactstrap';
 
 
+const GET_SERVICE_RECORDS = gql`
+{
+  getAllServiceRequests {
+  
+    id
+    company
+    businessunit
+    followuphistory {
+      updatedDate
+      description
+    }
+    srnumber
+    summary
+    description
+    status
+    ordernumberlink
+    owner
+    srnumber
+  }
+}
+`;
+
+const Srs = () => (
+  
+  <Query query={ GET_SERVICE_RECORDS }>
+ 
+      {({loading, error, data}) => {
+
+        let testdata = (data) =>{
+          return console.log(data)
+        }
+
+          if(error) return `Error! ${error.message}`
+          if(loading) return "Loading";
+testdata(data)
+          return(
+
+            <div>
+              <ul>
+                  {data.getAllServiceRequests.map(sr =>{
+
+                    return <li key={sr.id}>
+                      {sr.srnumber}
+                    </li>
+                  })}
+
+              </ul>
+
+            </div>
+
+                  
+          )
+        
+        }}
+  </Query>
+);
 
 const brandPrimary = '#20a8d8';
 const brandSuccess = '#4dbd74';
@@ -445,7 +501,7 @@ class Dashboard extends Component {
 
     return (
       <div className="animated fadeIn">
-     <Dogs/>
+     
         <Row>
           <Col xs="12" sm="6" lg="3">
             <Card className="text-white bg-primary">
