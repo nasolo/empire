@@ -27,6 +27,13 @@ module.exports = {
             serviceRequests: []
         }
     
+    },
+    team: {
+        path: path.join(__dirname, '../database/team.json'),
+        defaults: {
+            team: []
+        }
+    
     }
 
     
