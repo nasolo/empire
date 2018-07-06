@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 const Joi = require('joi');
-const instSchema = require('../models/installers')
+const models = require('../models/models')
 const InstContr = require('../controllers/InstallersController')
 
 const options = {

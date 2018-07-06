@@ -2,7 +2,7 @@
 
 const schema = `
 
-type getAllServiceRequests {
+type serviceRequests {
     
     id: String
     company: String
@@ -54,7 +54,8 @@ type followupdata {
   description: String
 }
   type Query {
-    getAllServiceRequests: [getAllServiceRequests]
+    getAllServiceRequests: [serviceRequests]!
+    getServiceRequest(id: String!): serviceRequests!
   }
 `
 

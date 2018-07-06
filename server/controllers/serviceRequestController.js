@@ -104,15 +104,15 @@ let importData = async (data)=>{
 
 
 module.exports = {
-    find: function(){
+    findAll: function(){
 
-        return dbroute.loadDatabase(dbroute._serviceRequestdb.path).get('serviceRequests');
+        return dbroute.loadDatabase(dbroute._serviceRequestdb.path).get('serviceRequests').value();
         
     },
 
 
-    findById: function(id){
-
+    findOne: function(id){
+        console.log(id)
        return collection.find({id: id}).value()
 
     },

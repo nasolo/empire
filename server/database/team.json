@@ -1,0 +1,64 @@
+{
+    "team": [
+        {
+
+        "team_Id": 1,
+        "teamName": "Luna Customer Services",
+        "teamMembers": [
+    {
+            "id": "LCS1",
+            "position": "Manager",
+            "fName": "Robert",
+            "lName": "Borris",
+            "owner": "rborris",
+            "admin": false
+    },
+    {
+        "id": "LCS2",
+        "position": "Supervisor",
+        "fName": "Randy",
+        "lName": "Robinson",
+        "owner": "rarobinson",
+        "admin": true
+
+    },
+    {
+        "id": "LCS3",
+        "position": "CSA",
+        "fName": "Donisha",
+        "lName": "Harris",
+        "owner": "dharris",
+        "admin": false
+
+    },
+    {
+        "id": "LCS4",
+        "position": "CSA",
+        "fName": "Leksia",
+        "lName": "Burnett",
+        "owner": "lburnet",
+        "admin": false
+
+    },
+    {
+        "id": "LCS5",
+        "position": "CSA",
+        "fName": "Nelly",
+        "lName": "Lopez",
+        "owner": "nlopex",
+        "admin": false
+
+    },
+    {
+        "id": "LCS6",
+        "position": "CSA",
+        "fName": "Tahisha",
+        "lName": "Hudson",
+        "owner": "thudson",
+        "admin": false
+
+    }
+]
+    }]
+
+}

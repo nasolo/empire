@@ -5,7 +5,7 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var app = express();
-
+const models = require('./models/models')
 //graphql dependency injection
 const { ApolloServer, gql } = require('apollo-server-express');
 
@@ -20,7 +20,10 @@ const typeDefs = require('./graphqlData/schema')
 const resolvers = require('./graphqlData/resolvers')
 const graphqlPath = '/graphql';
 //define apolloserver
-const appoloServer = new ApolloServer({ typeDefs, resolvers });
+const appoloServer = new ApolloServer({ typeDefs, resolvers, context: ({req})=>({
+  models,
+  id: 'B1i-XO7JvG7'
+}) });
 
 
 

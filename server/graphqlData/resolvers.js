@@ -1,8 +1,17 @@
-const serviceRequestController = require('../controllers/serviceRequestController')
+
 
 const resolvers = {
     Query: {
-        getAllServiceRequests: () => { return serviceRequestController.find().value()}
+        getAllServiceRequests: (root, args, {models}) => {
+        
+            return models.serviceRequest.findAll()
+        },
+
+        getServiceRequest: (root, args, {models, id}) =>{
+
+            return models.serviceRequest.findOne(id)
+
+        }
     }
   };
 
