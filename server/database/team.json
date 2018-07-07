@@ -18,7 +18,7 @@
         "position": "Supervisor",
         "fName": "Randy",
         "lName": "Robinson",
-        "owner": "rarobinson",
+        "owner": "RAROBINSON",
         "admin": true
 
     },
@@ -27,7 +27,7 @@
         "position": "CSA",
         "fName": "Donisha",
         "lName": "Harris",
-        "owner": "dharris",
+        "owner": "DONHARRIS",
         "admin": false
 
     },
@@ -36,7 +36,7 @@
         "position": "CSA",
         "fName": "Leksia",
         "lName": "Burnett",
-        "owner": "lburnet",
+        "owner": "LBURNETT",
         "admin": false
 
     },
@@ -45,7 +45,7 @@
         "position": "CSA",
         "fName": "Nelly",
         "lName": "Lopez",
-        "owner": "nlopex",
+        "owner": "NLOPEZ",
         "admin": false
 
     },
@@ -54,7 +54,7 @@
         "position": "CSA",
         "fName": "Tahisha",
         "lName": "Hudson",
-        "owner": "thudson",
+        "owner": "TAHUDSON",
         "admin": false
 
     }

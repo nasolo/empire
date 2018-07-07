@@ -53,9 +53,33 @@ type followupdata {
   updatedDate: String
   description: String
 }
+
+
+type team
+{
+    team_Id: Int 
+    teamName: String,
+    teamMembers: [teamMembers]
+  }
+       
+
+
+type teamMembers {
+  id: String
+  position: String
+  fName: String
+  lName: String
+  owner: String
+  admin: String
+}
+
+
   type Query {
     getAllServiceRequests: [serviceRequests]!
     getServiceRequest(id: String!): serviceRequests!
+    getAllTeam: team!
+    getTeam(id: String): team!
+
   }
 `
 

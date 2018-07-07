@@ -1,12 +1,12 @@
-var srController = require('../controllers/serviceRequestController')
-var installers = require('../controllers/InstallersController')
+const srController = require('../controllers/serviceRequestController')
+const installers = require('../controllers/InstallersController')
+const team = require('../controllers/teamController')
 
 var models = {
 
     serviceRequest: srController,
-    installers: installers
-
-
+    installers: installers,
+    team: team
 
 }
 

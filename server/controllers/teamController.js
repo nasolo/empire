@@ -14,7 +14,7 @@ module.exports = {
         return collection.find().value()
 
     },
-    findById: function(id){
+    findOne: function(id){
 
         return collection.find({id: id}).value()
 

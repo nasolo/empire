@@ -7,7 +7,7 @@ const serviceRequestController = require('../controllers/serviceRequestControlle
 
 var Excel = require('exceljs');
 
-var filename = './excelfiles/srData.xlsx'
+var filename = './excelfiles/srData2.xlsx'
 
 router.get('/:resource', function(req, res){
 

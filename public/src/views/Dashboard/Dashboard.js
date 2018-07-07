@@ -84,6 +84,43 @@ testdata(data)
   </Query>
 );
 
+const teamCards = ()=>{
+
+<Query query={GET_SERVICE_RECORDS}>
+
+  {({Loading, error, data}) =>{
+
+if(error) return `Error! ${error.message}`  
+if(loading) return "loading";
+
+return(
+<div>
+  {data.getAllServiceRequests.map(sr=>{
+  <Col xs="12" sm="6" lg="3">
+  <Card className="text-white bg-primary">
+    <CardBody className="pb-0">
+      <h4 className="mb-0">9.823</h4>
+      <p>IM_POC</p>
+    </CardBody>
+    <div className="chart-wrapper px-3" style={{height:'70px'}}>
+      <Line data={cardChartData1} options={cardChartOpts1} height={70}/>
+    </div>
+  </Card>
+</Col>
+  })
+}
+</div>
+  
+)
+
+
+
+
+  }}
+
+</Query>
+
+}
 
 
 const brandPrimary = '#20a8d8';
