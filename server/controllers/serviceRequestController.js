@@ -104,9 +104,11 @@ let importData = async (data)=>{
 
 
 module.exports = {
-    findAll: function(){
+    findAll: function(owner){
 
-        return dbroute.loadDatabase(dbroute._serviceRequestdb.path).get('serviceRequests').value();
+        if(owner) return collection.filter({owner: owner}).value()
+
+        return collection.value();
         
     },
 

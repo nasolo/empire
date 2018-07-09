@@ -53,6 +53,9 @@ import Modals from '../../views/Notifications/Modals/';
 //installers
 import Installers from '../../views/installers/installers'
 
+//service request
+import Servicerequest from '../../views/servicerequest/servicerequest'
+
 class Full extends Component {
   render() {
     return (
@@ -97,6 +100,7 @@ class Full extends Component {
                 <Route path="/widgets" name="Widgets" component={Widgets}/>
                 <Route path="/charts" name="Charts" component={Charts}/>
                 <Route path="/installers" name="Installers" component={Installers}/>
+                <Route path="/servicerequest" name="Service Request" component={Servicerequest}/>
                 <Redirect from="/" to="/dashboard"/>
               </Switch>
             </Container>

@@ -2,8 +2,9 @@
 
 const schema = `
 
-type serviceRequests {
-    
+type serviceRequest {
+  
+    owner: String
     id: String
     company: String
     followuphistory:[followupdata]
@@ -14,7 +15,6 @@ type serviceRequests {
     accountnumber: String
     opened: String
     area: String
-    owner: String
     subarea: String
     summary: String
     createdby: String
@@ -48,6 +48,7 @@ type serviceRequests {
     serviceordernumberlink: String
     opportunitysource: String
     opportunitysubsource: String
+    getAllTeamMembers: [team]
 }
 type followupdata {
   updatedDate: String
@@ -57,28 +58,21 @@ type followupdata {
 
 type team
 {
+    owner: String
     team_Id: Int 
     teamName: String,
-    teamMembers: [teamMembers]
+    id: String
+    position: String
+    fName: String
+    lName: String    
+    admin: String
+    servicesRequests: [serviceRequest]
+
   }
-       
-
-
-type teamMembers {
-  id: String
-  position: String
-  fName: String
-  lName: String
-  owner: String
-  admin: String
-}
-
 
   type Query {
-    getAllServiceRequests: [serviceRequests]!
-    getServiceRequest(id: String!): serviceRequests!
-    getAllTeam: team!
-    getTeam(id: String): team!
+   
+    getAllTeamMembers: [team]
 
   }
 `

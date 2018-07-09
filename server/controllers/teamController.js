@@ -9,14 +9,16 @@ const db = dbroute.loadDatabase(dbroute.team.path)
 const collection = db.defaults(dbroute.team.defaults).get('team')
 
 module.exports = {
-    findAll: function(){
+    findAll: function(owner){
 
-        return collection.find().value()
+        if(owner) return collection.find({owner: owner}).value
+     
+        return collection.value()
 
     },
-    findOne: function(id){
+    findOne: function(id, owner){
 
-        return collection.find({id: id}).value()
+        return collection.find({id: id, owner: owner}).value()
 
     },
     create: function(instData){

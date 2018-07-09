@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import gql from "graphql-tag";
 import { Query } from "react-apollo";
+import {NavLink} from 'react-router-dom';
 
 import {Bar, Line} from 'react-chartjs-2';
 import {
@@ -27,31 +28,29 @@ import {
 } from 'reactstrap';
 
 
-const GET_SERVICE_RECORDS = gql`
+const GET_TEAM_MEMBERS = gql`
 {
-  getAllServiceRequests {
-  
+	getAllTeamMembers{
     id
-    company
-    businessunit
-    followuphistory {
-      updatedDate
-      description
-    }
-    srnumber
-    summary
-    description
-    status
-    ordernumberlink
     owner
-    srnumber
+    team_Id
+    fName
+    lName
+    teamName
+    servicesRequests{
+      owner
+      srnumber
+      summary
+    }
   }
 }
+
+
 `;
 
-const Srs = () => (
+const LcsTeamCards = () => (
   
-  <Query query={ GET_SERVICE_RECORDS }>
+  <Query query={ GET_TEAM_MEMBERS }>
  
       {({loading, error, data}) => {
 
@@ -61,23 +60,44 @@ const Srs = () => (
 
           if(error) return `Error! ${error.message}`
           if(loading) return "Loading";
-testdata(data)
+          testdata(data)
           return(
-
-            <div>
-              <ul>
-                  {data.getAllServiceRequests.map(sr =>{
-
-                    return <li key={sr.id}>
-                      {sr.srnumber}
-                    </li>
-                  })}
-
-              </ul>
-
-            </div>
-
-                  
+            <Row>
+           
+          {data.getAllTeamMembers.map(teamMember =>{
+           return  <Col xs="12" sm="6" lg="4" key={teamMember.id}>
+           <NavLink to='/servicerequest'staticContext="test">
+            <Card className="text-white bg-primary">
+              <CardBody className="pb-0">
+                <ButtonGroup className="float-right">
+                  <ButtonDropdown id='card1' isOpen={false}
+                                  toggle={() => { return true }}>
+                    <DropdownToggle caret className="p-0" color="transparent">
+                      <i className="icon-settings"></i>
+                    </DropdownToggle>
+                    <DropdownMenu right>
+                      <DropdownItem>Action</DropdownItem>
+                      <DropdownItem>Another action</DropdownItem>
+                      <DropdownItem disabled>Disabled action</DropdownItem>
+                      <DropdownItem>Something else here</DropdownItem>
+                    </DropdownMenu>
+                  </ButtonDropdown>
+                </ButtonGroup>
+                <h4 className="mb-0">{teamMember.servicesRequests.length}</h4>
+                <p>{teamMember.owner}</p>
+              </CardBody>
+              <div className="chart-wrapper px-3" style={{height:'70px'}}>
+                <Line data={cardChartData1} options={cardChartOpts1} height={70}/>
+              </div>
+            </Card>
+            </NavLink>
+          </Col>
+          
+          })
+            }
+      </Row>
+            
+              
           )
         
         }}
@@ -540,110 +560,11 @@ class Dashboard extends Component {
 
     return (
       <div className="animated fadeIn">
+    
+      <LcsTeamCards/>
+
      
-        <Row>
-          <Col xs="12" sm="6" lg="3">
-            <Card className="text-white bg-primary">
-              <CardBody className="pb-0">
-                <ButtonGroup className="float-right">
-                  <ButtonDropdown id='card1' isOpen={this.state.card1}
-                                  toggle={() => { this.setState({ card1: !this.state.card1 }); }}>
-                    <DropdownToggle caret className="p-0" color="transparent">
-                      <i className="icon-settings"></i>
-                    </DropdownToggle>
-                    <DropdownMenu right>
-                      <DropdownItem>Action</DropdownItem>
-                      <DropdownItem>Another action</DropdownItem>
-                      <DropdownItem disabled>Disabled action</DropdownItem>
-                      <DropdownItem>Something else here</DropdownItem>
-                    </DropdownMenu>
-                  </ButtonDropdown>
-                </ButtonGroup>
-                <h4 className="mb-0">9.823</h4>
-                <p>IM_POC</p>
-              </CardBody>
-              <div className="chart-wrapper px-3" style={{height:'70px'}}>
-                <Line data={cardChartData1} options={cardChartOpts1} height={70}/>
-              </div>
-            </Card>
-          </Col>
-
-          <Col xs="12" sm="6" lg="3">
-            <Card className="text-white bg-info">
-              <CardBody className="pb-0">
-                <ButtonGroup className="float-right">
-                  <Dropdown id='card2' isOpen={this.state.card2}
-                            toggle={() => { this.setState({ card2: !this.state.card2 }); }}>
-                    <DropdownToggle className="p-0" color="transparent">
-                      <i className="icon-location-pin"></i>
-                    </DropdownToggle>
-                    <DropdownMenu right>
-                      <DropdownItem>Action</DropdownItem>
-                      <DropdownItem>Another action</DropdownItem>
-                      <DropdownItem>Something else here</DropdownItem>
-                    </DropdownMenu>
-                  </Dropdown>
-                </ButtonGroup>
-                <h4 className="mb-0">9.823</h4>
-                <p>Members online</p>
-              </CardBody>
-              <div className="chart-wrapper px-3" style={{height:'70px'}}>
-                <Line data={cardChartData2} options={cardChartOpts2} height={70}/>
-              </div>
-            </Card>
-          </Col>
-
-          <Col xs="12" sm="6" lg="3">
-            <Card className="text-white bg-warning">
-              <CardBody className="pb-0">
-                <ButtonGroup className="float-right">
-                  <Dropdown id='card3' isOpen={this.state.card3}
-                            toggle={() => { this.setState({ card3: !this.state.card3 }); }}>
-                    <DropdownToggle caret className="p-0" color="transparent">
-                      <i className="icon-settings"></i>
-                    </DropdownToggle>
-                    <DropdownMenu right>
-                      <DropdownItem>Action</DropdownItem>
-                      <DropdownItem>Another action</DropdownItem>
-                      <DropdownItem>Something else here</DropdownItem>
-                    </DropdownMenu>
-                  </Dropdown>
-                </ButtonGroup>
-                <h4 className="mb-0">9.823</h4>
-                <p>Members online</p>
-              </CardBody>
-              <div className="chart-wrapper px-0" style={{height:'70px'}}>
-                <Line data={cardChartData3} options={cardChartOpts3} height={70}/>
-              </div>
-            </Card>
-          </Col>
-
-          <Col xs="12" sm="6" lg="3">
-            <Card className="text-white bg-danger">
-              <CardBody className="pb-0">
-                <ButtonGroup className="float-right">
-                  <ButtonDropdown id='card4' isOpen={this.state.card4}
-                                  toggle={() => { this.setState({ card4: !this.state.card4 }); }}>
-                    <DropdownToggle caret className="p-0" color="transparent">
-                      <i className="icon-settings"></i>
-                    </DropdownToggle>
-                    <DropdownMenu right>
-                      <DropdownItem>Action</DropdownItem>
-                      <DropdownItem>Another action</DropdownItem>
-                      <DropdownItem>Something else here</DropdownItem>
-                    </DropdownMenu>
-                  </ButtonDropdown>
-                </ButtonGroup>
-                <h4 className="mb-0">9.823</h4>
-                <p>Members online</p>
-              </CardBody>
-              <div className="chart-wrapper px-3" style={{height:'70px'}}>
-                <Bar data={cardChartData4} options={cardChartOpts4} height={70}/>
-              </div>
-            </Card>
-          </Col>
-        </Row>
-        <Row>
+     <Row>
           <Col>
             <Card>
               <CardBody>
@@ -1329,3 +1250,109 @@ class Dashboard extends Component {
 }
 
 export default Dashboard;
+
+/*
+     <Col xs="12" sm="6" lg="3">
+            <Card className="text-white bg-primary">
+              <CardBody className="pb-0">
+                <ButtonGroup className="float-right">
+                  <ButtonDropdown id='card1' isOpen={this.state.card1}
+                                  toggle={() => { this.setState({ card1: !this.state.card1 }); }}>
+                    <DropdownToggle caret className="p-0" color="transparent">
+                      <i className="icon-settings"></i>
+                    </DropdownToggle>
+                    <DropdownMenu right>
+                      <DropdownItem>Action</DropdownItem>
+                      <DropdownItem>Another action</DropdownItem>
+                      <DropdownItem disabled>Disabled action</DropdownItem>
+                      <DropdownItem>Something else here</DropdownItem>
+                    </DropdownMenu>
+                  </ButtonDropdown>
+                </ButtonGroup>
+                <h4 className="mb-0">9.823</h4>
+                <p>IM_POC</p>
+              </CardBody>
+              <div className="chart-wrapper px-3" style={{height:'70px'}}>
+                <Line data={cardChartData1} options={cardChartOpts1} height={70}/>
+              </div>
+            </Card>
+          </Col>
+
+          <Col xs="12" sm="6" lg="3">
+            <Card className="text-white bg-info">
+              <CardBody className="pb-0">
+                <ButtonGroup className="float-right">
+                  <Dropdown id='card2' isOpen={this.state.card2}
+                            toggle={() => { this.setState({ card2: !this.state.card2 }); }}>
+                    <DropdownToggle className="p-0" color="transparent">
+                      <i className="icon-location-pin"></i>
+                    </DropdownToggle>
+                    <DropdownMenu right>
+                      <DropdownItem>Action</DropdownItem>
+                      <DropdownItem>Another action</DropdownItem>
+                      <DropdownItem>Something else here</DropdownItem>
+                    </DropdownMenu>
+                  </Dropdown>
+                </ButtonGroup>
+                <h4 className="mb-0">9.823</h4>
+                <p>Members online</p>
+              </CardBody>
+              <div className="chart-wrapper px-3" style={{height:'70px'}}>
+                <Line data={cardChartData2} options={cardChartOpts2} height={70}/>
+              </div>
+            </Card>
+          </Col>
+
+          <Col xs="12" sm="6" lg="3">
+            <Card className="text-white bg-warning">
+              <CardBody className="pb-0">
+                <ButtonGroup className="float-right">
+                  <Dropdown id='card3' isOpen={this.state.card3}
+                            toggle={() => { this.setState({ card3: !this.state.card3 }); }}>
+                    <DropdownToggle caret className="p-0" color="transparent">
+                      <i className="icon-settings"></i>
+                    </DropdownToggle>
+                    <DropdownMenu right>
+                      <DropdownItem>Action</DropdownItem>
+                      <DropdownItem>Another action</DropdownItem>
+                      <DropdownItem>Something else here</DropdownItem>
+                    </DropdownMenu>
+                  </Dropdown>
+                </ButtonGroup>
+                <h4 className="mb-0">9.823</h4>
+                <p>Members online</p>
+              </CardBody>
+              <div className="chart-wrapper px-0" style={{height:'70px'}}>
+                <Line data={cardChartData3} options={cardChartOpts3} height={70}/>
+              </div>
+            </Card>
+          </Col>
+
+          <Col xs="12" sm="6" lg="3">
+            <Card className="text-white bg-danger">
+              <CardBody className="pb-0">
+                <ButtonGroup className="float-right">
+                  <ButtonDropdown id='card4' isOpen={this.state.card4}
+                                  toggle={() => { this.setState({ card4: !this.state.card4 }); }}>
+                    <DropdownToggle caret className="p-0" color="transparent">
+                      <i className="icon-settings"></i>
+                    </DropdownToggle>
+                    <DropdownMenu right>
+                      <DropdownItem>Action</DropdownItem>
+                      <DropdownItem>Another action</DropdownItem>
+                      <DropdownItem>Something else here</DropdownItem>
+                    </DropdownMenu>
+                  </ButtonDropdown>
+                </ButtonGroup>
+                <h4 className="mb-0">9.823</h4>
+                <p>Members online</p>
+              </CardBody>
+              <div className="chart-wrapper px-3" style={{height:'70px'}}>
+                <Bar data={cardChartData4} options={cardChartOpts4} height={70}/>
+              </div>
+            </Card>
+          </Col>
+        </Row>
+       
+
+        */

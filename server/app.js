@@ -20,7 +20,7 @@ const typeDefs = require('./graphqlData/schema')
 const resolvers = require('./graphqlData/resolvers')
 const graphqlPath = '/graphql';
 //define apolloserver
-const appoloServer = new ApolloServer({ typeDefs, resolvers, context: ({req})=>({
+const appoloServer = new ApolloServer({ typeDefs, resolvers, root: global, context: ({req})=>({
   models,
   id: 'B1i-XO7JvG7'
 }) });
