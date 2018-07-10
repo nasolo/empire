@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import gql from "graphql-tag";
 import { Query } from "react-apollo";
-import {NavLink} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 import {Bar, Line} from 'react-chartjs-2';
 import {
@@ -38,9 +38,22 @@ const GET_TEAM_MEMBERS = gql`
     lName
     teamName
     servicesRequests{
-      owner
+			owner
+      id
+      company
+      followuphistory{
+        updatedDate
+        description
+      }
       srnumber
+      accountnumber
+      opened
+      area
+      subarea
       summary
+      ordernumberlink
+      description
+      closed     
     }
   }
 }
@@ -65,8 +78,13 @@ const LcsTeamCards = () => (
             <Row>
            
           {data.getAllTeamMembers.map(teamMember =>{
+            let url = `/servicerequest/${teamMember.id}`
            return  <Col xs="12" sm="6" lg="4" key={teamMember.id}>
-           <NavLink to='/servicerequest'staticContext="test">
+           <Link to={{
+             pathname: url,
+             data: teamMember.servicesRequests
+
+           }}>
             <Card className="text-white bg-primary">
               <CardBody className="pb-0">
                 <ButtonGroup className="float-right">
@@ -90,7 +108,7 @@ const LcsTeamCards = () => (
                 <Line data={cardChartData1} options={cardChartOpts1} height={70}/>
               </div>
             </Card>
-            </NavLink>
+            </Link>
           </Col>
           
           })
