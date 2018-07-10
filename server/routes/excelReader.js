@@ -7,7 +7,7 @@ const serviceRequestController = require('../controllers/serviceRequestControlle
 
 var Excel = require('exceljs');
 
-var filename = './excelfiles/srData2.xlsx'
+var filename = './excelfiles/output (18).csv'
 
 router.get('/:resource', function(req, res){
 
@@ -35,12 +35,15 @@ if(resource == "getbyid"){
 
     if(resource == "import"){
     var workbook = new Excel.Workbook();
-    var xlsxData = workbook.xlsx.readFile(filename)
+    var options = {
+        dateFormats: ['DD/MM/YYYY']
+    }
+    var xlsxData = workbook.csv.readFile(filename, options)
         .then((data)=>{
             var xlsdata = []
-            var worksheet = data.getWorksheet(1)
+            var worksheet = workbook.getWorksheet(1)
                  worksheet.eachRow({ includeEmpty: true }, function(row, rowNumber) {
-                    if(rowNumber > 1 ){ 
+                    if(rowNumber > 1 ){
                         return xlsdata.push({                
                             rowHeaders: worksheet.getRow(1).values,
                             rowValues: row.values
@@ -57,7 +60,7 @@ if(resource == "getbyid"){
                             resource: resource,
                             dataBaseState: newDatabaseState
                          })
-                    })
+                    }).catch(e => console.log(e))
                 }
 
 })

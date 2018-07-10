@@ -53,6 +53,8 @@ let combineHeaderAndVaules = (headerArray, valuesArray)=>{
      let srObject = []
 
       headers.map((header, i, arr)=>{
+
+        console.log(values[i])
           
         srObject.push(_.zipObject(arr[i], values[i]))
 

@@ -64,6 +64,66 @@
         "owner": "TAHUDSON",
         "admin": false
 
+    },
+    {
+        "id": "CAM_POC",
+        "team_Id": 0,
+        "teamName": "Luna Monitored Queues",
+        "position": "CAM_POC",
+        "fName": "CAM_POC",
+        "lName": "CAM_POC",
+        "owner": "CAM_POC",
+        "admin": false
+    },
+    {
+        "id": "CSS_POC",
+        "team_Id": 0,
+        "teamName": "Luna Monitored Queues",
+        "position": "CSS_POC",
+        "fName": "CSS_POC",
+        "lName": "CSS_POC",
+        "owner": "CSS_POC",
+        "admin": false
+    },
+    {
+        "id": "PROCESSSUPPORT_POC",
+        "team_Id": 0,
+        "teamName": "Luna Monitored Queues",
+        "position": "PROCESSSUPPORT_POC",
+        "fName": "PROCESSSUPPORT_POC",
+        "lName": "PROCESSSUPPORT_POC",
+        "owner": "PROCESSSUPPORT_POC",
+        "admin": false
+    },
+    {
+        "id": "ELPASO_POC",
+        "team_Id": 0,
+        "teamName": "Luna Monitored Queues",
+        "position": "ELPASO_POC",
+        "fName": "ELPASO_POC",
+        "lName": "ELPASO_POC",
+        "owner": "ELPASO_POC",
+        "admin": false
+    },
+    {
+        "id": "IM_POC",
+        "team_Id": 0,
+        "teamName": "Luna Monitored Queues",
+        "position": "IM_POC",
+        "fName": "IM_POC",
+        "lName": "IM_POC",
+        "owner": "IM_POC",
+        "admin": false
+    },
+    {
+        "id": "EP_POC",
+        "team_Id": 0,
+        "teamName": "Luna Monitored Queues",
+        "position": "EP_POC",
+        "fName": "EP_POC",
+        "lName": "EP_POC",
+        "owner": "EP_POC",
+        "admin": false
     }
 ]
 
